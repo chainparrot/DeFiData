@@ -3,15 +3,15 @@
     "chain": "Ethereum",
     "project": "aave-v2",
     "symbol": "USDC",
-    "tvlUsd": 1428115644.75,
+    "tvlUsd": 1435329004.74,
     "apyBase": null,
     "apyReward": null,
     "apy": 0.473,
     "rewardTokens": [],
     "pool": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb480xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
-    "apyPct1D": -0.057,
-    "apyPct7D": -0.125,
-    "apyPct30D": 0.029,
+    "apyPct1D": -0.062,
+    "apyPct7D": -0.122,
+    "apyPct30D": 0.036,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -27,13 +27,13 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 1,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Tron",
     "project": "justlend",
     "symbol": "USDC",
-    "tvlUsd": 1413024085.274,
+    "tvlUsd": 1414771279.478,
     "apyBase": 0.033,
     "apyReward": 0.024,
     "apy": 0.057,
@@ -42,7 +42,7 @@
     ],
     "pool": "TNSBA6KvSvMoTqQcEgpVK7VhHT3z7wifxy",
     "apyPct1D": 0.011,
-    "apyPct7D": 0.007,
+    "apyPct7D": 0.006,
     "apyPct30D": 0.028,
     "stablecoin": true,
     "ilRisk": "no",
@@ -61,24 +61,58 @@
       "TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8"
     ],
     "rank": 2,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
+  },
+  {
+    "chain": "Ethereum",
+    "project": "compound",
+    "symbol": "cUSDC",
+    "tvlUsd": 1050625657.944,
+    "apyBase": 0.673,
+    "apyReward": 0.487,
+    "apy": 1.16,
+    "rewardTokens": [
+      "0xc00e94cb662c3520282e6f5717214004a7f26888"
+    ],
+    "pool": "0x39aa39c021dfbae8fac545936693ac917d5e7563",
+    "apyPct1D": 0.008,
+    "apyPct7D": 0.022,
+    "apyPct30D": 0.108,
+    "stablecoin": true,
+    "ilRisk": "no",
+    "exposure": "single",
+    "predictions": {
+      "predictedClass": "Stable/Up",
+      "predictedProbability": 81,
+      "binnedConfidence": 3
+    },
+    "poolMeta": null,
+    "mu": 1.768,
+    "sigma": 0.043,
+    "count": 189,
+    "outlier": false,
+    "underlyingTokens": [
+      "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+    ],
+    "rank": 3,
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "FRAX-3Crv",
-    "tvlUsd": 1049347039.314,
+    "tvlUsd": 1050003245.087,
     "apyBase": 0.127,
-    "apyReward": 1.696,
-    "apy": 1.823,
+    "apyReward": 1.71,
+    "apy": 1.837,
     "rewardTokens": [
       "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0",
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0xd632f22692FaC7611d2AA1C0D552930D43CAEd3B-ethereum",
-    "apyPct1D": -0.063,
-    "apyPct7D": -0.563,
-    "apyPct30D": -2.388,
+    "apyPct1D": -0.039,
+    "apyPct7D": -0.544,
+    "apyPct30D": -2.419,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -96,65 +130,31 @@
       "0x853d955aCEf822Db058eb8505911ED77F175b99e",
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
-    "rank": 3,
-    "timestamp": "2022-08-17 02:53:09"
-  },
-  {
-    "chain": "Ethereum",
-    "project": "compound",
-    "symbol": "cUSDC",
-    "tvlUsd": 1048261709.238,
-    "apyBase": 0.681,
-    "apyReward": 0.489,
-    "apy": 1.169,
-    "rewardTokens": [
-      "0xc00e94cb662c3520282e6f5717214004a7f26888"
-    ],
-    "pool": "0x39aa39c021dfbae8fac545936693ac917d5e7563",
-    "apyPct1D": 0.018,
-    "apyPct7D": 0.029,
-    "apyPct30D": 0.136,
-    "stablecoin": true,
-    "ilRisk": "no",
-    "exposure": "single",
-    "predictions": {
-      "predictedClass": "Stable/Up",
-      "predictedProbability": 80,
-      "binnedConfidence": 3
-    },
-    "poolMeta": null,
-    "mu": 1.768,
-    "sigma": 0.043,
-    "count": 189,
-    "outlier": false,
-    "underlyingTokens": [
-      "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
-    ],
     "rank": 4,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "FRAX-3Crv",
-    "tvlUsd": 1046336441.617,
+    "tvlUsd": 1046991765.706,
     "apyBase": 0.127,
-    "apyReward": 4.1,
-    "apy": 4.227,
+    "apyReward": 4.128,
+    "apy": 4.255,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0xd632f22692FaC7611d2AA1C0D552930D43CAEd3B",
-    "apyPct1D": -0.166,
-    "apyPct7D": -0.583,
-    "apyPct30D": -0.947,
+    "apyPct1D": -0.105,
+    "apyPct7D": -0.512,
+    "apyPct30D": -1.034,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 70,
+      "predictedProbability": 71,
       "binnedConfidence": 2
     },
     "poolMeta": null,
@@ -167,23 +167,23 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 5,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "DAI-USDC-USDT",
-    "tvlUsd": 978759984.631,
+    "tvlUsd": 980018932.768,
     "apyBase": 0.228,
-    "apyReward": 0.459,
-    "apy": 0.687,
+    "apyReward": 0.462,
+    "apy": 0.691,
     "rewardTokens": [
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0xbEbc44782C7dB0a1A60Cb6fe97d0b483032FF1C7-ethereum",
-    "apyPct1D": -0.012,
-    "apyPct7D": -0.009,
-    "apyPct30D": -0.435,
+    "apyPct1D": -0.006,
+    "apyPct7D": -0.004,
+    "apyPct30D": -0.44,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -203,21 +203,21 @@
       "0xdAC17F958D2ee523a2206206994597C13D831ec7"
     ],
     "rank": 6,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "uniswap",
     "symbol": "DAI-USDC",
-    "tvlUsd": 883503162.25,
+    "tvlUsd": 883955957.232,
     "apyBase": 0.037,
     "apyReward": null,
     "apy": 0.037,
     "rewardTokens": [],
     "pool": "0x5777d92f208679db4b9778590fa3cab3ac9e2168",
-    "apyPct1D": -0.133,
-    "apyPct7D": -0.052,
-    "apyPct30D": -0.025,
+    "apyPct1D": -0.132,
+    "apyPct7D": -0.05,
+    "apyPct30D": -0.03,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -236,13 +236,13 @@
       "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     ],
     "rank": 7,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "arrakis-finance",
     "symbol": "DAI-USDC",
-    "tvlUsd": 879865279.272,
+    "tvlUsd": 880315920.171,
     "apyBase": null,
     "apyReward": null,
     "apy": 1.093,
@@ -266,29 +266,29 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 8,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "compound",
     "symbol": "cDAI",
-    "tvlUsd": 868344279.328,
+    "tvlUsd": 869313574.872,
     "apyBase": 0.711,
-    "apyReward": 0.604,
-    "apy": 1.315,
+    "apyReward": 0.603,
+    "apy": 1.314,
     "rewardTokens": [
       "0xc00e94cb662c3520282e6f5717214004a7f26888"
     ],
     "pool": "0x5d3a536e4d6dbd6114cc1ead35777bab948e3643",
-    "apyPct1D": -0.01,
-    "apyPct7D": 0.066,
-    "apyPct30D": 0.212,
+    "apyPct1D": -0.011,
+    "apyPct7D": 0.071,
+    "apyPct30D": 0.202,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 76,
+      "predictedProbability": 75,
       "binnedConfidence": 2
     },
     "poolMeta": null,
@@ -300,22 +300,22 @@
       "0x6b175474e89094c44da98b954eedeac495271d0f"
     ],
     "rank": 9,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "FRAX-USDC",
-    "tvlUsd": 671958657.991,
+    "tvlUsd": 672501266.608,
     "apyBase": 0.021,
-    "apyReward": 2.658,
-    "apy": 2.678,
+    "apyReward": 2.678,
+    "apy": 2.698,
     "rewardTokens": [
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0xDcEF968d416a41Cdac0ED8702fAC8128A64241A2-ethereum",
-    "apyPct1D": -0.203,
-    "apyPct7D": -1.143,
+    "apyPct1D": -0.166,
+    "apyPct7D": -1.114,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
@@ -326,7 +326,7 @@
       "binnedConfidence": 3
     },
     "poolMeta": null,
-    "mu": 3.973,
+    "mu": 3.974,
     "sigma": 0.041,
     "count": 29,
     "outlier": false,
@@ -335,34 +335,34 @@
       "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
     ],
     "rank": 10,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "FRAX-USDC",
-    "tvlUsd": 629030325.904,
+    "tvlUsd": 629538267.86,
     "apyBase": 0.127,
-    "apyReward": 7.166,
-    "apy": 7.293,
+    "apyReward": 7.214,
+    "apy": 7.341,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0x3175Df0976dFA876431C2E9eE6Bc45b65d3473CC",
-    "apyPct1D": -0.275,
-    "apyPct7D": 0.679,
+    "apyPct1D": -0.175,
+    "apyPct7D": 0.787,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Down",
-      "predictedProbability": 91,
+      "predictedProbability": 89,
       "binnedConfidence": 3
     },
     "poolMeta": null,
-    "mu": 7.505,
+    "mu": 7.507,
     "sigma": 0.016,
     "count": 20,
     "outlier": false,
@@ -371,21 +371,21 @@
       "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
     ],
     "rank": 11,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "uniswap",
     "symbol": "DAI-USDC",
-    "tvlUsd": 601513156.989,
-    "apyBase": 0.011,
+    "tvlUsd": 601677473.432,
+    "apyBase": 0.01,
     "apyReward": null,
-    "apy": 0.011,
+    "apy": 0.01,
     "rewardTokens": [],
     "pool": "0x6c6bc977e13df9b0de53b251522280bb72383700",
     "apyPct1D": -0.025,
-    "apyPct7D": -0.024,
-    "apyPct30D": -0.004,
+    "apyPct7D": -0.027,
+    "apyPct30D": -0.005,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -404,13 +404,13 @@
       "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     ],
     "rank": 12,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "arrakis-finance",
     "symbol": "DAI-USDC",
-    "tvlUsd": 596162479.084,
+    "tvlUsd": 596324700.308,
     "apyBase": null,
     "apyReward": null,
     "apy": 1.914,
@@ -434,13 +434,13 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 13,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "aave-v2",
     "symbol": "USDT",
-    "tvlUsd": 573942877.751,
+    "tvlUsd": 571022679.975,
     "apyBase": null,
     "apyReward": null,
     "apy": 1.198,
@@ -464,22 +464,22 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 14,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Avalanche",
     "project": "aave-v3",
     "symbol": "USDC",
-    "tvlUsd": 501794726.386,
-    "apyBase": 1.156,
-    "apyReward": 0.929,
-    "apy": 2.085,
+    "tvlUsd": 501169484.783,
+    "apyBase": 1.158,
+    "apyReward": 0.934,
+    "apy": 2.092,
     "rewardTokens": [
       "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7"
     ],
     "pool": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e0xa97684ead0e402dc232d5a977953df7ecbab3cdb-avalanche",
-    "apyPct1D": -0.333,
-    "apyPct7D": -0.191,
+    "apyPct1D": -0.317,
+    "apyPct7D": -0.186,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
@@ -487,10 +487,10 @@
     "predictions": {
       "predictedClass": "Stable/Up",
       "predictedProbability": 79,
-      "binnedConfidence": 2
+      "binnedConfidence": 3
     },
     "poolMeta": null,
-    "mu": 2.33,
+    "mu": 2.331,
     "sigma": 0.007,
     "count": 10,
     "outlier": false,
@@ -498,29 +498,29 @@
       "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e"
     ],
     "rank": 15,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "compound",
     "symbol": "cUSDT",
-    "tvlUsd": 469893901.82,
-    "apyBase": 1.356,
+    "tvlUsd": 468852635.559,
+    "apyBase": 1.379,
     "apyReward": 0.155,
-    "apy": 1.511,
+    "apy": 1.534,
     "rewardTokens": [
       "0xc00e94cb662c3520282e6f5717214004a7f26888"
     ],
     "pool": "0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9",
-    "apyPct1D": 0.003,
-    "apyPct7D": -0.083,
-    "apyPct30D": -0.215,
+    "apyPct1D": 0.027,
+    "apyPct7D": -0.058,
+    "apyPct30D": -0.194,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 80,
+      "predictedProbability": 81,
       "binnedConfidence": 3
     },
     "poolMeta": null,
@@ -532,21 +532,21 @@
       "0xdac17f958d2ee523a2206206994597c13d831ec7"
     ],
     "rank": 16,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "aave-v2",
     "symbol": "DAI",
-    "tvlUsd": 318238600.614,
+    "tvlUsd": 319848382.037,
     "apyBase": null,
     "apyReward": null,
-    "apy": 0.923,
+    "apy": 0.924,
     "rewardTokens": [],
     "pool": "0x6b175474e89094c44da98b954eedeac495271d0f0xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
     "apyPct1D": -0.034,
     "apyPct7D": 0.412,
-    "apyPct30D": 0.395,
+    "apyPct30D": 0.394,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -562,13 +562,13 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 17,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Cronos",
     "project": "vvs-finance",
     "symbol": "USDT-USDC",
-    "tvlUsd": 313660940.031,
+    "tvlUsd": 313661028.289,
     "apyBase": 0.031,
     "apyReward": 3.549,
     "apy": 3.58,
@@ -576,7 +576,7 @@
       "0x2d03bece6747adc00e1a131bba1469c15fd11e03"
     ],
     "pool": "0x39cc0e14795a8e6e9d02a21091b81fe0d61d82f9",
-    "apyPct1D": 0.023,
+    "apyPct1D": 0.031,
     "apyPct7D": null,
     "apyPct30D": null,
     "stablecoin": true,
@@ -597,23 +597,23 @@
       "0xc21223249ca28397b4b6541dffaecc539bff0c59"
     ],
     "rank": 18,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Tron",
     "project": "justlend",
     "symbol": "USDD",
-    "tvlUsd": 218220220.701,
-    "apyBase": 0.58,
-    "apyReward": 8.396,
-    "apy": 8.976,
+    "tvlUsd": 218440507.143,
+    "apyBase": 0.581,
+    "apyReward": 8.397,
+    "apy": 8.978,
     "rewardTokens": [
       "TPYmHEhy5n8TCEfYGqW2rPxsghSfzghPDn"
     ],
     "pool": "TX7kybeP6UwTBRHLNPYmswFESHfyjm9bAS",
-    "apyPct1D": -1.078,
-    "apyPct7D": -0.109,
-    "apyPct30D": -3.915,
+    "apyPct1D": -1.085,
+    "apyPct7D": -0.108,
+    "apyPct30D": -3.913,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -631,22 +631,22 @@
       "TPYmHEhy5n8TCEfYGqW2rPxsghSfzghPDn"
     ],
     "rank": 19,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Optimism",
     "project": "aave-v3",
     "symbol": "USDC",
-    "tvlUsd": 180362603.584,
-    "apyBase": 2.523,
-    "apyReward": 0.846,
-    "apy": 3.369,
+    "tvlUsd": 181079114.307,
+    "apyBase": 2.52,
+    "apyReward": 0.85,
+    "apy": 3.37,
     "rewardTokens": [
       "0x4200000000000000000000000000000000000042"
     ],
     "pool": "0x7f5c764cbc14f9669b88837ca1490cca17c316070xa97684ead0e402dc232d5a977953df7ecbab3cdb-optimism",
-    "apyPct1D": -0.105,
-    "apyPct7D": -0.061,
+    "apyPct1D": -0.09,
+    "apyPct7D": -0.05,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
@@ -654,7 +654,7 @@
     "predictions": {
       "predictedClass": "Stable/Up",
       "predictedProbability": 79,
-      "binnedConfidence": 2
+      "binnedConfidence": 3
     },
     "poolMeta": null,
     "mu": 3.452,
@@ -665,22 +665,22 @@
       "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
     ],
     "rank": 20,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "FRAX-FPI",
-    "tvlUsd": 173035140.603,
+    "tvlUsd": 173096334.358,
     "apyBase": 0.02,
-    "apyReward": 2.564,
-    "apy": 2.585,
+    "apyReward": 2.584,
+    "apy": 2.605,
     "rewardTokens": [
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0xf861483fa7E511fbc37487D91B6FAa803aF5d37c-ethereum",
-    "apyPct1D": -0.06,
-    "apyPct7D": 1.149,
+    "apyPct1D": -0.021,
+    "apyPct7D": 1.173,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
@@ -691,7 +691,7 @@
       "binnedConfidence": 2
     },
     "poolMeta": null,
-    "mu": 2.23,
+    "mu": 2.231,
     "sigma": 0.038,
     "count": 29,
     "outlier": false,
@@ -700,34 +700,34 @@
       "0x5Ca135cB8527d76e932f34B5145575F9d8cbE08E"
     ],
     "rank": 21,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "FRAX-FPI",
-    "tvlUsd": 172603234.776,
+    "tvlUsd": 172752641.671,
     "apyBase": 0.127,
-    "apyReward": 4.328,
-    "apy": 4.455,
+    "apyReward": 4.356,
+    "apy": 4.483,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0x4704aB1fb693ce163F7c9D3A31b3FF4eaF797714",
-    "apyPct1D": -0.131,
-    "apyPct7D": 1.466,
+    "apyPct1D": -0.068,
+    "apyPct7D": 1.52,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 83,
+      "predictedProbability": 81,
       "binnedConfidence": 3
     },
     "poolMeta": null,
-    "mu": 4.32,
+    "mu": 4.321,
     "sigma": 0.04,
     "count": 20,
     "outlier": false,
@@ -736,30 +736,30 @@
       "0x5Ca135cB8527d76e932f34B5145575F9d8cbE08E"
     ],
     "rank": 22,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "MIM-3Crv",
-    "tvlUsd": 164328179.794,
+    "tvlUsd": 164435207.381,
     "apyBase": 0.09,
-    "apyReward": 4.992,
-    "apy": 5.082,
+    "apyReward": 5.033,
+    "apy": 5.123,
     "rewardTokens": [
       "0x090185f2135308BaD17527004364eBcC2D37e5F6",
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0x5a6A4D54456819380173272A5E8E9B9904BdF41B-ethereum",
-    "apyPct1D": -0.263,
-    "apyPct7D": -0.562,
-    "apyPct30D": -10.581,
+    "apyPct1D": -0.193,
+    "apyPct7D": -0.508,
+    "apyPct30D": -10.607,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 92,
+      "predictedProbability": 93,
       "binnedConfidence": 3
     },
     "poolMeta": null,
@@ -772,13 +772,47 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 23,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
+  },
+  {
+    "chain": "Tron",
+    "project": "justlend",
+    "symbol": "TUSD",
+    "tvlUsd": 161807156.764,
+    "apyBase": 0.008,
+    "apyReward": 0.977,
+    "apy": 0.986,
+    "rewardTokens": [
+      "TPYmHEhy5n8TCEfYGqW2rPxsghSfzghPDn"
+    ],
+    "pool": "TSXv71Fy5XdL3Rh2QfBoUu3NAaM4sMif8R",
+    "apyPct1D": -0.005,
+    "apyPct7D": -0.031,
+    "apyPct30D": -0.016,
+    "stablecoin": true,
+    "ilRisk": "no",
+    "exposure": "single",
+    "predictions": {
+      "predictedClass": "Stable/Up",
+      "predictedProbability": 83,
+      "binnedConfidence": 3
+    },
+    "poolMeta": null,
+    "mu": 1.006,
+    "sigma": 0.011,
+    "count": 43,
+    "outlier": false,
+    "underlyingTokens": [
+      "TUpMhErZL2fhh4sVNULAbNKLokS4GjC1F4"
+    ],
+    "rank": 24,
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Binance",
     "project": "pancakeswap",
     "symbol": "USDT-BUSD",
-    "tvlUsd": 161846638.527,
+    "tvlUsd": 161801254.908,
     "apyBase": 1.97,
     "apyReward": 1.421,
     "apy": 3.391,
@@ -786,8 +820,8 @@
       "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
     ],
     "pool": "0x7efaef62fddcca950418312c6c91aef321375a00",
-    "apyPct1D": -0.188,
-    "apyPct7D": -0.202,
+    "apyPct1D": -0.211,
+    "apyPct7D": -0.177,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
@@ -806,69 +840,35 @@
       "0x55d398326f99059ff775485246999027b3197955",
       "0xe9e7cea3dedca5984780bafc599bd69add087d56"
     ],
-    "rank": 24,
-    "timestamp": "2022-08-17 02:53:09"
-  },
-  {
-    "chain": "Tron",
-    "project": "justlend",
-    "symbol": "TUSD",
-    "tvlUsd": 161607330.191,
-    "apyBase": 0.008,
-    "apyReward": 0.978,
-    "apy": 0.987,
-    "rewardTokens": [
-      "TPYmHEhy5n8TCEfYGqW2rPxsghSfzghPDn"
-    ],
-    "pool": "TSXv71Fy5XdL3Rh2QfBoUu3NAaM4sMif8R",
-    "apyPct1D": 0,
-    "apyPct7D": -0.026,
-    "apyPct30D": -0.018,
-    "stablecoin": true,
-    "ilRisk": "no",
-    "exposure": "single",
-    "predictions": {
-      "predictedClass": "Stable/Up",
-      "predictedProbability": 83,
-      "binnedConfidence": 3
-    },
-    "poolMeta": null,
-    "mu": 1.006,
-    "sigma": 0.011,
-    "count": 43,
-    "outlier": false,
-    "underlyingTokens": [
-      "TUpMhErZL2fhh4sVNULAbNKLokS4GjC1F4"
-    ],
     "rank": 25,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "MIM-3Crv",
-    "tvlUsd": 159115580.28,
+    "tvlUsd": 159219347.041,
     "apyBase": 0.156,
-    "apyReward": 11.017,
-    "apy": 11.173,
+    "apyReward": 11.092,
+    "apy": 11.248,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0x5a6A4D54456819380173272A5E8E9B9904BdF41B",
-    "apyPct1D": -0.444,
-    "apyPct7D": -0.425,
-    "apyPct30D": -8.431,
+    "apyPct1D": -0.283,
+    "apyPct7D": -0.247,
+    "apyPct30D": -8.663,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 99,
+      "predictedProbability": 97,
       "binnedConfidence": 3
     },
     "poolMeta": null,
-    "mu": 12.307,
+    "mu": 12.308,
     "sigma": 0.201,
     "count": 189,
     "outlier": false,
@@ -877,23 +877,23 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 26,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Tron",
     "project": "justlend",
     "symbol": "USDT",
-    "tvlUsd": 156235638.076,
-    "apyBase": 0.571,
-    "apyReward": 1.289,
-    "apy": 1.86,
+    "tvlUsd": 156476605.478,
+    "apyBase": 0.57,
+    "apyReward": 1.288,
+    "apy": 1.858,
     "rewardTokens": [
       "TPYmHEhy5n8TCEfYGqW2rPxsghSfzghPDn"
     ],
     "pool": "TXJgMdjVX5dKiQaUi9QobwNxtSQaFqccvd",
-    "apyPct1D": -0.037,
-    "apyPct7D": -0.145,
-    "apyPct30D": -0.091,
+    "apyPct1D": -0.043,
+    "apyPct7D": -0.149,
+    "apyPct30D": -0.09,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -903,7 +903,7 @@
       "binnedConfidence": 3
     },
     "poolMeta": null,
-    "mu": 1.969,
+    "mu": 1.968,
     "sigma": 0.011,
     "count": 43,
     "outlier": false,
@@ -911,55 +911,55 @@
       "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t"
     ],
     "rank": 27,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Avalanche",
     "project": "aave-v3",
     "symbol": "USDt",
-    "tvlUsd": 149225956.769,
-    "apyBase": 7.442,
-    "apyReward": 0.105,
-    "apy": 7.548,
+    "tvlUsd": 150835612.485,
+    "apyBase": 5.928,
+    "apyReward": 0.106,
+    "apy": 6.034,
     "rewardTokens": [
       "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7"
     ],
     "pool": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c70xa97684ead0e402dc232d5a977953df7ecbab3cdb-avalanche",
-    "apyPct1D": 3.588,
-    "apyPct7D": 3.455,
+    "apyPct1D": 2.203,
+    "apyPct7D": 1.941,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
     "predictions": {
       "predictedClass": "Down",
-      "predictedProbability": 81,
-      "binnedConfidence": 3
+      "predictedProbability": 77,
+      "binnedConfidence": 2
     },
     "poolMeta": null,
-    "mu": 4.953,
-    "sigma": 0.107,
+    "mu": 4.804,
+    "sigma": 0.1,
     "count": 10,
     "outlier": false,
     "underlyingTokens": [
       "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7"
     ],
     "rank": 28,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "uniswap",
     "symbol": "USDC-USDT",
-    "tvlUsd": 146281563.125,
-    "apyBase": 3.213,
+    "tvlUsd": 146358138.65,
+    "apyBase": 3.376,
     "apyReward": null,
-    "apy": 3.213,
+    "apy": 3.376,
     "rewardTokens": [],
     "pool": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
-    "apyPct1D": -0.72,
-    "apyPct7D": -1.485,
-    "apyPct30D": 2.502,
+    "apyPct1D": -0.536,
+    "apyPct7D": -1.332,
+    "apyPct30D": 2.641,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -969,7 +969,7 @@
       "binnedConfidence": 1
     },
     "poolMeta": "0.01%",
-    "mu": 2.116,
+    "mu": 2.117,
     "sigma": 0.074,
     "count": 144,
     "outlier": false,
@@ -978,47 +978,13 @@
       "0xdac17f958d2ee523a2206206994597c13d831ec7"
     ],
     "rank": 29,
-    "timestamp": "2022-08-17 02:53:09"
-  },
-  {
-    "chain": "Tron",
-    "project": "justlend",
-    "symbol": "USDJ",
-    "tvlUsd": 145736016.657,
-    "apyBase": 0.011,
-    "apyReward": 0.72,
-    "apy": 0.73,
-    "rewardTokens": [
-      "TPYmHEhy5n8TCEfYGqW2rPxsghSfzghPDn"
-    ],
-    "pool": "TL5x9MtSnDy537FXKx53yAaHRRNdg9TkkA",
-    "apyPct1D": -0.018,
-    "apyPct7D": -0.015,
-    "apyPct30D": -0.011,
-    "stablecoin": true,
-    "ilRisk": "no",
-    "exposure": "single",
-    "predictions": {
-      "predictedClass": "Stable/Up",
-      "predictedProbability": 89,
-      "binnedConfidence": 3
-    },
-    "poolMeta": null,
-    "mu": 0.738,
-    "sigma": 0.008,
-    "count": 43,
-    "outlier": false,
-    "underlyingTokens": [
-      "TMwFHYXLJaRUPeW6421aqXL4ZEzPRFGkGT"
-    ],
-    "rank": 30,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "aave-v2",
     "symbol": "TUSD",
-    "tvlUsd": 145273682.206,
+    "tvlUsd": 146008389.079,
     "apyBase": null,
     "apyReward": null,
     "apy": 0.117,
@@ -1041,22 +1007,56 @@
     "count": 189,
     "outlier": false,
     "underlyingTokens": [],
+    "rank": 30,
+    "timestamp": "2022-08-17 03:44:52"
+  },
+  {
+    "chain": "Tron",
+    "project": "justlend",
+    "symbol": "USDJ",
+    "tvlUsd": 145916218.417,
+    "apyBase": 0.011,
+    "apyReward": 0.719,
+    "apy": 0.729,
+    "rewardTokens": [
+      "TPYmHEhy5n8TCEfYGqW2rPxsghSfzghPDn"
+    ],
+    "pool": "TL5x9MtSnDy537FXKx53yAaHRRNdg9TkkA",
+    "apyPct1D": -0.023,
+    "apyPct7D": -0.019,
+    "apyPct30D": -0.01,
+    "stablecoin": true,
+    "ilRisk": "no",
+    "exposure": "single",
+    "predictions": {
+      "predictedClass": "Stable/Up",
+      "predictedProbability": 89,
+      "binnedConfidence": 3
+    },
+    "poolMeta": null,
+    "mu": 0.738,
+    "sigma": 0.008,
+    "count": 43,
+    "outlier": false,
+    "underlyingTokens": [
+      "TMwFHYXLJaRUPeW6421aqXL4ZEzPRFGkGT"
+    ],
     "rank": 31,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Polygon",
     "project": "aave-v2",
     "symbol": "USDC",
-    "tvlUsd": 139862731.484,
+    "tvlUsd": 138789209.213,
     "apyBase": null,
     "apyReward": null,
-    "apy": 0.275,
+    "apy": 0.282,
     "rewardTokens": [],
     "pool": "0x2791bca1f2de4661ed88a30c99a7a9449aa841740xd05e3e715d945b59290df0ae8ef85c1bdb684744",
-    "apyPct1D": 0.013,
-    "apyPct7D": -0.051,
-    "apyPct30D": -0.139,
+    "apyPct1D": 0.018,
+    "apyPct7D": -0.046,
+    "apyPct30D": -0.132,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -1072,30 +1072,30 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 32,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "DAI-USDC-USDT-sUSD",
-    "tvlUsd": 126840318.244,
+    "tvlUsd": 126910504.765,
     "apyBase": 0.946,
-    "apyReward": 2.606,
-    "apy": 3.552,
+    "apyReward": 2.618,
+    "apy": 3.565,
     "rewardTokens": [
       "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0xA5407eAE9Ba41422680e2e00537571bcC53efBfD-ethereum",
-    "apyPct1D": 0.567,
-    "apyPct7D": 0.293,
-    "apyPct30D": -0.452,
+    "apyPct1D": 0.604,
+    "apyPct7D": 0.308,
+    "apyPct30D": -0.47,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Down",
-      "predictedProbability": 51,
+      "predictedProbability": 53,
       "binnedConfidence": 1
     },
     "poolMeta": null,
@@ -1110,21 +1110,21 @@
       "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51"
     ],
     "rank": 33,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "uniswap",
     "symbol": "FRAX-USDC",
-    "tvlUsd": 122567500.057,
+    "tvlUsd": 122627820.574,
     "apyBase": 0.017,
     "apyReward": null,
     "apy": 0.017,
     "rewardTokens": [],
     "pool": "0xc63b0708e2f7e69cb8a1df0e1389a98c35a76d52",
-    "apyPct1D": -0.011,
-    "apyPct7D": 0.007,
-    "apyPct30D": -0.114,
+    "apyPct1D": -0.009,
+    "apyPct7D": 0.01,
+    "apyPct30D": -0.137,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -1143,20 +1143,20 @@
       "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     ],
     "rank": 34,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "uniswap",
     "symbol": "DAI-USDC",
-    "tvlUsd": 120381625.019,
+    "tvlUsd": 120441745.077,
     "apyBase": 0.042,
     "apyReward": null,
     "apy": 0.042,
     "rewardTokens": [],
     "pool": "0xae461ca67b15dc8dc81ce7615e0320da1a9ab8d5",
-    "apyPct1D": 0.018,
-    "apyPct7D": -0.071,
+    "apyPct1D": 0.019,
+    "apyPct7D": -0.066,
     "apyPct30D": -0.008,
     "stablecoin": true,
     "ilRisk": "no",
@@ -1176,24 +1176,24 @@
       "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     ],
     "rank": 35,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "DAI-USDC-USDT",
-    "tvlUsd": 114374912.936,
+    "tvlUsd": 114446555.777,
     "apyBase": 0.228,
-    "apyReward": 1.143,
-    "apy": 1.372,
+    "apyReward": 1.151,
+    "apy": 1.379,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490",
-    "apyPct1D": -0.148,
-    "apyPct7D": -0.061,
-    "apyPct30D": -0.097,
+    "apyPct1D": -0.13,
+    "apyPct7D": -0.041,
+    "apyPct30D": -0.115,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -1213,7 +1213,7 @@
       "0xdAC17F958D2ee523a2206206994597C13D831ec7"
     ],
     "rank": 36,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
@@ -1245,31 +1245,31 @@
       "0x96E61422b6A9bA0e068B6c5ADd4fFaBC6a4aae27"
     ],
     "rank": 37,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "DAI-USDC-USDT-sUSD",
-    "tvlUsd": 104829587.664,
+    "tvlUsd": 104887594.647,
     "apyBase": 0.946,
-    "apyReward": 4.917,
-    "apy": 5.863,
+    "apyReward": 4.944,
+    "apy": 5.89,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b",
       "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F"
     ],
     "pool": "0xC25a3A3b969415c80451098fa907EC722572917F",
-    "apyPct1D": 0.245,
-    "apyPct7D": 0.453,
-    "apyPct30D": -0.2,
+    "apyPct1D": 4.619,
+    "apyPct7D": 0.498,
+    "apyPct30D": -0.268,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 68,
+      "predictedProbability": 66,
       "binnedConfidence": 2
     },
     "poolMeta": null,
@@ -1284,29 +1284,29 @@
       "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51"
     ],
     "rank": 38,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Optimism",
     "project": "aave-v3",
     "symbol": "DAI",
-    "tvlUsd": 104719160.871,
+    "tvlUsd": 104715530.859,
     "apyBase": 2.817,
-    "apyReward": 0.913,
-    "apy": 3.73,
+    "apyReward": 0.92,
+    "apy": 3.736,
     "rewardTokens": [
       "0x4200000000000000000000000000000000000042"
     ],
     "pool": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da10xa97684ead0e402dc232d5a977953df7ecbab3cdb-optimism",
-    "apyPct1D": -0.078,
-    "apyPct7D": 0.036,
+    "apyPct1D": -0.045,
+    "apyPct7D": 0.053,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 69,
+      "predictedProbability": 65,
       "binnedConfidence": 2
     },
     "poolMeta": null,
@@ -1318,33 +1318,33 @@
       "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
     ],
     "rank": 39,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "DOLA-3Crv",
-    "tvlUsd": 102703628.13,
+    "tvlUsd": 102767953.202,
     "apyBase": 0.436,
-    "apyReward": 5.507,
-    "apy": 5.943,
+    "apyReward": 5.552,
+    "apy": 5.988,
     "rewardTokens": [
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0xAA5A67c256e27A5d80712c51971408db3370927D-ethereum",
-    "apyPct1D": -0.547,
-    "apyPct7D": -1.026,
+    "apyPct1D": -0.465,
+    "apyPct7D": -0.965,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 87,
+      "predictedProbability": 86,
       "binnedConfidence": 3
     },
     "poolMeta": null,
-    "mu": 9.809,
+    "mu": 9.811,
     "sigma": 0.238,
     "count": 29,
     "outlier": false,
@@ -1353,34 +1353,34 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 40,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "DOLA-3Crv",
-    "tvlUsd": 102525828.963,
+    "tvlUsd": 102590042.677,
     "apyBase": 0.228,
-    "apyReward": 15.057,
-    "apy": 15.285,
+    "apyReward": 15.159,
+    "apy": 15.387,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0xAA5A67c256e27A5d80712c51971408db3370927D",
-    "apyPct1D": -2.16,
-    "apyPct7D": 0.603,
+    "apyPct1D": -1.924,
+    "apyPct7D": 0.836,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 57.99999999999999,
+      "predictedProbability": 56.99999999999999,
       "binnedConfidence": 1
     },
     "poolMeta": null,
-    "mu": 16.163,
+    "mu": 16.168,
     "sigma": 0.061,
     "count": 20,
     "outlier": false,
@@ -1389,13 +1389,13 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 41,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Binance",
     "project": "pancakeswap",
     "symbol": "USDC-BUSD",
-    "tvlUsd": 101883571.295,
+    "tvlUsd": 101895743.658,
     "apyBase": 1.57,
     "apyReward": 0.903,
     "apy": 2.473,
@@ -1403,8 +1403,8 @@
       "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
     ],
     "pool": "0x2354ef4df11afacb85a5c7f98b624072eccddbb1",
-    "apyPct1D": -0.04,
-    "apyPct7D": 0.815,
+    "apyPct1D": -0.136,
+    "apyPct7D": 0.831,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
@@ -1424,27 +1424,27 @@
       "0xe9e7cea3dedca5984780bafc599bd69add087d56"
     ],
     "rank": 42,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "yearn-finance",
     "symbol": "yvDAI",
-    "tvlUsd": 97538842.122,
+    "tvlUsd": 97525667.602,
     "apyBase": null,
     "apyReward": null,
-    "apy": 1.69,
+    "apy": 1.692,
     "rewardTokens": [],
     "pool": "0xdA816459F1AB5631232FE5e97a05BBBb94970c95",
-    "apyPct1D": 0.246,
-    "apyPct7D": 0.441,
-    "apyPct30D": -0.466,
+    "apyPct1D": 0.247,
+    "apyPct7D": 0.443,
+    "apyPct30D": -0.464,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 55.00000000000001,
+      "predictedProbability": 53,
       "binnedConfidence": 1
     },
     "poolMeta": null,
@@ -1454,30 +1454,30 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 43,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "alUSD-3Crv",
-    "tvlUsd": 96691255.738,
+    "tvlUsd": 96762783.529,
     "apyBase": 0.088,
-    "apyReward": 2.978,
-    "apy": 3.066,
+    "apyReward": 3.003,
+    "apy": 3.091,
     "rewardTokens": [
       "0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF",
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0x43b4FdFD4Ff969587185cDB6f0BD875c5Fc83f8c-ethereum",
-    "apyPct1D": -0.143,
-    "apyPct7D": -0.617,
-    "apyPct30D": -2.773,
+    "apyPct1D": -0.1,
+    "apyPct7D": -0.584,
+    "apyPct30D": -2.8,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 92,
+      "predictedProbability": 91,
       "binnedConfidence": 3
     },
     "poolMeta": null,
@@ -1490,24 +1490,24 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 44,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "alUSD-3Crv",
-    "tvlUsd": 95760037.047,
+    "tvlUsd": 95830875.965,
     "apyBase": 0.088,
-    "apyReward": 6.928,
-    "apy": 7.017,
+    "apyReward": 6.974,
+    "apy": 7.063,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0x43b4FdFD4Ff969587185cDB6f0BD875c5Fc83f8c",
-    "apyPct1D": -0.309,
-    "apyPct7D": -0.293,
-    "apyPct30D": -1.394,
+    "apyPct1D": -0.207,
+    "apyPct7D": -0.183,
+    "apyPct30D": -1.52,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -1517,7 +1517,7 @@
       "binnedConfidence": 2
     },
     "poolMeta": null,
-    "mu": 9.276,
+    "mu": 9.277,
     "sigma": 0.115,
     "count": 189,
     "outlier": false,
@@ -1526,21 +1526,21 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 45,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Binance",
     "project": "alpaca-finance",
     "symbol": "BUSD",
-    "tvlUsd": 93356076.69,
+    "tvlUsd": 93356242.498,
     "apyBase": null,
     "apyReward": null,
     "apy": 2.169,
     "rewardTokens": [],
     "pool": "0x7C9e73d4C71dae564d41F78d56439bB4ba87592f-lending",
-    "apyPct1D": -0.03,
-    "apyPct7D": -0.334,
-    "apyPct30D": -0.051,
+    "apyPct1D": -0.029,
+    "apyPct7D": -0.332,
+    "apyPct30D": -0.055,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -1556,21 +1556,21 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 46,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Cronos",
     "project": "tectonic",
     "symbol": "USDC",
-    "tvlUsd": 88476561.754,
+    "tvlUsd": 88570528.359,
     "apyBase": 1.122,
-    "apyReward": 1.489,
-    "apy": 2.612,
+    "apyReward": 1.476,
+    "apy": 2.598,
     "rewardTokens": [
       "0xdd73dea10abc2bff99c60882ec5b2b81bb1dc5b2"
     ],
     "pool": "0xB3bbf1bE947b245Aef26e3B6a9D777d7703F4c8e",
-    "apyPct1D": -0.041,
+    "apyPct1D": -0.051,
     "apyPct7D": null,
     "apyPct30D": null,
     "stablecoin": true,
@@ -1578,11 +1578,11 @@
     "exposure": "single",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 72,
+      "predictedProbability": 73,
       "binnedConfidence": 2
     },
     "poolMeta": null,
-    "mu": 2.465,
+    "mu": 2.463,
     "sigma": 0.009,
     "count": 7,
     "outlier": false,
@@ -1590,21 +1590,21 @@
       "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59"
     ],
     "rank": 47,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Cronos",
     "project": "ferro",
     "symbol": "DAI,USDC,USDT",
-    "tvlUsd": 88357841.636,
-    "apyBase": 0.053,
-    "apyReward": 12.205,
-    "apy": 12.258,
+    "tvlUsd": 88383775.254,
+    "apyBase": 0.057,
+    "apyReward": 12.241,
+    "apy": 12.298,
     "rewardTokens": [
       "0x39bC1e38c842C60775Ce37566D03B41A7A66C782"
     ],
     "pool": "0xe8d13664a42b338f009812fa5a75199a865da5cd",
-    "apyPct1D": -0.402,
+    "apyPct1D": -0.222,
     "apyPct7D": null,
     "apyPct30D": null,
     "stablecoin": true,
@@ -1616,7 +1616,7 @@
       "binnedConfidence": 2
     },
     "poolMeta": "3FER",
-    "mu": 12.496,
+    "mu": 12.498,
     "sigma": 0.063,
     "count": 23,
     "outlier": false,
@@ -1626,21 +1626,21 @@
       "0xf2001b145b43032aaf5ee2884e456ccd805f677d"
     ],
     "rank": 48,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Cronos",
     "project": "tectonic",
     "symbol": "USDT",
-    "tvlUsd": 87468232.112,
+    "tvlUsd": 87555612.964,
     "apyBase": 1.126,
-    "apyReward": 0.538,
-    "apy": 1.664,
+    "apyReward": 0.533,
+    "apy": 1.66,
     "rewardTokens": [
       "0xdd73dea10abc2bff99c60882ec5b2b81bb1dc5b2"
     ],
     "pool": "0xA683fdfD9286eeDfeA81CF6dA14703DA683c44E5",
-    "apyPct1D": -0.019,
+    "apyPct1D": -0.022,
     "apyPct7D": null,
     "apyPct30D": null,
     "stablecoin": true,
@@ -1652,7 +1652,7 @@
       "binnedConfidence": 3
     },
     "poolMeta": null,
-    "mu": 1.644,
+    "mu": 1.643,
     "sigma": 0.002,
     "count": 7,
     "outlier": false,
@@ -1660,13 +1660,13 @@
       "0x66e428c3f67a68878562e79A0234c1F83c208770"
     ],
     "rank": 49,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "xDai",
     "project": "curve",
     "symbol": "WXDAI-USDC-USDT",
-    "tvlUsd": 87154754.202,
+    "tvlUsd": 87241882.198,
     "apyBase": 0.08,
     "apyReward": 0,
     "apy": 0.08,
@@ -1694,21 +1694,21 @@
       "0x4ECaBa5870353805a9F068101A40E0f32ed605C6"
     ],
     "rank": 50,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Binance",
     "project": "alpaca-finance",
     "symbol": "USDT",
-    "tvlUsd": 85675200.854,
+    "tvlUsd": 85728747.907,
     "apyBase": null,
     "apyReward": null,
     "apy": 2.489,
     "rewardTokens": [],
     "pool": "0x158Da805682BdC8ee32d52833aD41E74bb951E59-lending",
     "apyPct1D": -0.214,
-    "apyPct7D": -0.159,
-    "apyPct30D": 0.002,
+    "apyPct7D": -0.158,
+    "apyPct30D": -0.004,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -1724,29 +1724,29 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 51,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "TUSD-3Crv",
-    "tvlUsd": 84522762.463,
+    "tvlUsd": 84575700.956,
     "apyBase": 0.295,
-    "apyReward": 1.554,
-    "apy": 1.849,
+    "apyReward": 1.567,
+    "apy": 1.862,
     "rewardTokens": [
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0xEcd5e75AFb02eFa118AF914515D6521aaBd189F1-ethereum",
-    "apyPct1D": 0.091,
-    "apyPct7D": -0.673,
-    "apyPct30D": 1.188,
+    "apyPct1D": 0.113,
+    "apyPct7D": -0.655,
+    "apyPct30D": 1.201,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Down",
-      "predictedProbability": 74,
+      "predictedProbability": 75,
       "binnedConfidence": 2
     },
     "poolMeta": null,
@@ -1759,24 +1759,24 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 52,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "TUSD-3Crv",
-    "tvlUsd": 84511981.476,
+    "tvlUsd": 84564912.702,
     "apyBase": 0.295,
-    "apyReward": 3.731,
-    "apy": 4.027,
+    "apyReward": 3.757,
+    "apy": 4.052,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0xEcd5e75AFb02eFa118AF914515D6521aaBd189F1",
-    "apyPct1D": -0.303,
-    "apyPct7D": -0.195,
-    "apyPct30D": 3.218,
+    "apyPct1D": -0.245,
+    "apyPct7D": -0.133,
+    "apyPct30D": 3.24,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -1795,33 +1795,33 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 53,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "USDC-EURS",
-    "tvlUsd": 83125840.52,
+    "tvlUsd": 83165371.626,
     "apyBase": 0.036,
-    "apyReward": 4.519,
-    "apy": 4.555,
+    "apyReward": 4.554,
+    "apy": 4.59,
     "rewardTokens": [
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0x98a7F18d4E56Cfe84E3D081B40001B3d5bD3eB8B-ethereum",
-    "apyPct1D": -0.185,
-    "apyPct7D": 3.516,
-    "apyPct30D": -20.232,
+    "apyPct1D": -0.117,
+    "apyPct7D": 3.552,
+    "apyPct30D": -20.467,
     "stablecoin": true,
     "ilRisk": "yes",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 55.00000000000001,
+      "predictedProbability": 54,
       "binnedConfidence": 1
     },
     "poolMeta": null,
-    "mu": 4.325,
+    "mu": 4.326,
     "sigma": 0.249,
     "count": 189,
     "outlier": false,
@@ -1830,34 +1830,34 @@
       "0xdB25f211AB05b1c97D595516F45794528a807ad8"
     ],
     "rank": 54,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "USDC-EURS",
-    "tvlUsd": 83120128.627,
+    "tvlUsd": 83159657.017,
     "apyBase": 0.085,
-    "apyReward": 6.185,
-    "apy": 6.27,
+    "apyReward": 6.244,
+    "apy": 6.328,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0x3D229E1B4faab62F621eF2F6A610961f7BD7b23B",
-    "apyPct1D": 0.196,
-    "apyPct7D": 4.344,
-    "apyPct30D": -7.936,
+    "apyPct1D": 0.284,
+    "apyPct7D": 4.416,
+    "apyPct30D": -8.322,
     "stablecoin": true,
     "ilRisk": "yes",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Down",
-      "predictedProbability": 52,
+      "predictedProbability": 50,
       "binnedConfidence": 1
     },
     "poolMeta": null,
-    "mu": 6.235,
+    "mu": 6.236,
     "sigma": 0.235,
     "count": 132,
     "outlier": false,
@@ -1866,13 +1866,13 @@
       "0xdB25f211AB05b1c97D595516F45794528a807ad8"
     ],
     "rank": 55,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Binance",
     "project": "venus",
     "symbol": "USDT",
-    "tvlUsd": 81334771.579,
+    "tvlUsd": 81336463.638,
     "apyBase": 1.21,
     "apyReward": 0.405,
     "apy": 1.615,
@@ -1881,7 +1881,7 @@
     ],
     "pool": "0xfd5840cd36d94d7229439859c0112a4185bc0255",
     "apyPct1D": -0.118,
-    "apyPct7D": -0.237,
+    "apyPct7D": -0.25,
     "apyPct30D": -0.057,
     "stablecoin": true,
     "ilRisk": "no",
@@ -1898,7 +1898,7 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 56,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
@@ -1932,33 +1932,33 @@
       "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     ],
     "rank": 57,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Avalanche",
     "project": "aave-v3",
     "symbol": "DAI.e",
-    "tvlUsd": 78680157.708,
+    "tvlUsd": 78632448.068,
     "apyBase": 2.241,
-    "apyReward": 0.978,
-    "apy": 3.218,
+    "apyReward": 0.983,
+    "apy": 3.224,
     "rewardTokens": [
       "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7"
     ],
     "pool": "0xd586e7f844cea2f87f50152665bcbc2c279d8d700xa97684ead0e402dc232d5a977953df7ecbab3cdb-avalanche",
-    "apyPct1D": -0.276,
-    "apyPct7D": -0.08,
+    "apyPct1D": -0.258,
+    "apyPct7D": -0.077,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 72,
+      "predictedProbability": 71,
       "binnedConfidence": 2
     },
     "poolMeta": null,
-    "mu": 3.413,
+    "mu": 3.414,
     "sigma": 0.006,
     "count": 10,
     "outlier": false,
@@ -1966,20 +1966,20 @@
       "0xd586e7f844cea2f87f50152665bcbc2c279d8d70"
     ],
     "rank": 58,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "aave-v2",
     "symbol": "FRAX",
-    "tvlUsd": 74375343.2,
+    "tvlUsd": 74752756.483,
     "apyBase": null,
     "apyReward": null,
     "apy": 1.509,
     "rewardTokens": [],
     "pool": "0x853d955acef822db058eb8505911ed77f175b99e0xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
     "apyPct1D": 0.004,
-    "apyPct7D": -0.033,
+    "apyPct7D": -0.032,
     "apyPct30D": -0.668,
     "stablecoin": true,
     "ilRisk": "no",
@@ -1996,21 +1996,21 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 59,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Binance",
     "project": "alpaca-finance",
     "symbol": "ibUSDT",
-    "tvlUsd": 72332656.072,
+    "tvlUsd": 72377861.383,
     "apyBase": null,
     "apyReward": null,
     "apy": 0.243,
     "rewardTokens": [],
     "pool": "0x158Da805682BdC8ee32d52833aD41E74bb951E59-staking",
     "apyPct1D": -0.016,
-    "apyPct7D": -0.013,
-    "apyPct30D": 0.016,
+    "apyPct7D": -0.012,
+    "apyPct30D": 0.014,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -2026,19 +2026,19 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 60,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "yearn-finance",
     "symbol": "yvUSDC",
-    "tvlUsd": 71070911.314,
+    "tvlUsd": 71070744.784,
     "apyBase": null,
     "apyReward": null,
-    "apy": 0.471,
+    "apy": 0.47,
     "rewardTokens": [],
     "pool": "0xa354F35829Ae975e850e23e9615b11Da1B3dC4DE",
-    "apyPct1D": 0.089,
+    "apyPct1D": 0.088,
     "apyPct7D": 0.072,
     "apyPct30D": -1.289,
     "stablecoin": true,
@@ -2056,21 +2056,21 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 61,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Binance",
     "project": "alpaca-finance",
     "symbol": "ibBUSD",
-    "tvlUsd": 68977911.766,
+    "tvlUsd": 68978034.514,
     "apyBase": null,
     "apyReward": null,
     "apy": 0.344,
     "rewardTokens": [],
     "pool": "0x7C9e73d4C71dae564d41F78d56439bB4ba87592f-staking",
-    "apyPct1D": -0.007,
-    "apyPct7D": -0.034,
-    "apyPct30D": 0.043,
+    "apyPct1D": -0.006,
+    "apyPct7D": -0.032,
+    "apyPct30D": 0.04,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -2086,23 +2086,23 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 62,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "cDAI-cUSDC",
-    "tvlUsd": 64070129.012,
+    "tvlUsd": 64079651.806,
     "apyBase": 0.682,
-    "apyReward": 0.362,
-    "apy": 1.044,
+    "apyReward": 0.365,
+    "apy": 1.047,
     "rewardTokens": [
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0xA2B47E3D5c44877cca798226B7B8118F9BFb7A56-ethereum",
-    "apyPct1D": -0.001,
-    "apyPct7D": -0.029,
-    "apyPct30D": -0.106,
+    "apyPct1D": 0.005,
+    "apyPct7D": -0.026,
+    "apyPct30D": -0.109,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -2121,7 +2121,7 @@
       "0x39AA39c021dfbaE8faC545936693aC917d5E7563"
     ],
     "rank": 63,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Solana",
@@ -2151,24 +2151,24 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 64,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "cDAI-cUSDC",
-    "tvlUsd": 59999299.67,
+    "tvlUsd": 60008217.413,
     "apyBase": 0.682,
-    "apyReward": 0.89,
-    "apy": 1.572,
+    "apyReward": 0.896,
+    "apy": 1.578,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0x845838DF265Dcd2c412A1Dc9e959c7d08537f8a2",
-    "apyPct1D": -0.02,
-    "apyPct7D": 0.017,
-    "apyPct30D": 0.223,
+    "apyPct1D": -0.01,
+    "apyPct7D": 0.031,
+    "apyPct30D": 0.211,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -2187,22 +2187,22 @@
       "0x39AA39c021dfbaE8faC545936693aC917d5E7563"
     ],
     "rank": 65,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Binance",
     "project": "venus",
     "symbol": "BUSD",
-    "tvlUsd": 55624851.707,
-    "apyBase": 1.29,
-    "apyReward": 0.573,
-    "apy": 1.863,
+    "tvlUsd": 55665553.185,
+    "apyBase": 1.289,
+    "apyReward": 0.571,
+    "apy": 1.861,
     "rewardTokens": [
       "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63"
     ],
     "pool": "0x95c78222b3d6e262426483d42cfa53685a67ab9d",
-    "apyPct1D": 0.011,
-    "apyPct7D": 0.231,
+    "apyPct1D": 0.016,
+    "apyPct7D": 0.24,
     "apyPct30D": 0.598,
     "stablecoin": true,
     "ilRisk": "no",
@@ -2219,30 +2219,30 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 66,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "LUSD-3Crv",
-    "tvlUsd": 53510144.641,
+    "tvlUsd": 53544253.058,
     "apyBase": 0.248,
-    "apyReward": 1.202,
-    "apy": 1.45,
+    "apyReward": 1.212,
+    "apy": 1.46,
     "rewardTokens": [
       "0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D",
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0xEd279fDD11cA84bEef15AF5D39BB4d4bEE23F0cA-ethereum",
-    "apyPct1D": -0.563,
-    "apyPct7D": -1.252,
-    "apyPct30D": -2.344,
+    "apyPct1D": -0.545,
+    "apyPct7D": -1.239,
+    "apyPct30D": -2.366,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 85,
+      "predictedProbability": 86,
       "binnedConfidence": 3
     },
     "poolMeta": null,
@@ -2255,22 +2255,22 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 67,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Binance",
     "project": "pancakeswap",
     "symbol": "USDT-USDC",
-    "tvlUsd": 53292353.931,
+    "tvlUsd": 53397236.395,
     "apyBase": 0.74,
-    "apyReward": 1.726,
-    "apy": 2.466,
+    "apyReward": 1.723,
+    "apy": 2.463,
     "rewardTokens": [
       "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
     ],
     "pool": "0xec6557348085aa57c72514d67070dc863c0a5a8c",
-    "apyPct1D": -0.166,
-    "apyPct7D": -0.126,
+    "apyPct1D": -0.131,
+    "apyPct7D": -0.101,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
@@ -2290,23 +2290,23 @@
       "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"
     ],
     "rank": 68,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "BUSD-3Crv",
-    "tvlUsd": 49081801.074,
+    "tvlUsd": 49112543.06,
     "apyBase": 0.548,
-    "apyReward": 1.48,
-    "apy": 2.028,
+    "apyReward": 1.492,
+    "apy": 2.04,
     "rewardTokens": [
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0x4807862AA8b2bF68830e4C8dc86D0e9A998e085a-ethereum",
-    "apyPct1D": 0.213,
-    "apyPct7D": -0.001,
-    "apyPct30D": -2.005,
+    "apyPct1D": 0.235,
+    "apyPct7D": 0.028,
+    "apyPct30D": -2.027,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -2325,13 +2325,13 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 69,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Polygon",
     "project": "curve",
     "symbol": "amDAI-amUSDC-amUSDT",
-    "tvlUsd": 49022695.077,
+    "tvlUsd": 49064912.472,
     "apyBase": 1.709,
     "apyReward": 0,
     "apy": 1.709,
@@ -2339,7 +2339,7 @@
     "pool": "0x445FE580eF8d70FF569aB36e80c647af338db351-polygon",
     "apyPct1D": 0.111,
     "apyPct7D": 0.21,
-    "apyPct30D": 0.58,
+    "apyPct30D": 0.537,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -2359,13 +2359,13 @@
       "0x60D55F02A771d515e077c9C2403a1ef324885CeC"
     ],
     "rank": 70,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "origin-dollar",
     "symbol": "OUSD",
-    "tvlUsd": 48574940.016,
+    "tvlUsd": 48594795.09,
     "apyBase": null,
     "apyReward": null,
     "apy": 3.26,
@@ -2393,30 +2393,30 @@
       "0x6b175474e89094c44da98b954eedeac495271d0f"
     ],
     "rank": 71,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "BUSD-3Crv",
-    "tvlUsd": 48511579.129,
+    "tvlUsd": 48541963.664,
     "apyBase": 0.548,
-    "apyReward": 3.401,
-    "apy": 3.95,
+    "apyReward": 3.425,
+    "apy": 3.973,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0x4807862AA8b2bF68830e4C8dc86D0e9A998e085a",
-    "apyPct1D": 0.033,
-    "apyPct7D": -0.163,
-    "apyPct30D": -1.322,
+    "apyPct1D": 0.085,
+    "apyPct7D": -0.077,
+    "apyPct30D": 2.172,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 91,
+      "predictedProbability": 93,
       "binnedConfidence": 3
     },
     "poolMeta": null,
@@ -2429,13 +2429,13 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 72,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Avalanche",
     "project": "curve",
     "symbol": "avDAI-avUSDC-avUSDT",
-    "tvlUsd": 47667861.833,
+    "tvlUsd": 47806478.019,
     "apyBase": 0.803,
     "apyReward": 0,
     "apy": 0.803,
@@ -2463,22 +2463,22 @@
       "0x532E6537FEA298397212F09A61e03311686f548e"
     ],
     "rank": 73,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Avalanche",
     "project": "benqi-lending",
     "symbol": "USDC",
-    "tvlUsd": 46425757.918,
-    "apyBase": 2.396,
-    "apyReward": 0.826,
-    "apy": 3.222,
+    "tvlUsd": 47173861.457,
+    "apyBase": 2.361,
+    "apyReward": 0.821,
+    "apy": 3.183,
     "rewardTokens": [
       "0x8729438eb15e2c8b576fcc6aecda6a148776c0f5",
       "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7"
     ],
     "pool": "0xB715808a78F6041E46d61Cb123C9B4A27056AE9C",
-    "apyPct1D": -0.227,
+    "apyPct1D": -0.266,
     "apyPct7D": null,
     "apyPct30D": null,
     "stablecoin": true,
@@ -2486,45 +2486,45 @@
     "exposure": "single",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 74,
+      "predictedProbability": 73,
       "binnedConfidence": 2
     },
     "poolMeta": null,
-    "mu": 3.371,
-    "sigma": 0.007,
+    "mu": 3.367,
+    "sigma": 0.008,
     "count": 8,
     "outlier": false,
     "underlyingTokens": [
       "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E"
     ],
     "rank": 74,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "USDD-3Crv",
-    "tvlUsd": 42553770.607,
+    "tvlUsd": 42580422.676,
     "apyBase": 0.677,
-    "apyReward": 7.199,
-    "apy": 7.876,
+    "apyReward": 7.258,
+    "apy": 7.936,
     "rewardTokens": [
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0xe6b5CC1B4b47305c58392CE3D359B10282FC36Ea-ethereum",
-    "apyPct1D": 0.398,
-    "apyPct7D": 6.93,
+    "apyPct1D": 0.501,
+    "apyPct7D": 6.99,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Down",
-      "predictedProbability": 84,
+      "predictedProbability": 82,
       "binnedConfidence": 3
     },
     "poolMeta": null,
-    "mu": 3.068,
+    "mu": 3.07,
     "sigma": 0.151,
     "count": 29,
     "outlier": false,
@@ -2533,24 +2533,24 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 75,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "mUSD-3Crv",
-    "tvlUsd": 42129780.632,
+    "tvlUsd": 42156167.405,
     "apyBase": 0.493,
-    "apyReward": 2.481,
-    "apy": 2.974,
+    "apyReward": 2.502,
+    "apy": 2.994,
     "rewardTokens": [
       "0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2",
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0x8474DdbE98F5aA3179B3B3F5942D724aFcdec9f6-ethereum",
-    "apyPct1D": 0.253,
-    "apyPct7D": 0.151,
-    "apyPct30D": -2.555,
+    "apyPct1D": 0.288,
+    "apyPct7D": 0.145,
+    "apyPct30D": -2.583,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -2560,7 +2560,7 @@
       "binnedConfidence": 3
     },
     "poolMeta": null,
-    "mu": 4.574,
+    "mu": 4.575,
     "sigma": 0.076,
     "count": 189,
     "outlier": false,
@@ -2569,24 +2569,24 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 76,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "mUSD-3Crv",
-    "tvlUsd": 42103047.889,
+    "tvlUsd": 42129417.663,
     "apyBase": 0.493,
-    "apyReward": 5.956,
-    "apy": 6.448,
+    "apyReward": 5.996,
+    "apy": 6.489,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0x1AEf73d49Dedc4b1778d0706583995958Dc862e6",
-    "apyPct1D": 0.209,
-    "apyPct7D": 0.827,
-    "apyPct30D": 0.793,
+    "apyPct1D": 0.297,
+    "apyPct7D": 0.849,
+    "apyPct30D": 0.72,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -2596,7 +2596,7 @@
       "binnedConfidence": 1
     },
     "poolMeta": null,
-    "mu": 7.449,
+    "mu": 7.45,
     "sigma": 0.083,
     "count": 189,
     "outlier": false,
@@ -2605,13 +2605,13 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 77,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Polygon",
     "project": "curve",
     "symbol": "am3CRV-amWBTC-amWETH",
-    "tvlUsd": 40033228.308,
+    "tvlUsd": 40140403.97,
     "apyBase": 1.567,
     "apyReward": 0,
     "apy": 1.567,
@@ -2639,21 +2639,21 @@
       "0x28424507fefb6f7f8E9D3860F56504E4e5f5f390"
     ],
     "rank": 78,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Polygon",
     "project": "aave-v2",
     "symbol": "DAI",
-    "tvlUsd": 39819433.637,
+    "tvlUsd": 40023869.816,
     "apyBase": null,
     "apyReward": null,
-    "apy": 0.437,
+    "apy": 0.436,
     "rewardTokens": [],
     "pool": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a0630xd05e3e715d945b59290df0ae8ef85c1bdb684744",
     "apyPct1D": -0.001,
-    "apyPct7D": -0.057,
-    "apyPct30D": -0.111,
+    "apyPct7D": -0.055,
+    "apyPct30D": -0.11,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -2669,21 +2669,21 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 79,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "notional",
     "symbol": "nUSDC",
-    "tvlUsd": 37653823.667,
-    "apyBase": 0.458,
-    "apyReward": 7.072,
-    "apy": 7.529,
+    "tvlUsd": 37653844.722,
+    "apyBase": 0.45,
+    "apyReward": 7.057,
+    "apy": 7.508,
     "rewardTokens": [
       "0xCFEAead4947f0705A14ec42aC3D44129E1Ef3eD5"
     ],
     "pool": "nUSDC",
-    "apyPct1D": -0.486,
+    "apyPct1D": -0.513,
     "apyPct7D": null,
     "apyPct30D": null,
     "stablecoin": true,
@@ -2695,7 +2695,7 @@
       "binnedConfidence": null
     },
     "poolMeta": null,
-    "mu": 7.873,
+    "mu": 7.869,
     "sigma": 0.013,
     "count": 6,
     "outlier": false,
@@ -2703,20 +2703,20 @@
       "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     ],
     "rank": 80,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "across",
     "symbol": "USDC",
-    "tvlUsd": 37523832.329,
+    "tvlUsd": 37561318.675,
     "apyBase": 3.495,
     "apyReward": null,
     "apy": 3.495,
     "rewardTokens": [],
     "pool": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
     "apyPct1D": -0.411,
-    "apyPct7D": -1.133,
+    "apyPct7D": -1.114,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
@@ -2735,23 +2735,23 @@
       "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     ],
     "rank": 81,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Binance",
     "project": "venus",
     "symbol": "USDC",
-    "tvlUsd": 37110448.265,
+    "tvlUsd": 37114994.104,
     "apyBase": 1.62,
-    "apyReward": 0.741,
-    "apy": 2.361,
+    "apyReward": 0.739,
+    "apy": 2.36,
     "rewardTokens": [
       "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63"
     ],
     "pool": "0xeca88125a5adbe82614ffc12d0db554e2e2867c8",
     "apyPct1D": 0.083,
-    "apyPct7D": 0.184,
-    "apyPct30D": 0.614,
+    "apyPct7D": 0.192,
+    "apyPct30D": 0.644,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -2767,13 +2767,13 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 82,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Arbitrum",
     "project": "curve",
     "symbol": "USDC-USDT",
-    "tvlUsd": 34954699.779,
+    "tvlUsd": 34895582.152,
     "apyBase": 0.113,
     "apyReward": 0,
     "apy": 0.113,
@@ -2786,8 +2786,8 @@
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
-      "predictedClass": "Down",
-      "predictedProbability": 51,
+      "predictedClass": "Stable/Up",
+      "predictedProbability": 52,
       "binnedConfidence": 1
     },
     "poolMeta": null,
@@ -2800,52 +2800,52 @@
       "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9"
     ],
     "rank": 83,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "euler",
     "symbol": "DAI",
-    "tvlUsd": 33731619.768,
+    "tvlUsd": 33585657.37,
     "apyBase": null,
     "apyReward": null,
-    "apy": 0.573,
+    "apy": 0.432,
     "rewardTokens": [],
     "pool": "0x6b175474e89094c44da98b954eedeac495271d0f-euler",
-    "apyPct1D": -0.108,
-    "apyPct7D": -0.111,
-    "apyPct30D": -0.007,
+    "apyPct1D": -0.25,
+    "apyPct7D": -0.253,
+    "apyPct30D": -0.149,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 92,
+      "predictedProbability": 93,
       "binnedConfidence": 3
     },
     "poolMeta": null,
-    "mu": 0.504,
+    "mu": 0.502,
     "sigma": 0.007,
     "count": 72,
     "outlier": false,
     "underlyingTokens": [],
     "rank": 84,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "aDAI-aUSDC-aUSDT",
-    "tvlUsd": 32713455.438,
+    "tvlUsd": 32586304.942,
     "apyBase": 0.864,
     "apyReward": 0.023,
-    "apy": 0.886,
+    "apy": 0.887,
     "rewardTokens": [
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0xDeBF20617708857ebe4F679508E7b7863a8A8EeE-ethereum",
-    "apyPct1D": -0.07,
-    "apyPct7D": 0.091,
+    "apyPct1D": -0.069,
+    "apyPct7D": 0.092,
     "apyPct30D": -0.643,
     "stablecoin": true,
     "ilRisk": "no",
@@ -2866,23 +2866,23 @@
       "0x3Ed3B47Dd13EC9a98b44e6204A523E766B225811"
     ],
     "rank": 85,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "GUSD-3Crv",
-    "tvlUsd": 31800419.884,
+    "tvlUsd": 31820337.23,
     "apyBase": 0.175,
-    "apyReward": 1.49,
-    "apy": 1.665,
+    "apyReward": 1.503,
+    "apy": 1.677,
     "rewardTokens": [
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0x4f062658EaAF2C1ccf8C8e36D6824CDf41167956-ethereum",
-    "apyPct1D": -0.143,
-    "apyPct7D": -0.214,
-    "apyPct30D": -2.487,
+    "apyPct1D": -0.121,
+    "apyPct7D": -0.198,
+    "apyPct30D": -2.509,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -2901,21 +2901,21 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 86,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "notional",
     "symbol": "nDAI",
-    "tvlUsd": 31741311.799,
+    "tvlUsd": 31739286.766,
     "apyBase": -0.503,
-    "apyReward": 7.768,
-    "apy": 7.265,
+    "apyReward": 7.752,
+    "apy": 7.249,
     "rewardTokens": [
       "0xCFEAead4947f0705A14ec42aC3D44129E1Ef3eD5"
     ],
     "pool": "nDAI",
-    "apyPct1D": -0.143,
+    "apyPct1D": -0.158,
     "apyPct7D": null,
     "apyPct30D": null,
     "stablecoin": true,
@@ -2927,21 +2927,21 @@
       "binnedConfidence": null
     },
     "poolMeta": null,
-    "mu": 7.447,
-    "sigma": 0.008,
+    "mu": 7.444,
+    "sigma": 0.009,
     "count": 6,
     "outlier": false,
     "underlyingTokens": [
       "0x6b175474e89094c44da98b954eedeac495271d0f"
     ],
     "rank": 87,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Binance",
     "project": "pancakeswap",
     "symbol": "TUSD-BUSD",
-    "tvlUsd": 31433384.491,
+    "tvlUsd": 31433384.148,
     "apyBase": 0.04,
     "apyReward": 0.293,
     "apy": 0.333,
@@ -2949,8 +2949,8 @@
       "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
     ],
     "pool": "0x2e28b9b74d6d99d4697e913b82b41ef1cac51c6c",
-    "apyPct1D": 0.003,
-    "apyPct7D": -0.028,
+    "apyPct1D": -0.006,
+    "apyPct7D": -0.023,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
@@ -2970,13 +2970,13 @@
       "0xe9e7cea3dedca5984780bafc599bd69add087d56"
     ],
     "rank": 88,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "BEAN-3Crv",
-    "tvlUsd": 31077005.605,
+    "tvlUsd": 31099226.606,
     "apyBase": 0.126,
     "apyReward": 0,
     "apy": 0.126,
@@ -3003,21 +3003,21 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 89,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Solana",
     "project": "solend",
     "symbol": "USDC",
-    "tvlUsd": 30626066.198,
+    "tvlUsd": 30671002.821,
     "apyBase": null,
     "apyReward": null,
-    "apy": 4.472,
+    "apy": 4.468,
     "rewardTokens": [],
     "pool": "BgxfHJDzm44T7XG68MYKx7YisTjZu73tVovyZSjJMpmw",
-    "apyPct1D": -17.415,
-    "apyPct7D": -0.305,
-    "apyPct30D": 0.978,
+    "apyPct1D": 0.417,
+    "apyPct7D": -0.311,
+    "apyPct30D": 0.968,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -3033,27 +3033,27 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 90,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Polygon",
     "project": "aave-v3",
     "symbol": "USDC",
-    "tvlUsd": 29660141.891,
-    "apyBase": 0.305,
+    "tvlUsd": 29546062.535,
+    "apyBase": 0.307,
     "apyReward": 0,
-    "apy": 0.305,
+    "apy": 0.307,
     "rewardTokens": [],
     "pool": "0x2791bca1f2de4661ed88a30c99a7a9449aa841740xa97684ead0e402dc232d5a977953df7ecbab3cdb-polygon",
-    "apyPct1D": 0.023,
-    "apyPct7D": -0.238,
+    "apyPct1D": 0.024,
+    "apyPct7D": -0.232,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 74,
+      "predictedProbability": 76,
       "binnedConfidence": 2
     },
     "poolMeta": null,
@@ -3065,24 +3065,24 @@
       "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
     ],
     "rank": 91,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "GUSD-3Crv",
-    "tvlUsd": 29516510.474,
+    "tvlUsd": 29534997.175,
     "apyBase": 0.351,
-    "apyReward": 3.586,
-    "apy": 3.937,
+    "apyReward": 3.611,
+    "apy": 3.961,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0xD2967f45c4f384DEEa880F807Be904762a3DeA07",
-    "apyPct1D": -0.165,
-    "apyPct7D": 0.133,
-    "apyPct30D": -1.218,
+    "apyPct1D": -0.112,
+    "apyPct7D": 0.19,
+    "apyPct30D": -1.294,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -3101,21 +3101,21 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 92,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Avalanche",
     "project": "aave-v2",
     "symbol": "USDC.E",
-    "tvlUsd": 28830667.688,
+    "tvlUsd": 28807788.624,
     "apyBase": null,
     "apyReward": null,
-    "apy": 0.626,
+    "apy": 0.627,
     "rewardTokens": [],
     "pool": "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c6640xb6a86025f0fe1862b372cb0ca18ce3ede02a318f",
-    "apyPct1D": -0.011,
-    "apyPct7D": 0.074,
-    "apyPct30D": 0.184,
+    "apyPct1D": -0.01,
+    "apyPct7D": 0.075,
+    "apyPct30D": 0.186,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -3131,13 +3131,13 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 93,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Avalanche",
     "project": "yeti-finance",
     "symbol": "aUSDC",
-    "tvlUsd": 27859336.791,
+    "tvlUsd": 27859380.449,
     "apyBase": null,
     "apyReward": null,
     "apy": 1.927,
@@ -3163,13 +3163,13 @@
       "0x625E7708f30cA75bfd92586e17077590C60eb4cD"
     ],
     "rank": 94,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "aave-v2",
     "symbol": "BUSD",
-    "tvlUsd": 27594845.674,
+    "tvlUsd": 27456554.142,
     "apyBase": null,
     "apyReward": null,
     "apy": 0.201,
@@ -3193,43 +3193,43 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 95,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "concentrator",
     "symbol": "FRAX-USDC",
-    "tvlUsd": 27392367,
+    "tvlUsd": 27407999,
     "apyBase": null,
     "apyReward": null,
-    "apy": 6.32,
+    "apy": 6.37,
     "rewardTokens": [],
     "pool": "0x3175Df0976dFA876431C2E9eE6Bc45b65d3473CC-concentrator",
-    "apyPct1D": -0.14,
-    "apyPct7D": -5.15,
-    "apyPct30D": -1.742,
+    "apyPct1D": -0.04,
+    "apyPct7D": -5.16,
+    "apyPct30D": -1.909,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 68,
+      "predictedProbability": 64,
       "binnedConfidence": 2
     },
     "poolMeta": null,
-    "mu": 9.36,
+    "mu": 9.361,
     "sigma": 0.114,
     "count": 48,
     "outlier": false,
     "underlyingTokens": [],
     "rank": 96,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "compound",
     "symbol": "cTUSD",
-    "tvlUsd": 26545340.164,
+    "tvlUsd": 26576632.401,
     "apyBase": 0.437,
     "apyReward": 0,
     "apy": 0.437,
@@ -3255,27 +3255,27 @@
       "0x0000000000085d4780b73119b644ae5ecd22b376"
     ],
     "rank": 97,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "uniswap",
     "symbol": "USDC-USDT",
-    "tvlUsd": 26371143.012,
-    "apyBase": 1.44,
+    "tvlUsd": 26397561.594,
+    "apyBase": 1.472,
     "apyReward": null,
-    "apy": 1.44,
+    "apy": 1.472,
     "rewardTokens": [],
     "pool": "0x7858e59e0c01ea06df3af3d20ac7b0003275d4bf",
-    "apyPct1D": -1.283,
-    "apyPct7D": -0.486,
-    "apyPct30D": -0.16,
+    "apyPct1D": -1.062,
+    "apyPct7D": -0.457,
+    "apyPct30D": -0.194,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 56.00000000000001,
+      "predictedProbability": 55.00000000000001,
       "binnedConfidence": 1
     },
     "poolMeta": "0.05%",
@@ -3288,27 +3288,27 @@
       "0xdac17f958d2ee523a2206206994597c13d831ec7"
     ],
     "rank": 98,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "uniswap",
     "symbol": "DAI-FRAX",
     "tvlUsd": 26238865.448,
-    "apyBase": 0.035,
+    "apyBase": 0.032,
     "apyReward": null,
-    "apy": 0.035,
+    "apy": 0.032,
     "rewardTokens": [],
     "pool": "0x97e7d56a0408570ba1a7852de36350f7713906ec",
-    "apyPct1D": -0.038,
-    "apyPct7D": -0.009,
-    "apyPct30D": -0.036,
+    "apyPct1D": -0.043,
+    "apyPct7D": -0.014,
+    "apyPct30D": -0.07,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 93,
+      "predictedProbability": 94,
       "binnedConfidence": 3
     },
     "poolMeta": "0.05%",
@@ -3321,27 +3321,27 @@
       "0x853d955acef822db058eb8505911ed77f175b99e"
     ],
     "rank": 99,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "angle",
     "symbol": "3EURLP",
-    "tvlUsd": 26095851.504,
+    "tvlUsd": 26120895.507,
     "apyBase": null,
     "apyReward": null,
-    "apy": 7.225,
+    "apy": 7.279,
     "rewardTokens": [],
     "pool": "0x5EB715d601C2F27f83Cb554b6B36e047822fB70a-angle",
-    "apyPct1D": 0.049,
-    "apyPct7D": -1.342,
-    "apyPct30D": -2.807,
+    "apyPct1D": 0.169,
+    "apyPct7D": -1.257,
+    "apyPct30D": -2.836,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 64,
+      "predictedProbability": 66,
       "binnedConfidence": 2
     },
     "poolMeta": null,
@@ -3351,33 +3351,33 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 100,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "agEUR-EURT-EURS",
-    "tvlUsd": 25976582.227,
+    "tvlUsd": 25960771.085,
     "apyBase": 0.304,
-    "apyReward": 3.354,
-    "apy": 3.658,
+    "apyReward": 3.384,
+    "apy": 3.688,
     "rewardTokens": [
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0xb9446c4Ef5EBE66268dA6700D26f96273DE3d571-ethereum",
-    "apyPct1D": 0.201,
-    "apyPct7D": -0.397,
+    "apyPct1D": 0.256,
+    "apyPct7D": -0.361,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 96,
+      "predictedProbability": 97,
       "binnedConfidence": 3
     },
     "poolMeta": null,
-    "mu": 4.883,
+    "mu": 4.884,
     "sigma": 0.038,
     "count": 29,
     "outlier": false,
@@ -3387,21 +3387,21 @@
       "0xdB25f211AB05b1c97D595516F45794528a807ad8"
     ],
     "rank": 101,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "tokemak",
     "symbol": "FRAX",
-    "tvlUsd": 25831829.811,
+    "tvlUsd": 25836092.766,
     "apyBase": null,
-    "apyReward": 6.441,
-    "apy": 6.441,
+    "apyReward": 6.468,
+    "apy": 6.468,
     "rewardTokens": [
       "0x2e9d63788249371f1DFC918a52f8d799F4a38C94"
     ],
     "pool": "0x94671A3ceE8C7A12Ea72602978D1Bb84E920eFB2",
-    "apyPct1D": 0.338,
+    "apyPct1D": 0.366,
     "apyPct7D": null,
     "apyPct30D": null,
     "stablecoin": true,
@@ -3413,32 +3413,32 @@
       "binnedConfidence": null
     },
     "poolMeta": null,
-    "mu": 6.335,
-    "sigma": 0.006,
+    "mu": 6.344,
+    "sigma": 0.007,
     "count": 3,
     "outlier": false,
     "underlyingTokens": [
       "0x853d955aCEf822Db058eb8505911ED77F175b99e"
     ],
     "rank": 102,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "agEUR-EURT-EURS",
-    "tvlUsd": 25571959.089,
+    "tvlUsd": 25556394.229,
     "apyBase": 0.106,
-    "apyReward": 8.255,
-    "apy": 8.361,
+    "apyReward": 8.321,
+    "apy": 8.427,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b",
       "0x31429d1856aD1377A8A0079410B297e1a9e214c2"
     ],
     "pool": "0xb9446c4Ef5EBE66268dA6700D26f96273DE3d571",
-    "apyPct1D": -0.134,
-    "apyPct7D": -1.139,
+    "apyPct1D": 0,
+    "apyPct7D": -0.997,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
@@ -3449,8 +3449,8 @@
       "binnedConfidence": 2
     },
     "poolMeta": null,
-    "mu": 10.402,
-    "sigma": 0.056,
+    "mu": 10.406,
+    "sigma": 0.055,
     "count": 20,
     "outlier": false,
     "underlyingTokens": [
@@ -3459,22 +3459,22 @@
       "0xdB25f211AB05b1c97D595516F45794528a807ad8"
     ],
     "rank": 103,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Binance",
     "project": "biswap",
     "symbol": "USDT-BUSD",
-    "tvlUsd": 25215667.12,
+    "tvlUsd": 25239660.101,
     "apyBase": 0,
-    "apyReward": 4.131,
-    "apy": 4.131,
+    "apyReward": 4.123,
+    "apy": 4.123,
     "rewardTokens": [
       "0x965f527d9159dce6288a2219db51fc6eef120dd1"
     ],
     "pool": "0xDA8ceb724A06819c0A5cDb4304ea0cB27F8304cF",
-    "apyPct1D": -0.02,
-    "apyPct7D": 0.795,
+    "apyPct1D": 0.012,
+    "apyPct7D": 0.833,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
@@ -3485,7 +3485,7 @@
       "binnedConfidence": 1
     },
     "poolMeta": null,
-    "mu": 3.545,
+    "mu": 3.544,
     "sigma": 0.018,
     "count": 16,
     "outlier": false,
@@ -3494,30 +3494,30 @@
       "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
     ],
     "rank": 104,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "LUSD-3Crv",
-    "tvlUsd": 24981080.354,
+    "tvlUsd": 24997003.785,
     "apyBase": 1.05,
-    "apyReward": 4.036,
-    "apy": 5.086,
+    "apyReward": 4.064,
+    "apy": 5.113,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0xEd279fDD11cA84bEef15AF5D39BB4d4bEE23F0cA",
-    "apyPct1D": -0.287,
-    "apyPct7D": 3.826,
-    "apyPct30D": 0.462,
+    "apyPct1D": -0.227,
+    "apyPct7D": 3.853,
+    "apyPct30D": 0.399,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 70,
+      "predictedProbability": 69,
       "binnedConfidence": 2
     },
     "poolMeta": null,
@@ -3530,20 +3530,20 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 105,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "uniswap",
     "symbol": "BUSD-USDC",
-    "tvlUsd": 24648173.708,
+    "tvlUsd": 24672797.258,
     "apyBase": 0.083,
     "apyReward": null,
     "apy": 0.083,
     "rewardTokens": [],
     "pool": "0x00cef0386ed94d738c8f8a74e8bfd0376926d24c",
     "apyPct1D": -1.27,
-    "apyPct7D": -0.312,
+    "apyPct7D": -0.315,
     "apyPct30D": 0.083,
     "stablecoin": true,
     "ilRisk": "no",
@@ -3563,7 +3563,37 @@
       "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     ],
     "rank": 106,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
+  },
+  {
+    "chain": "Polygon",
+    "project": "quickswap",
+    "symbol": "USDC-miMATIC",
+    "tvlUsd": 24263836.172,
+    "apyBase": null,
+    "apyReward": null,
+    "apy": 0.198,
+    "rewardTokens": [],
+    "pool": "0x160532d2536175d65c03b97b0630a9802c274dad",
+    "apyPct1D": -2.102,
+    "apyPct7D": -1.136,
+    "apyPct30D": -0.091,
+    "stablecoin": true,
+    "ilRisk": "no",
+    "exposure": "multi",
+    "predictions": {
+      "predictedClass": "Stable/Up",
+      "predictedProbability": 86,
+      "binnedConfidence": 3
+    },
+    "poolMeta": null,
+    "mu": 1.505,
+    "sigma": 0.143,
+    "count": 188,
+    "outlier": false,
+    "underlyingTokens": [],
+    "rank": 107,
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Avalanche",
@@ -3571,14 +3601,14 @@
     "symbol": "DAI.e",
     "tvlUsd": 24259716.655,
     "apyBase": 3.886,
-    "apyReward": 0.89,
-    "apy": 4.776,
+    "apyReward": 0.894,
+    "apy": 4.78,
     "rewardTokens": [
       "0x8729438eb15e2c8b576fcc6aecda6a148776c0f5",
       "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7"
     ],
     "pool": "0x835866d37AFB8CB8F8334dCCdaf66cf01832Ff5D",
-    "apyPct1D": -0.021,
+    "apyPct1D": -0.013,
     "apyPct7D": null,
     "apyPct30D": null,
     "stablecoin": true,
@@ -3597,64 +3627,34 @@
     "underlyingTokens": [
       "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70"
     ],
-    "rank": 107,
-    "timestamp": "2022-08-17 02:53:09"
-  },
-  {
-    "chain": "Polygon",
-    "project": "quickswap",
-    "symbol": "USDC-miMATIC",
-    "tvlUsd": 24242607.159,
-    "apyBase": null,
-    "apyReward": null,
-    "apy": 0.202,
-    "rewardTokens": [],
-    "pool": "0x160532d2536175d65c03b97b0630a9802c274dad",
-    "apyPct1D": -2.097,
-    "apyPct7D": -1.125,
-    "apyPct30D": -0.075,
-    "stablecoin": true,
-    "ilRisk": "no",
-    "exposure": "multi",
-    "predictions": {
-      "predictedClass": "Stable/Up",
-      "predictedProbability": 86,
-      "binnedConfidence": 3
-    },
-    "poolMeta": null,
-    "mu": 1.505,
-    "sigma": 0.143,
-    "count": 188,
-    "outlier": false,
-    "underlyingTokens": [],
     "rank": 108,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Optimism",
     "project": "aave-v3",
     "symbol": "USDT",
-    "tvlUsd": 24074590.177,
+    "tvlUsd": 24097446.929,
     "apyBase": 2.712,
-    "apyReward": 1.973,
-    "apy": 4.685,
+    "apyReward": 1.984,
+    "apy": 4.696,
     "rewardTokens": [
       "0x4200000000000000000000000000000000000042"
     ],
     "pool": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e580xa97684ead0e402dc232d5a977953df7ecbab3cdb-optimism",
-    "apyPct1D": -0.14,
-    "apyPct7D": -0.193,
+    "apyPct1D": -0.085,
+    "apyPct7D": -0.149,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 56.99999999999999,
+      "predictedProbability": 57.99999999999999,
       "binnedConfidence": 1
     },
     "poolMeta": null,
-    "mu": 4.724,
+    "mu": 4.725,
     "sigma": 0.005,
     "count": 10,
     "outlier": false,
@@ -3662,22 +3662,22 @@
       "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58"
     ],
     "rank": 109,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Moonriver",
     "project": "moonwell-apollo",
     "symbol": "USDC",
-    "tvlUsd": 23480039.999,
-    "apyBase": 1.922,
-    "apyReward": 2.043,
-    "apy": 3.966,
+    "tvlUsd": 23502494.582,
+    "apyBase": 1.923,
+    "apyReward": 2.055,
+    "apy": 3.978,
     "rewardTokens": [
       "0xbb8d88bcd9749636bc4d2be22aac4bb3b01a58f1",
       "0x98878b06940ae243284ca214f92bb71a2b032b8a"
     ],
     "pool": "0xd0670AEe3698F66e2D4dAf071EB9c690d978BFA8",
-    "apyPct1D": -0.1,
+    "apyPct1D": -0.073,
     "apyPct7D": null,
     "apyPct30D": null,
     "stablecoin": true,
@@ -3689,7 +3689,7 @@
       "binnedConfidence": null
     },
     "poolMeta": null,
-    "mu": 4.071,
+    "mu": 4.073,
     "sigma": 0.005,
     "count": 6,
     "outlier": false,
@@ -3697,23 +3697,23 @@
       "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D"
     ],
     "rank": 110,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "USDN-3Crv",
-    "tvlUsd": 23442703.667,
+    "tvlUsd": 23457385.324,
     "apyBase": 0.151,
-    "apyReward": 6.352,
-    "apy": 6.503,
+    "apyReward": 6.405,
+    "apy": 6.555,
     "rewardTokens": [
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0x0f9cb53Ebe405d49A0bbdBD291A65Ff571bC83e1-ethereum",
-    "apyPct1D": -0.598,
-    "apyPct7D": -0.889,
-    "apyPct30D": -5.891,
+    "apyPct1D": -0.507,
+    "apyPct7D": -0.82,
+    "apyPct30D": -5.942,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -3732,21 +3732,21 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 111,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Polygon",
     "project": "aave-v2",
     "symbol": "USDT",
-    "tvlUsd": 23351980.925,
+    "tvlUsd": 23350081.961,
     "apyBase": null,
     "apyReward": null,
-    "apy": 1.867,
+    "apy": 1.864,
     "rewardTokens": [],
     "pool": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f0xd05e3e715d945b59290df0ae8ef85c1bdb684744",
-    "apyPct1D": -0.31,
-    "apyPct7D": -0.748,
-    "apyPct30D": 1.186,
+    "apyPct1D": -0.321,
+    "apyPct7D": -0.754,
+    "apyPct30D": 1.175,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -3762,23 +3762,23 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 112,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "balancer",
     "symbol": "DAI-USDC-USDT",
-    "tvlUsd": 22726362.463,
-    "apyBase": 0.153,
-    "apyReward": 0.676,
-    "apy": 0.828,
+    "tvlUsd": 22741054.205,
+    "apyBase": 0.148,
+    "apyReward": 0.678,
+    "apy": 0.826,
     "rewardTokens": [
       "0xba100000625a3754423978a60c9317c58a424e3d"
     ],
     "pool": "0x06df3b2bbb68adc8b0e302443692037ed9f91b42000000000000000000000063",
-    "apyPct1D": -1.724,
-    "apyPct7D": -0.006,
-    "apyPct30D": -0.221,
+    "apyPct1D": -1.694,
+    "apyPct7D": 0.005,
+    "apyPct30D": -0.244,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -3798,21 +3798,21 @@
       "0xdac17f958d2ee523a2206206994597c13d831ec7"
     ],
     "rank": 113,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "angle",
     "symbol": "USDC-EURPerp",
-    "tvlUsd": 22502658.692,
+    "tvlUsd": 22524254.334,
     "apyBase": null,
     "apyReward": null,
-    "apy": 50.695,
+    "apy": 50.646,
     "rewardTokens": [],
     "pool": "0x5efE48F8383921d950683C46B87E28e21DEa9FB5-angle",
-    "apyPct1D": -1.516,
-    "apyPct7D": 7.969,
-    "apyPct30D": 4.655,
+    "apyPct1D": -1.564,
+    "apyPct7D": 7.963,
+    "apyPct30D": 4.205,
     "stablecoin": true,
     "ilRisk": "yes",
     "exposure": "multi",
@@ -3828,22 +3828,22 @@
     "outlier": true,
     "underlyingTokens": [],
     "rank": 114,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Avalanche",
     "project": "benqi-lending",
     "symbol": "USDt",
-    "tvlUsd": 22253872.776,
-    "apyBase": 3.83,
-    "apyReward": 1.009,
-    "apy": 4.839,
+    "tvlUsd": 21571341.803,
+    "apyBase": 3.93,
+    "apyReward": 1.023,
+    "apy": 4.953,
     "rewardTokens": [
       "0x8729438eb15e2c8b576fcc6aecda6a148776c0f5",
       "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7"
     ],
     "pool": "0xd8fcDa6ec4Bdc547C0827B8804e89aCd817d56EF",
-    "apyPct1D": 0.046,
+    "apyPct1D": 0.164,
     "apyPct7D": null,
     "apyPct30D": null,
     "stablecoin": true,
@@ -3851,25 +3851,25 @@
     "exposure": "single",
     "predictions": {
       "predictedClass": "Down",
-      "predictedProbability": 53,
+      "predictedProbability": 59,
       "binnedConfidence": 1
     },
     "poolMeta": null,
-    "mu": 4.065,
-    "sigma": 0.027,
+    "mu": 4.08,
+    "sigma": 0.028,
     "count": 8,
     "outlier": false,
     "underlyingTokens": [
       "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7"
     ],
     "rank": 115,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "notional",
     "symbol": "fUSDC",
-    "tvlUsd": 21374981.894,
+    "tvlUsd": 21374997.169,
     "apyBase": 2.723,
     "apyReward": null,
     "apy": 2.723,
@@ -3895,13 +3895,13 @@
       "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     ],
     "rank": 116,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Avalanche",
     "project": "curve",
     "symbol": "YUSD-USDC-USDt",
-    "tvlUsd": 20456978.089,
+    "tvlUsd": 20476577.702,
     "apyBase": 0.06,
     "apyReward": 0,
     "apy": 0.06,
@@ -3929,13 +3929,13 @@
       "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7"
     ],
     "rank": 117,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "sherlock",
     "symbol": "USDC",
-    "tvlUsd": 20406130.324,
+    "tvlUsd": 20406214.551,
     "apyBase": null,
     "apyReward": null,
     "apy": 3.655,
@@ -3959,23 +3959,53 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 118,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
+  },
+  {
+    "chain": "Avalanche",
+    "project": "aave-v2",
+    "symbol": "DAI.E",
+    "tvlUsd": 20310835.638,
+    "apyBase": null,
+    "apyReward": null,
+    "apy": 0.412,
+    "rewardTokens": [],
+    "pool": "0xd586e7f844cea2f87f50152665bcbc2c279d8d700xb6a86025f0fe1862b372cb0ca18ce3ede02a318f",
+    "apyPct1D": 0.004,
+    "apyPct7D": 0.041,
+    "apyPct30D": 0.081,
+    "stablecoin": true,
+    "ilRisk": "no",
+    "exposure": "single",
+    "predictions": {
+      "predictedClass": "Down",
+      "predictedProbability": 51,
+      "binnedConfidence": 1
+    },
+    "poolMeta": null,
+    "mu": 1.664,
+    "sigma": 0.085,
+    "count": 189,
+    "outlier": false,
+    "underlyingTokens": [],
+    "rank": 119,
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Avalanche",
     "project": "trader-joe",
     "symbol": "USDC.e-USDC",
-    "tvlUsd": 20239330.767,
-    "apyBase": 3.332,
-    "apyReward": 0.139,
-    "apy": 3.471,
+    "tvlUsd": 20259563.172,
+    "apyBase": 3.288,
+    "apyReward": 0.14,
+    "apy": 3.428,
     "rewardTokens": [
       "0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd"
     ],
     "pool": "0x2a8a315e82f85d1f0658c5d66a452bbdd9356783",
-    "apyPct1D": -1.202,
+    "apyPct1D": -1.025,
     "apyPct7D": null,
-    "apyPct30D": 1.442,
+    "apyPct30D": 1.287,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -3993,55 +4023,25 @@
       "0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664",
       "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e"
     ],
-    "rank": 119,
-    "timestamp": "2022-08-17 02:53:09"
-  },
-  {
-    "chain": "Avalanche",
-    "project": "aave-v2",
-    "symbol": "DAI.E",
-    "tvlUsd": 20139004.916,
-    "apyBase": null,
-    "apyReward": null,
-    "apy": 0.419,
-    "rewardTokens": [],
-    "pool": "0xd586e7f844cea2f87f50152665bcbc2c279d8d700xb6a86025f0fe1862b372cb0ca18ce3ede02a318f",
-    "apyPct1D": 0.011,
-    "apyPct7D": 0.046,
-    "apyPct30D": 0.089,
-    "stablecoin": true,
-    "ilRisk": "no",
-    "exposure": "single",
-    "predictions": {
-      "predictedClass": "Down",
-      "predictedProbability": 51,
-      "binnedConfidence": 1
-    },
-    "poolMeta": null,
-    "mu": 1.664,
-    "sigma": 0.085,
-    "count": 189,
-    "outlier": false,
-    "underlyingTokens": [],
     "rank": 120,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "USDN-3Crv",
-    "tvlUsd": 20119322.291,
+    "tvlUsd": 20131922.465,
     "apyBase": 0.155,
-    "apyReward": 16.175,
-    "apy": 16.331,
+    "apyReward": 16.285,
+    "apy": 16.44,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0x4f3E8F405CF5aFC05D68142F3783bDfE13811522",
-    "apyPct1D": -0.614,
-    "apyPct7D": 0.24,
-    "apyPct30D": 0.335,
+    "apyPct1D": -0.374,
+    "apyPct7D": 0.49,
+    "apyPct30D": 0.12,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -4051,7 +4051,7 @@
       "binnedConfidence": 1
     },
     "poolMeta": null,
-    "mu": 22.356,
+    "mu": 22.357,
     "sigma": 0.458,
     "count": 189,
     "outlier": false,
@@ -4060,33 +4060,33 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 121,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "PUSd-3Crv",
-    "tvlUsd": 19267978.913,
+    "tvlUsd": 19280047.103,
     "apyBase": 0.235,
-    "apyReward": 6.61,
-    "apy": 6.845,
+    "apyReward": 6.665,
+    "apy": 6.9,
     "rewardTokens": [
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0x8EE017541375F6Bcd802ba119bdDC94dad6911A1-ethereum",
-    "apyPct1D": -0.716,
-    "apyPct7D": -0.793,
+    "apyPct1D": -0.621,
+    "apyPct7D": -0.721,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 80,
+      "predictedProbability": 79,
       "binnedConfidence": 3
     },
     "poolMeta": null,
-    "mu": 12.107,
+    "mu": 12.109,
     "sigma": 0.408,
     "count": 29,
     "outlier": false,
@@ -4095,34 +4095,34 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 122,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "PUSd-3Crv",
-    "tvlUsd": 19263208.715,
+    "tvlUsd": 19275273.918,
     "apyBase": 0.182,
-    "apyReward": 14.872,
-    "apy": 15.054,
+    "apyReward": 14.973,
+    "apy": 15.155,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0x8EE017541375F6Bcd802ba119bdDC94dad6911A1",
-    "apyPct1D": -2.093,
-    "apyPct7D": -0.789,
+    "apyPct1D": -1.864,
+    "apyPct7D": -0.546,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 78,
+      "predictedProbability": 77,
       "binnedConfidence": 2
     },
     "poolMeta": null,
-    "mu": 18.099,
+    "mu": 18.105,
     "sigma": 0.136,
     "count": 20,
     "outlier": false,
@@ -4131,13 +4131,13 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 123,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "notional",
     "symbol": "fDAI",
-    "tvlUsd": 18955726.169,
+    "tvlUsd": 18954541.283,
     "apyBase": 2.619,
     "apyReward": null,
     "apy": 2.619,
@@ -4163,7 +4163,7 @@
       "0x6b175474e89094c44da98b954eedeac495271d0f"
     ],
     "rank": 124,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
@@ -4172,7 +4172,7 @@
     "tvlUsd": 18756397.323,
     "apyBase": null,
     "apyReward": null,
-    "apy": 0.312,
+    "apy": 0.311,
     "rewardTokens": [],
     "pool": "0x5f18C75AbDAe578b483E5F43f12a39cF75b973a9",
     "apyPct1D": 0,
@@ -4193,7 +4193,7 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 125,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
@@ -4227,13 +4227,13 @@
       "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     ],
     "rank": 126,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Fantom",
     "project": "curve",
     "symbol": "TOR-DAI-USDC",
-    "tvlUsd": 17724912.935,
+    "tvlUsd": 17743459.75,
     "apyBase": 0.155,
     "apyReward": 0,
     "apy": 0.155,
@@ -4260,13 +4260,13 @@
       "0x27e611fd27b276acbd5ffd632e5eaebec9761e40"
     ],
     "rank": 127,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "notional",
     "symbol": "fDAI",
-    "tvlUsd": 17554166.587,
+    "tvlUsd": 17553069.31,
     "apyBase": 3.518,
     "apyReward": null,
     "apy": 3.518,
@@ -4292,20 +4292,20 @@
       "0x6b175474e89094c44da98b954eedeac495271d0f"
     ],
     "rank": 128,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Optimism",
     "project": "lyra",
     "symbol": "sUSD",
-    "tvlUsd": 17282787.336,
-    "apyBase": 17.525,
+    "tvlUsd": 17283008.812,
+    "apyBase": 17.532,
     "apyReward": null,
-    "apy": 17.525,
+    "apy": 17.532,
     "rewardTokens": [],
     "pool": "0x5db73886c4730dbf3c562ebf8044e19e8c93843e",
-    "apyPct1D": -0.458,
-    "apyPct7D": -8.728,
+    "apyPct1D": -0.452,
+    "apyPct7D": -8.748,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "yes",
@@ -4324,7 +4324,7 @@
       "0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9"
     ],
     "rank": 129,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
@@ -4354,13 +4354,13 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 130,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "EURT-3Crv",
-    "tvlUsd": 16665847.894,
+    "tvlUsd": 16668618.436,
     "apyBase": 0.069,
     "apyReward": 0,
     "apy": 0.069,
@@ -4368,7 +4368,7 @@
     "pool": "0x9838eCcC42659FA8AA7daF2aD134b53984c9427b-ethereum",
     "apyPct1D": 0.053,
     "apyPct7D": -0.29,
-    "apyPct30D": -6.217,
+    "apyPct30D": -6.283,
     "stablecoin": true,
     "ilRisk": "yes",
     "exposure": "multi",
@@ -4387,24 +4387,24 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 131,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "EURT-3Crv",
-    "tvlUsd": 16507382.207,
+    "tvlUsd": 16512240.734,
     "apyBase": 0.069,
-    "apyReward": 5.438,
-    "apy": 5.507,
+    "apyReward": 5.476,
+    "apy": 5.545,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0x3b6831c0077a1e44ED0a21841C3bC4dC11bCE833",
-    "apyPct1D": -0.178,
-    "apyPct7D": -0.209,
-    "apyPct30D": -2.339,
+    "apyPct1D": -0.094,
+    "apyPct7D": -0.126,
+    "apyPct30D": -2.484,
     "stablecoin": true,
     "ilRisk": "yes",
     "exposure": "multi",
@@ -4423,7 +4423,7 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 132,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Binance",
@@ -4432,12 +4432,12 @@
     "tvlUsd": 16261604.521,
     "apyBase": null,
     "apyReward": null,
-    "apy": 4.179,
+    "apy": 4.205,
     "rewardTokens": [],
     "pool": "0x408A61e158D7BC0CD339BC76917b8Ea04739d473",
-    "apyPct1D": -0.111,
-    "apyPct7D": 0.089,
-    "apyPct30D": 0.35,
+    "apyPct1D": -0.04,
+    "apyPct7D": 0.14,
+    "apyPct30D": 0.4,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -4447,27 +4447,27 @@
       "binnedConfidence": 2
     },
     "poolMeta": null,
-    "mu": 5.599,
+    "mu": 5.6,
     "sigma": 0.197,
     "count": 91,
     "outlier": false,
     "underlyingTokens": [],
     "rank": 133,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Avalanche",
     "project": "aave-v2",
     "symbol": "USDT.E",
-    "tvlUsd": 15839303.891,
+    "tvlUsd": 15813824.282,
     "apyBase": null,
     "apyReward": null,
-    "apy": 0.699,
+    "apy": 0.701,
     "rewardTokens": [],
     "pool": "0xc7198437980c041c805a1edcba50c1ce5db951180xb6a86025f0fe1862b372cb0ca18ce3ede02a318f",
-    "apyPct1D": 0.005,
-    "apyPct7D": 0.035,
-    "apyPct30D": 0.145,
+    "apyPct1D": 0.007,
+    "apyPct7D": 0.037,
+    "apyPct30D": 0.143,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -4483,21 +4483,21 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 134,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Binance",
     "project": "alpaca-finance",
     "symbol": "USDC",
-    "tvlUsd": 15665637.31,
+    "tvlUsd": 15712129.024,
     "apyBase": null,
     "apyReward": null,
-    "apy": 4.947,
+    "apy": 4.918,
     "rewardTokens": [],
     "pool": "0x800933D685E7Dc753758cEb77C8bd34aBF1E26d7-lending",
-    "apyPct1D": 0.445,
-    "apyPct7D": 0.322,
-    "apyPct30D": 1.427,
+    "apyPct1D": 0.462,
+    "apyPct7D": 0.325,
+    "apyPct30D": 1.386,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -4513,21 +4513,21 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 135,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "idle-finance",
     "symbol": "DAI",
-    "tvlUsd": 15522669.781,
+    "tvlUsd": 15522714.886,
     "apyBase": null,
     "apyReward": null,
-    "apy": 1.305,
+    "apy": 1.304,
     "rewardTokens": [],
     "pool": "0x3fE7940616e5Bc47b0775a0dccf6237893353bB4",
-    "apyPct1D": -0.01,
-    "apyPct7D": 0.065,
-    "apyPct30D": 0.211,
+    "apyPct1D": -0.011,
+    "apyPct7D": 0.07,
+    "apyPct30D": 0.201,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -4543,24 +4543,24 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 136,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "aDAI-aUSDC-aUSDT",
-    "tvlUsd": 15400403.748,
+    "tvlUsd": 15340545.378,
     "apyBase": 0.864,
-    "apyReward": 0.111,
-    "apy": 0.975,
+    "apyReward": 0.112,
+    "apy": 0.976,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0xFd2a8fA60Abd58Efe3EeE34dd494cD491dC14900",
-    "apyPct1D": -0.073,
-    "apyPct7D": 0.082,
-    "apyPct30D": -0.638,
+    "apyPct1D": -0.072,
+    "apyPct7D": 0.085,
+    "apyPct30D": -0.64,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -4580,13 +4580,13 @@
       "0x3Ed3B47Dd13EC9a98b44e6204A523E766B225811"
     ],
     "rank": 137,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "notional",
     "symbol": "fUSDC",
-    "tvlUsd": 15051261.524,
+    "tvlUsd": 15051272.279,
     "apyBase": 2.684,
     "apyReward": null,
     "apy": 2.684,
@@ -4612,7 +4612,7 @@
       "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     ],
     "rank": 138,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
@@ -4625,8 +4625,8 @@
     "rewardTokens": [],
     "pool": "0xEB7547a8a734b6fdDBB8Ce0C314a9E6485100a3C-angle",
     "apyPct1D": null,
-    "apyPct7D": -0.217,
-    "apyPct30D": -0.029,
+    "apyPct7D": -0.212,
+    "apyPct30D": -0.076,
     "stablecoin": true,
     "ilRisk": "yes",
     "exposure": "multi",
@@ -4642,21 +4642,21 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 139,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Fantom",
     "project": "geist-finance",
     "symbol": "gUSDC",
-    "tvlUsd": 14653222.633,
+    "tvlUsd": 14653477.186,
     "apyBase": null,
     "apyReward": null,
-    "apy": 1.039,
+    "apy": 1.044,
     "rewardTokens": [],
     "pool": "0xe578C856933D8e1082740bf7661e379Aa2A30b26",
-    "apyPct1D": -0.022,
-    "apyPct7D": 0.097,
-    "apyPct30D": 0.059,
+    "apyPct1D": -0.015,
+    "apyPct7D": 0.103,
+    "apyPct30D": 0.057,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -4672,13 +4672,13 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 140,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Fantom",
     "project": "curve",
     "symbol": "DAI-USDC",
-    "tvlUsd": 14557805.398,
+    "tvlUsd": 14566976.868,
     "apyBase": 0.141,
     "apyReward": 0,
     "apy": 0.141,
@@ -4705,7 +4705,7 @@
       "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75"
     ],
     "rank": 141,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Polygon",
@@ -4735,33 +4735,33 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 142,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "alUSD-crvFRAX",
-    "tvlUsd": 14334577.65,
+    "tvlUsd": 14346133.917,
     "apyBase": 0.066,
-    "apyReward": 3.832,
-    "apy": 3.898,
+    "apyReward": 3.864,
+    "apy": 3.93,
     "rewardTokens": [
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0xB30dA2376F63De30b42dC055C93fa474F31330A5-ethereum",
-    "apyPct1D": -0.083,
-    "apyPct7D": -5.21,
+    "apyPct1D": -0.028,
+    "apyPct7D": -5.159,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 68,
+      "predictedProbability": 66,
       "binnedConfidence": 2
     },
     "poolMeta": null,
-    "mu": 6.409,
+    "mu": 6.41,
     "sigma": 0.347,
     "count": 29,
     "outlier": false,
@@ -4770,34 +4770,34 @@
       "0x3175Df0976dFA876431C2E9eE6Bc45b65d3473CC"
     ],
     "rank": 143,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "alUSD-crvFRAX",
-    "tvlUsd": 14317444.771,
+    "tvlUsd": 14328987.226,
     "apyBase": 0.127,
-    "apyReward": 7.989,
-    "apy": 8.116,
+    "apyReward": 8.042,
+    "apy": 8.168,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0xB30dA2376F63De30b42dC055C93fa474F31330A5",
-    "apyPct1D": -0.204,
-    "apyPct7D": -1.557,
+    "apyPct1D": -0.089,
+    "apyPct7D": -1.405,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 72,
+      "predictedProbability": 73,
       "binnedConfidence": 2
     },
     "poolMeta": null,
-    "mu": 8.955,
+    "mu": 8.957,
     "sigma": 0.078,
     "count": 20,
     "outlier": false,
@@ -4806,43 +4806,13 @@
       "0x3175Df0976dFA876431C2E9eE6Bc45b65d3473CC"
     ],
     "rank": 144,
-    "timestamp": "2022-08-17 02:53:09"
-  },
-  {
-    "chain": "Ethereum",
-    "project": "angle",
-    "symbol": "USDC",
-    "tvlUsd": 13935031.472,
-    "apyBase": null,
-    "apyReward": null,
-    "apy": 3.95,
-    "rewardTokens": [],
-    "pool": "0x51fE22abAF4a26631b2913E417c0560D547797a7-angle",
-    "apyPct1D": 0.118,
-    "apyPct7D": 1.489,
-    "apyPct30D": 1.403,
-    "stablecoin": true,
-    "ilRisk": "no",
-    "exposure": "single",
-    "predictions": {
-      "predictedClass": "Stable/Up",
-      "predictedProbability": 56.00000000000001,
-      "binnedConfidence": 1
-    },
-    "poolMeta": null,
-    "mu": 3.906,
-    "sigma": 0.112,
-    "count": 84,
-    "outlier": false,
-    "underlyingTokens": [],
-    "rank": 145,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "aave-v2",
     "symbol": "XSUSHI",
-    "tvlUsd": 13932685.827,
+    "tvlUsd": 14003148.969,
     "apyBase": null,
     "apyReward": null,
     "apy": 0,
@@ -4865,28 +4835,58 @@
     "count": 189,
     "outlier": false,
     "underlyingTokens": [],
+    "rank": 145,
+    "timestamp": "2022-08-17 03:44:52"
+  },
+  {
+    "chain": "Ethereum",
+    "project": "angle",
+    "symbol": "USDC",
+    "tvlUsd": 13935031.472,
+    "apyBase": null,
+    "apyReward": null,
+    "apy": 3.95,
+    "rewardTokens": [],
+    "pool": "0x51fE22abAF4a26631b2913E417c0560D547797a7-angle",
+    "apyPct1D": 0.118,
+    "apyPct7D": 1.489,
+    "apyPct30D": 1.401,
+    "stablecoin": true,
+    "ilRisk": "no",
+    "exposure": "single",
+    "predictions": {
+      "predictedClass": "Stable/Up",
+      "predictedProbability": 56.00000000000001,
+      "binnedConfidence": 1
+    },
+    "poolMeta": null,
+    "mu": 3.906,
+    "sigma": 0.112,
+    "count": 84,
+    "outlier": false,
+    "underlyingTokens": [],
     "rank": 146,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "uniswap",
     "symbol": "agEUR-USDC",
-    "tvlUsd": 13893644.566,
-    "apyBase": 0.244,
+    "tvlUsd": 13906897.765,
+    "apyBase": 0.245,
     "apyReward": null,
-    "apy": 0.244,
+    "apy": 0.245,
     "rewardTokens": [],
     "pool": "0x735a26a57a0a0069dfabd41595a970faf5e1ee8b",
-    "apyPct1D": -0.073,
-    "apyPct7D": -0.157,
-    "apyPct30D": -0.165,
+    "apyPct1D": -0.068,
+    "apyPct7D": -0.158,
+    "apyPct30D": -0.164,
     "stablecoin": true,
     "ilRisk": "yes",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 93,
+      "predictedProbability": 92,
       "binnedConfidence": 3
     },
     "poolMeta": "0.01%",
@@ -4899,19 +4899,19 @@
       "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     ],
     "rank": 147,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "angle",
     "symbol": "agEUR-USDCLP",
-    "tvlUsd": 13860932.643,
+    "tvlUsd": 13873020.496,
     "apyBase": null,
     "apyReward": null,
-    "apy": 4.706,
+    "apy": 4.709,
     "rewardTokens": [],
     "pool": "0x735a26a57a0a0069dfabd41595a970faf5e1ee8b-angle",
-    "apyPct1D": -0.357,
+    "apyPct1D": -0.356,
     "apyPct7D": null,
     "apyPct30D": null,
     "stablecoin": true,
@@ -4929,22 +4929,22 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 148,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Binance",
     "project": "biswap",
     "symbol": "USDT-USDC",
-    "tvlUsd": 13666556.588,
+    "tvlUsd": 13682315.188,
     "apyBase": 0.267,
-    "apyReward": 4.234,
-    "apy": 4.501,
+    "apyReward": 4.226,
+    "apy": 4.493,
     "rewardTokens": [
       "0x965f527d9159dce6288a2219db51fc6eef120dd1"
     ],
     "pool": "0x1483767E665B3591677Fd49F724bf7430C18Bf83",
-    "apyPct1D": -0.028,
-    "apyPct7D": 0.769,
+    "apyPct1D": -0.001,
+    "apyPct7D": 0.798,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
@@ -4955,7 +4955,7 @@
       "binnedConfidence": 1
     },
     "poolMeta": null,
-    "mu": 4.033,
+    "mu": 4.032,
     "sigma": 0.014,
     "count": 16,
     "outlier": false,
@@ -4964,13 +4964,13 @@
       "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
     ],
     "rank": 149,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Fantom",
     "project": "curve",
     "symbol": "gDAI-gUSDC-gfUSDT",
-    "tvlUsd": 13444552.493,
+    "tvlUsd": 13444574.821,
     "apyBase": 2.017,
     "apyReward": 0,
     "apy": 2.017,
@@ -4998,21 +4998,21 @@
       "0x940F41F0ec9ba1A34CF001cc03347ac092F5F6B5"
     ],
     "rank": 150,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Polygon",
     "project": "quickswap",
     "symbol": "USDC-USDT",
-    "tvlUsd": 13257465.871,
+    "tvlUsd": 13245829.299,
     "apyBase": null,
     "apyReward": null,
     "apy": 2.946,
     "rewardTokens": [],
     "pool": "0x2cf7252e74036d1da831d11089d326296e64a728",
-    "apyPct1D": -4.613,
-    "apyPct7D": 0.938,
-    "apyPct30D": -0.491,
+    "apyPct1D": -4.576,
+    "apyPct7D": 0.928,
+    "apyPct30D": -0.513,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
@@ -5028,23 +5028,23 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 151,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "USDD-3Crv",
-    "tvlUsd": 13100279.262,
+    "tvlUsd": 13108484.165,
     "apyBase": 0.677,
-    "apyReward": 10.006,
-    "apy": 10.683,
+    "apyReward": 10.074,
+    "apy": 10.751,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0xe6b5CC1B4b47305c58392CE3D359B10282FC36Ea",
-    "apyPct1D": 0.816,
-    "apyPct7D": -2.017,
+    "apyPct1D": 0.85,
+    "apyPct7D": -1.906,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
@@ -5055,7 +5055,7 @@
       "binnedConfidence": 3
     },
     "poolMeta": null,
-    "mu": 12.83,
+    "mu": 12.833,
     "sigma": 0.152,
     "count": 20,
     "outlier": false,
@@ -5064,13 +5064,13 @@
       "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490"
     ],
     "rank": 152,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "arrakis-finance",
     "symbol": "agEUR-USDC",
-    "tvlUsd": 12997888.143,
+    "tvlUsd": 13010307.998,
     "apyBase": null,
     "apyReward": null,
     "apy": 0.612,
@@ -5094,21 +5094,21 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 153,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Binance",
     "project": "alpaca-finance",
     "symbol": "ibUSDC",
-    "tvlUsd": 12633122.523,
+    "tvlUsd": 12680283.921,
     "apyBase": null,
     "apyReward": null,
-    "apy": 0.696,
+    "apy": 0.694,
     "rewardTokens": [],
     "pool": "0x800933D685E7Dc753758cEb77C8bd34aBF1E26d7-staking",
-    "apyPct1D": 0.036,
+    "apyPct1D": 0.035,
     "apyPct7D": -0.021,
-    "apyPct30D": 0.167,
+    "apyPct30D": 0.159,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -5124,33 +5124,33 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 154,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Optimism",
     "project": "velodrome",
     "symbol": "USDC-DAI",
-    "tvlUsd": 11820153.987,
+    "tvlUsd": 11853629.465,
     "apyBase": null,
-    "apyReward": 8.091,
-    "apy": 8.091,
+    "apyReward": 7.899,
+    "apy": 7.899,
     "rewardTokens": [
       "0x3c8B650257cFb5f272f799F5e2b4e65093a11a05"
     ],
     "pool": "0x4f7ebc19844259386dbddb7b2eb759eefc6f8353",
-    "apyPct1D": -0.104,
-    "apyPct7D": 2.824,
+    "apyPct1D": -0.373,
+    "apyPct7D": 2.543,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
-      "predictedClass": "Down",
+      "predictedClass": "Stable/Up",
       "predictedProbability": 52,
       "binnedConfidence": 1
     },
     "poolMeta": null,
-    "mu": 7.062,
+    "mu": 7.054,
     "sigma": 0.055,
     "count": 22,
     "outlier": false,
@@ -5159,31 +5159,31 @@
       "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
     ],
     "rank": 155,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "uniswap",
     "symbol": "USDC-USDT",
-    "tvlUsd": 11547425.952,
-    "apyBase": 2.047,
+    "tvlUsd": 11558968.804,
+    "apyBase": 1.903,
     "apyReward": null,
-    "apy": 2.047,
+    "apy": 1.903,
     "rewardTokens": [],
     "pool": "0x3041cbd36888becc7bbcbc0045e3b1f144466f5f",
-    "apyPct1D": -0.738,
-    "apyPct7D": -0.937,
-    "apyPct30D": -1.166,
+    "apyPct1D": -0.836,
+    "apyPct7D": -1.3,
+    "apyPct30D": -1.44,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 71,
+      "predictedProbability": 77,
       "binnedConfidence": 2
     },
     "poolMeta": null,
-    "mu": 4.067,
+    "mu": 4.066,
     "sigma": 0.291,
     "count": 144,
     "outlier": false,
@@ -5192,13 +5192,13 @@
       "0xdac17f958d2ee523a2206206994597c13d831ec7"
     ],
     "rank": 156,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Avalanche",
     "project": "yeti-finance",
     "symbol": "qiUSDCn",
-    "tvlUsd": 11413931.42,
+    "tvlUsd": 11413953.413,
     "apyBase": null,
     "apyReward": null,
     "apy": 2.806,
@@ -5224,27 +5224,27 @@
       "0xB715808a78F6041E46d61Cb123C9B4A27056AE9C"
     ],
     "rank": 157,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "idle-finance",
     "symbol": "USDC",
-    "tvlUsd": 11411437.581,
+    "tvlUsd": 11411462.292,
     "apyBase": null,
     "apyReward": null,
-    "apy": 1.158,
+    "apy": 1.147,
     "rewardTokens": [],
     "pool": "0x5274891bEC421B39D23760c04A6755eCB444797C",
-    "apyPct1D": 0.019,
-    "apyPct7D": 0.025,
-    "apyPct30D": 0.125,
+    "apyPct1D": 0.005,
+    "apyPct7D": 0.022,
+    "apyPct30D": 0.103,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 89,
+      "predictedProbability": 90,
       "binnedConfidence": 3
     },
     "poolMeta": "Best Yield",
@@ -5254,13 +5254,13 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 158,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "aave-v2",
     "symbol": "FEI",
-    "tvlUsd": 11306168.808,
+    "tvlUsd": 11363348.607,
     "apyBase": null,
     "apyReward": null,
     "apy": 0.165,
@@ -5274,7 +5274,7 @@
     "exposure": "single",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 60,
+      "predictedProbability": 59,
       "binnedConfidence": 1
     },
     "poolMeta": null,
@@ -5284,7 +5284,7 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 159,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
@@ -5308,19 +5308,19 @@
       "binnedConfidence": 1
     },
     "poolMeta": null,
-    "mu": 0.084,
+    "mu": 0.083,
     "sigma": 0.004,
     "count": 21,
     "outlier": false,
     "underlyingTokens": [],
     "rank": 160,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Arbitrum",
     "project": "aave-v3",
     "symbol": "USDC",
-    "tvlUsd": 11272897.159,
+    "tvlUsd": 11284151.28,
     "apyBase": 0.397,
     "apyReward": 0,
     "apy": 0.397,
@@ -5346,33 +5346,33 @@
       "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
     ],
     "rank": 161,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Optimism",
     "project": "velodrome",
     "symbol": "USDC-sUSD",
-    "tvlUsd": 11215363.584,
+    "tvlUsd": 11270557.799,
     "apyBase": null,
-    "apyReward": 7.709,
-    "apy": 7.709,
+    "apyReward": 7.511,
+    "apy": 7.511,
     "rewardTokens": [
       "0x3c8B650257cFb5f272f799F5e2b4e65093a11a05"
     ],
     "pool": "0xd16232ad60188b68076a235c65d692090caba155",
-    "apyPct1D": 1.295,
-    "apyPct7D": 0.635,
+    "apyPct1D": 1.057,
+    "apyPct7D": 0.436,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Down",
-      "predictedProbability": 56.99999999999999,
+      "predictedProbability": 52,
       "binnedConfidence": 1
     },
     "poolMeta": null,
-    "mu": 9.228,
+    "mu": 9.219,
     "sigma": 0.205,
     "count": 22,
     "outlier": false,
@@ -5381,7 +5381,7 @@
       "0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9"
     ],
     "rank": 162,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Polygon",
@@ -5390,48 +5390,48 @@
     "tvlUsd": 11050028.98,
     "apyBase": null,
     "apyReward": null,
-    "apy": 7.311,
+    "apy": 7.542,
     "rewardTokens": [],
     "pool": "mai-usdc-mimatic-137",
-    "apyPct1D": -2.002,
-    "apyPct7D": -1.37,
-    "apyPct30D": -5.601,
+    "apyPct1D": -1.77,
+    "apyPct7D": -2.389,
+    "apyPct30D": -5.369,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 78,
+      "predictedProbability": 77,
       "binnedConfidence": 2
     },
     "poolMeta": null,
-    "mu": 12.381,
+    "mu": 12.382,
     "sigma": 0.306,
     "count": 173,
     "outlier": false,
     "underlyingTokens": [],
     "rank": 163,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "uniswap",
     "symbol": "USDD-USDC",
-    "tvlUsd": 10928214.4,
-    "apyBase": 0.306,
+    "tvlUsd": 10945505.812,
+    "apyBase": 0.307,
     "apyReward": null,
-    "apy": 0.306,
+    "apy": 0.307,
     "rewardTokens": [],
     "pool": "0x1c5c60bef00c820274d4938a5e6d04b124d4910b",
-    "apyPct1D": 0.251,
-    "apyPct7D": 0.137,
+    "apyPct1D": 0.253,
+    "apyPct7D": -2.602,
     "apyPct30D": 0.291,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Down",
-      "predictedProbability": 61,
+      "predictedProbability": 60,
       "binnedConfidence": 1
     },
     "poolMeta": "0.01%",
@@ -5444,22 +5444,22 @@
       "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     ],
     "rank": 164,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "TUSD-crvFRAX",
-    "tvlUsd": 10138647.304,
+    "tvlUsd": 10145934.21,
     "apyBase": 0.08,
-    "apyReward": 3.342,
-    "apy": 3.422,
+    "apyReward": 3.369,
+    "apy": 3.449,
     "rewardTokens": [
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0x33baeDa08b8afACc4d3d07cf31d49FC1F1f3E893-ethereum",
-    "apyPct1D": -0.608,
-    "apyPct7D": -1.533,
+    "apyPct1D": -0.557,
+    "apyPct7D": -1.496,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
@@ -5470,7 +5470,7 @@
       "binnedConfidence": 3
     },
     "poolMeta": null,
-    "mu": 7.531,
+    "mu": 7.532,
     "sigma": 0.336,
     "count": 21,
     "outlier": false,
@@ -5479,34 +5479,34 @@
       "0x3175Df0976dFA876431C2E9eE6Bc45b65d3473CC"
     ],
     "rank": 165,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "convex-finance",
     "symbol": "TUSD-crvFRAX",
-    "tvlUsd": 10133822.077,
+    "tvlUsd": 10141105.516,
     "apyBase": 0.295,
-    "apyReward": 6.898,
-    "apy": 7.193,
+    "apyReward": 6.944,
+    "apy": 7.239,
     "rewardTokens": [
       "0xd533a949740bb3306d119cc777fa900ba034cd52",
       "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
     ],
     "pool": "0x33baeDa08b8afACc4d3d07cf31d49FC1F1f3E893",
-    "apyPct1D": -1.083,
-    "apyPct7D": -0.54,
+    "apyPct1D": -0.976,
+    "apyPct7D": -0.426,
     "apyPct30D": null,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Down",
-      "predictedProbability": 53,
+      "predictedProbability": 55.00000000000001,
       "binnedConfidence": 1
     },
     "poolMeta": null,
-    "mu": 7.41,
+    "mu": 7.413,
     "sigma": 0.074,
     "count": 20,
     "outlier": false,
@@ -5515,27 +5515,27 @@
       "0x3175Df0976dFA876431C2E9eE6Bc45b65d3473CC"
     ],
     "rank": 166,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "uniswap",
     "symbol": "TUSD-USDC",
-    "tvlUsd": 10092860.104,
-    "apyBase": 0.316,
+    "tvlUsd": 10102942.881,
+    "apyBase": 0.298,
     "apyReward": null,
-    "apy": 0.316,
+    "apy": 0.298,
     "rewardTokens": [],
     "pool": "0x39529e96c28807655b5856b3d342c6225111770e",
-    "apyPct1D": -0.134,
-    "apyPct7D": -0.236,
-    "apyPct30D": 0.19,
+    "apyPct1D": -0.136,
+    "apyPct7D": -0.334,
+    "apyPct30D": 0.17,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Down",
-      "predictedProbability": 67,
+      "predictedProbability": 65,
       "binnedConfidence": 2
     },
     "poolMeta": "0.01%",
@@ -5548,13 +5548,13 @@
       "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     ],
     "rank": 167,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Polygon",
     "project": "curve",
     "symbol": "TUSD-am3CRV",
-    "tvlUsd": 10057173.031,
+    "tvlUsd": 10067220.767,
     "apyBase": 0.784,
     "apyReward": 0,
     "apy": 0.784,
@@ -5581,23 +5581,23 @@
       "0xE7a24EF0C5e95Ffb0f6684b813A78F2a3AD7D171"
     ],
     "rank": 168,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Waves",
     "project": "vires-finance",
     "symbol": "USDN",
-    "tvlUsd": 9628957.873,
-    "apyBase": 10.753,
-    "apyReward": 0.224,
-    "apy": 10.977,
+    "tvlUsd": 9628404.476,
+    "apyBase": 10.754,
+    "apyReward": 0.234,
+    "apy": 10.988,
     "rewardTokens": [
       "DSbbhLsSTeDg5Lsiufk2Aneh3DjVqJuPr2M9uU1gwy5p"
     ],
     "pool": "3PCwFXSq8vj8iKitA5zrrLRbuqehfmimpce",
-    "apyPct1D": 0.434,
-    "apyPct7D": 0.913,
-    "apyPct30D": -28.452,
+    "apyPct1D": 0.447,
+    "apyPct7D": 0.926,
+    "apyPct30D": -28.439,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -5613,29 +5613,29 @@
     "outlier": true,
     "underlyingTokens": [],
     "rank": 169,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "curve",
     "symbol": "yDAI-yUSDC-yUSDT-yTUSD",
-    "tvlUsd": 9469486.171,
+    "tvlUsd": 9474041.311,
     "apyBase": 0.184,
-    "apyReward": 0.239,
-    "apy": 0.423,
+    "apyReward": 0.24,
+    "apy": 0.425,
     "rewardTokens": [
       "0xD533a949740bb3306d119CC777fa900bA034cd52"
     ],
     "pool": "0x45F783CCE6B7FF23B2ab2D70e416cdb7D6055f51-ethereum",
-    "apyPct1D": -0.011,
-    "apyPct7D": -0.192,
-    "apyPct30D": -0.284,
+    "apyPct1D": -0.007,
+    "apyPct7D": -0.189,
+    "apyPct30D": -0.287,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 90,
+      "predictedProbability": 91,
       "binnedConfidence": 3
     },
     "poolMeta": null,
@@ -5650,23 +5650,23 @@
       "0x73a052500105205d34Daf004eAb301916DA8190f"
     ],
     "rank": 170,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Binance",
     "project": "venus",
     "symbol": "TUSD",
-    "tvlUsd": 9440115.271,
+    "tvlUsd": 9439252.223,
     "apyBase": 0.61,
-    "apyReward": 0.353,
-    "apy": 0.963,
+    "apyReward": 0.352,
+    "apy": 0.962,
     "rewardTokens": [
       "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63"
     ],
     "pool": "0x08ceb3f4a7ed3500ca0982bcd0fc7816688084c3",
-    "apyPct1D": 0.002,
-    "apyPct7D": 0.016,
-    "apyPct30D": 0.142,
+    "apyPct1D": 0.004,
+    "apyPct7D": 0.02,
+    "apyPct30D": 0.141,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
@@ -5682,27 +5682,27 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 171,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
     "chain": "Ethereum",
     "project": "angle",
     "symbol": "FRAX",
-    "tvlUsd": 9271606.718,
+    "tvlUsd": 9282261.382,
     "apyBase": null,
     "apyReward": null,
-    "apy": 9.978,
+    "apy": 9.973,
     "rewardTokens": [],
     "pool": "0xb40432243E4F317cE287398e72Ab8f0312fc2FE8-angle",
-    "apyPct1D": -0.017,
-    "apyPct7D": -1.327,
-    "apyPct30D": 1.072,
+    "apyPct1D": -0.033,
+    "apyPct7D": -1.338,
+    "apyPct30D": 1.066,
     "stablecoin": true,
     "ilRisk": "no",
     "exposure": "single",
     "predictions": {
       "predictedClass": "Down",
-      "predictedProbability": 76,
+      "predictedProbability": 75,
       "binnedConfidence": 2
     },
     "poolMeta": null,
@@ -5712,36 +5712,40 @@
     "outlier": false,
     "underlyingTokens": [],
     "rank": 172,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   },
   {
-    "chain": "Ethereum",
-    "project": "angle",
-    "symbol": "EuleragEUR",
-    "tvlUsd": 9247291.063,
-    "apyBase": null,
-    "apyReward": null,
-    "apy": 1.054,
+    "chain": "Avalanche",
+    "project": "curve",
+    "symbol": "av3CRV-avWBTC-avWETH",
+    "tvlUsd": 9269174.875,
+    "apyBase": 1.258,
+    "apyReward": 0,
+    "apy": 1.258,
     "rewardTokens": [],
-    "pool": "0x27182842E098f60e3D576794A5bFFb0777E025d3-angle",
-    "apyPct1D": 0,
-    "apyPct7D": -0.646,
-    "apyPct30D": 0.695,
+    "pool": "0xB755B949C126C04e0348DD881a5cF55d424742B2-avalanche",
+    "apyPct1D": -0.42,
+    "apyPct7D": 0.209,
+    "apyPct30D": 0.03,
     "stablecoin": true,
     "ilRisk": "no",
-    "exposure": "single",
+    "exposure": "multi",
     "predictions": {
       "predictedClass": "Stable/Up",
-      "predictedProbability": 62,
-      "binnedConfidence": 1
+      "predictedProbability": 74,
+      "binnedConfidence": 2
     },
     "poolMeta": null,
-    "mu": 1.338,
-    "sigma": 0.045,
-    "count": 71,
+    "mu": 1.427,
+    "sigma": 0.023,
+    "count": 145,
     "outlier": false,
-    "underlyingTokens": [],
+    "underlyingTokens": [
+      "0x1337BedC9D22ecbe766dF105c9623922A27963EC",
+      "0x686bEF2417b6Dc32C50a3cBfbCC3bb60E1e9a15D",
+      "0x53f7c5869a859F0AeC3D334ee8B4Cf01E3492f21"
+    ],
     "rank": 173,
-    "timestamp": "2022-08-17 02:53:09"
+    "timestamp": "2022-08-17 03:44:52"
   }
 ]
