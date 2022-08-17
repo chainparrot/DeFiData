@@ -2,29 +2,16 @@
   {
     "id": "118",
     "name": "MakerDAO",
-    "address": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
     "symbol": "MKR",
-    "url": "https://makerdao.com/",
-    "description": "Builders of Dai, a digital currency that can be used by anyone, anywhere.\r\n",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/makerdao.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "maker",
-    "cmcId": "1518",
     "category": "CDP",
     "chains": [
       "Ethereum"
     ],
-    "module": "maker/index.js",
-    "twitter": "MakerDAO",
-    "audit_links": [
-      "https://security.makerdao.com/"
-    ],
     "oracles": [
       "Maker"
     ],
-    "slug": "makerdao",
     "tvl": 8866640973.480465,
     "chainTvls": {
       "Ethereum": 8866640973.480465
@@ -32,37 +19,23 @@
     "change_1h": 0.08,
     "change_1d": 0.17,
     "change_7d": 2.79,
-    "fdv": 1094270844,
     "mcap": 980808323,
     "rank": 1
   },
   {
     "id": "691",
     "name": "JustStables",
-    "address": "tron:TMwFHYXLJaRUPeW6421aqXL4ZEzPRFGkGT",
     "symbol": "USDJ",
-    "url": "https://juststable.tronscan.org/#/login",
-    "description": "JustStable is a decentralized finance system of USDJ stablecoin for everyone, anywhere, anytime.",
     "chain": "Tron",
-    "logo": "https://icons.llama.fi/juststables.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "just-stablecoin",
-    "cmcId": "5446",
     "category": "CDP",
     "chains": [
       "Tron"
-    ],
-    "module": "juststable/index.js",
-    "twitter": "DeFi_JUST",
-    "audit_links": [
-      "https://just.tronscan.org/docs/audit-report-just_cn.pdf"
     ],
     "listedAt": 1634757569,
     "oracles": [
       "WINkLink"
     ],
-    "slug": "juststables",
     "tvl": 1214990467.9583879,
     "chainTvls": {
       "Tron": 1214990467.9583879
@@ -76,30 +49,16 @@
   {
     "id": "270",
     "name": "Liquity",
-    "address": "0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D",
     "symbol": "LQTY",
-    "url": "https://www.liquity.org/",
-    "description": "Liquity is a decentralized borrowing protocol that allows you to draw 0% interest loans against Ether used as collateral.",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/liquity.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "liquity",
-    "cmcId": "7429",
     "category": "CDP",
     "chains": [
       "Ethereum"
     ],
-    "module": "liquity/index.js",
-    "twitter": "LiquityProtocol",
-    "audit_links": [
-      "https://github.com/trailofbits/publications/blob/master/reviews/Liquity.pdf",
-      "https://www.coinspect.com/liquity-audit/"
-    ],
     "oracles": [
       "Chainlink"
     ],
-    "slug": "liquity",
     "tvl": 628125561.4990965,
     "chainTvls": {
       "Ethereum": 628125561.4990965
@@ -107,23 +66,15 @@
     "change_1h": 0.26,
     "change_1d": 2.05,
     "change_7d": 12.18,
-    "fdv": 103040950,
     "mcap": 82792507,
     "rank": 3
   },
   {
     "id": "347",
     "name": "Abracadabra",
-    "address": "0x090185f2135308bad17527004364ebcc2d37e5f6",
     "symbol": "SPELL",
-    "url": "https://abracadabra.money/",
-    "description": "Abracadabra.money is a spell book that allows users to produce magic internet money ($MIM) which is a stable coin that you can swap for any other traditional stable coin.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/abracadabra.svg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "spell-token",
-    "cmcId": "11289",
     "category": "CDP",
     "chains": [
       "Ethereum",
@@ -131,15 +82,9 @@
       "Avalanche",
       "Fantom"
     ],
-    "module": "abracadabra/api.js",
-    "twitter": "MIM_Spell",
     "oracles": [
       "Chainlink"
     ],
-    "audit_links": [
-      "https://www.certora.com/pubs/SushiBentoboxFeb2021.pdf"
-    ],
-    "slug": "abracadabra",
     "tvl": 465048997.5669871,
     "chainTvls": {
       "Ethereum": 456528989.0354387,
@@ -150,36 +95,22 @@
     "change_1h": 0.0,
     "change_1d": -0.41,
     "change_7d": 3.78,
-    "fdv": 319294719,
     "mcap": 147712128,
     "rank": 4
   },
   {
     "id": "135",
     "name": "Kava Mint",
-    "address": null,
     "symbol": "-",
-    "url": "https://www.kava.io/",
-    "description": "Kava.io is the first cross-chain DeFi hub providing applications and services to the worlds largest cryptocurrencies.",
     "chain": "Kava",
-    "logo": "https://icons.llama.fi/kava-mint.png",
     "audits": null,
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "CDP",
     "chains": [
       "Kava"
     ],
-    "module": "kava.js",
-    "twitter": "kava_platform",
-    "audit_links": [
-      "https://www.certik.org/projects/kava"
-    ],
     "oracles": [
       "Chainlink"
     ],
-    "slug": "kava-mint",
     "tvl": 158623506.08225983,
     "chainTvls": {
       "Kava": 158623506.08225983
@@ -192,16 +123,9 @@
   {
     "id": "1662",
     "name": "Yeti Finance",
-    "address": "avax:0x77777777777d4554c39223C354A05825b2E8Faa3",
     "symbol": "YETI",
-    "url": "https://yeti.finance",
-    "description": "Yeti Finance is a cutting edge decentralized borrowing protocol built on Avalanche that allows users to borrow up to 11x against base assets like WETH, staked assets like Liquid AVAX, LP tokens - and 21x on yield-bearing stablecoins, all at a 0% interest rate. Users retain all farming and staking rewards when these assets are deposited onto Yeti Finance\u2019s platform, opening up numerous leveraged farming strategies. Yeti Finance also offers cross-margining, something the majority of borrowing protocols don't have. In simple terms, users on Yeti Finance can open up a borrowing position on their entire portfolio instead of just a single asset. Cross-margining makes borrowing against volatile assets much safer as multiple assets can serve as collateral for your loan instead of just one, greatly reducing the risk of liquidations due to asset volatility and flash crashes. Unlock deep liquidity, borrow at the lowest collateral ratios, and borrow against your entire portfolio to gain better protection against liquidations. Yeti Finance is a quantum leap forward in the borrowing landscape and will unlock tens of billions of dollars in new liquidity on Avalanche.",
     "chain": "Avalanche",
-    "logo": "https://icons.llama.fi/yeti-finance.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "yeti-finance",
-    "cmcId": "19576",
     "category": "CDP",
     "chains": [
       "Avalanche"
@@ -212,17 +136,7 @@
     "forkedFrom": [
       "Liquity"
     ],
-    "module": "yetiFinance/index.js",
-    "twitter": "YetiFinance",
-    "audit_links": [
-      "https://docs.google.com/document/d/1i3PWxOCt_EaFU51aI1YOgWkmPp0EbsV3d3G_ZtvS4Ko/view",
-      "https://docs.google.com/document/d/1DxfCo6KqfKOJfmlQmAlb2UySyFaMDwBNKkDo_nZPIsw/view",
-      "https://drive.google.com/file/d/1fpU4V-9iQKUTXRd8ZvmSThdib44bA4xi/view",
-      "https://docs.google.com/document/d/1qYVwps1KgUxdmOoKFdgTDmhhMk4fY9tf0ukYxOAf_CQ/view",
-      "https://code4rena.com/reports/2021-12-yetifinance/"
-    ],
     "listedAt": 1650358633,
-    "slug": "yeti-finance",
     "tvl": 83097693.72821559,
     "chainTvls": {
       "Avalanche": 83097693.72821559,
@@ -236,23 +150,15 @@
     "change_7d": 0.39,
     "staking": 706365.0653718609,
     "pool2": 762481.914699135,
-    "fdv": 15481961,
     "mcap": 1623240,
     "rank": 6
   },
   {
     "id": "449",
     "name": "QiDao",
-    "address": "polygon:0x580a84c73811e1839f75d86d75d88cca0c241ff4",
     "symbol": "QI",
-    "url": "https://app.mai.finance",
-    "description": "QiDao is a way for you to keep your crypto and still be able to spend its value. That means you're able to borrow stablecoins without having to sell your crypto assets, and do so at 0% interest!",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/qidao.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "qi-dao",
-    "cmcId": "10237",
     "category": "CDP",
     "chains": [
       "Polygon",
@@ -266,12 +172,6 @@
       "Harmony",
       "Moonriver"
     ],
-    "module": "qidao/index.js",
-    "twitter": "QiDaoProtocol",
-    "audit_links": [
-      "https://docs.mai.finance/risks/security#has-the-project-been-audited"
-    ],
-    "slug": "qidao",
     "tvl": 82832303.36007535,
     "chainTvls": {
       "Optimism": 6928877.414745454,
@@ -288,23 +188,15 @@
     "change_1h": 0.23,
     "change_1d": 0.46,
     "change_7d": 3.15,
-    "fdv": 47614676,
     "mcap": 19969648,
     "rank": 7
   },
   {
     "id": "756",
     "name": "Angle",
-    "address": "0x31429d1856aD1377A8A0079410B297e1a9e214c2",
     "symbol": "ANGLE",
-    "url": "https://app.angle.money",
-    "description": "Angle is an over-collateralized, decentralized and capital-efficient stablecoin protocol. It is based on two smart contract modules. Angle Core module allows to mint agEUR from any token at face value, open perpetuals on collateral/stablecoin pairs, or deposit tokens to earn yield. Angle Borrowing module allows to borrow or get leverage with agEUR from tokens deposited as collateral. Angle is governed by veANGLE holders.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/angle.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "angle-protocol",
-    "cmcId": "12761",
     "category": "CDP",
     "chains": [
       "Ethereum",
@@ -312,17 +204,11 @@
       "Polygon",
       "Arbitrum"
     ],
-    "module": "angle/index.js",
-    "twitter": "AngleProtocol",
-    "audit_links": [
-      "https://github.com/AngleProtocol/angle-core/tree/main/audits"
-    ],
     "oracles": [
       "Chainlink",
       "TWAP"
     ],
     "listedAt": 1635962344,
-    "slug": "angle",
     "tvl": 79740363.71460675,
     "chainTvls": {
       "Optimism": 626320.444101165,
@@ -336,34 +222,20 @@
     "change_1d": -0.35,
     "change_7d": -3.59,
     "staking": 3669156.696918712,
-    "fdv": 49041593,
     "mcap": 7978598,
     "rank": 8
   },
   {
     "id": "125",
     "name": "mStable",
-    "address": "0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2",
     "symbol": "MTA",
-    "url": "https://mstable.org/",
-    "description": "mStable unites stablecoins, lending and swapping into one standard.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/mstable.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "meta",
-    "cmcId": "5748",
     "category": "CDP",
     "chains": [
       "Ethereum",
       "Polygon"
     ],
-    "module": "mstable/index.js",
-    "twitter": "mstable_",
-    "audit_links": [
-      "https://developers.mstable.org/security/security-audits"
-    ],
-    "slug": "mstable",
     "tvl": 46745231.49906987,
     "chainTvls": {
       "Ethereum": 39076165.775756516,
@@ -372,34 +244,20 @@
     "change_1h": -0.02,
     "change_1d": -0.87,
     "change_7d": -3.79,
-    "fdv": 16555009,
     "mcap": 8269762,
     "rank": 9
   },
   {
     "id": "358",
     "name": "Parrot Protocol",
-    "address": "solana:PRT88RkA4Kg5z7pKnezeNH4mafTvtQdfFgpQTGRjz44",
     "symbol": "PRT",
-    "url": "https://parrot.fi",
-    "description": "Stablecoin",
     "chain": "Solana",
-    "logo": "https://icons.llama.fi/parrot-protocol.jpg",
     "audits": "1",
-    "audit_note": null,
-    "gecko_id": "parrot-protocol",
-    "cmcId": "11935",
     "category": "CDP",
     "chains": [
       "Solana"
     ],
-    "module": "parrot.js",
-    "twitter": "gopartyparrot",
-    "audit_links": [
-      "https://doc.parrot.fi/security/"
-    ],
     "openSource": false,
-    "slug": "parrot-protocol",
     "tvl": 35936835.459218025,
     "chainTvls": {
       "Solana": 35936835.459218025
@@ -407,33 +265,19 @@
     "change_1h": 0.03,
     "change_1d": 0.47,
     "change_7d": 2.42,
-    "fdv": 13311668,
     "mcap": 0,
     "rank": 10
   },
   {
     "id": "626",
     "name": "Reserve",
-    "address": "0x8762db106b2c2a0bccb3a80d1ed41273552616e8",
     "symbol": "RSR",
-    "url": "https://reserve.org",
-    "description": "Reserve Protocol aims to build a censorship-resistant stablecoin and decentralized fiat gateway network that serves as a borderless, inflation-resistant store of wealth, that can be easily transacted with low friction.",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/reserve.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "reserve-rights-token",
-    "cmcId": "3964",
     "category": "CDP",
     "chains": [
       "Ethereum"
     ],
-    "module": "reserve/index.js",
-    "twitter": "reserveprotocol",
-    "audit_links": [
-      "https://certificate.certik.io/reports/reserve.org.pdf"
-    ],
-    "slug": "reserve",
     "tvl": 28241514.935590424,
     "chainTvls": {
       "Ethereum": 28241514.935590424
@@ -441,35 +285,21 @@
     "change_1h": -0.03,
     "change_1d": 0.08,
     "change_7d": 0.1,
-    "fdv": 760109242,
     "mcap": 321543874,
     "rank": 11
   },
   {
     "id": "251",
     "name": "Mimo Defi",
-    "address": "0x90b831fa3bebf58e9744a14d638e25b4ee06f9bc",
     "symbol": "MIMO",
-    "url": "https://mimo.capital",
-    "description": "The Mimo protocol is a decentralized price-stable token issuance protocol on the Ethereum blockchain",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/mimo-defi.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "mimo-parallel-governance-token",
-    "cmcId": "10831",
     "category": "CDP",
     "chains": [
       "Ethereum",
       "Polygon",
       "Fantom"
     ],
-    "module": "mimo/index.js",
-    "twitter": "mimodefi",
-    "audit_links": [
-      "https://certificate.quantstamp.com/full/ten-x-titan"
-    ],
-    "slug": "mimo-defi",
     "tvl": 25535047.447979268,
     "chainTvls": {
       "Ethereum": 20308743.37526204,
@@ -485,16 +315,9 @@
   {
     "id": "1444",
     "name": "Vesta Finance",
-    "address": "arbitrum:0xa684cd057951541187f288294a1e1C2646aA2d24",
     "symbol": "VSTA",
-    "url": "https://vestafinance.xyz",
-    "description": "Vesta Finance allows you to borrow collateralized stablecoin against supported crypto assets with no interest rate.",
     "chain": "Arbitrum",
-    "logo": "https://icons.llama.fi/vesta-finance.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "vesta-finance",
-    "cmcId": null,
     "category": "CDP",
     "chains": [
       "Arbitrum"
@@ -505,13 +328,7 @@
     "forkedFrom": [
       "Liquity"
     ],
-    "module": "vesta/index.js",
-    "twitter": "vestafinance",
-    "audit_links": [
-      "https://docs.vestafinance.xyz/audit/audits"
-    ],
     "listedAt": 1645453933,
-    "slug": "vesta-finance",
     "tvl": 21900706.31178,
     "chainTvls": {
       "pool2": 586052.2610834697,
@@ -522,23 +339,15 @@
     "change_1d": 2.86,
     "change_7d": 11.02,
     "pool2": 586052.2610834697,
-    "fdv": 91702250,
     "mcap": 5836069,
     "rank": 13
   },
   {
     "id": "1720",
     "name": "Kokoa Finance",
-    "address": "klaytn:0x4fa62f1f404188ce860c8f0041d6ac3765a72e67",
     "symbol": "KSD",
-    "url": "https://kokoa.finance",
-    "description": "Kokoa Finance is a crypto-asset-backed stablecoin platform where users can borrow KSD stablecoin against crypto assets without paying any nominal cost.",
     "chain": "Klaytn",
-    "logo": "https://icons.llama.fi/kokoa-finance.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "CDP",
     "chains": [
       "Klaytn"
@@ -547,13 +356,7 @@
       "TWAP"
     ],
     "forkedFrom": [],
-    "module": "kokoa-finance/index.js",
-    "twitter": "KokoaFinance",
-    "audit_links": [
-      "https://drive.google.com/file/d/1juiAw53yiC2cyfvl3z8CSysxP1Aky_lJ/view?usp=sharing"
-    ],
     "listedAt": 1651606811,
-    "slug": "kokoa-finance",
     "tvl": 19020119.89878,
     "chainTvls": {
       "Klaytn-pool2": 3617508.5146199996,
@@ -572,30 +375,17 @@
   {
     "id": "913",
     "name": "Defrost",
-    "address": "avax:0x47EB6F7525C1aA999FBC9ee92715F5231eB1241D",
     "symbol": "MELT",
-    "url": "https://www.defrost.finance",
-    "description": "Defrost Finance is a decentralized protocol that allows you to leverage yield-bearing Tokens or other pool tokens from Avalanche and cross-chain protocols as collaterals for generating H2O, a USD-pegged stablecoin.",
     "chain": "Avalanche",
-    "logo": "https://icons.llama.fi/defrost.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "defrost-finance",
-    "cmcId": "15191",
     "category": "CDP",
     "chains": [
       "Avalanche"
-    ],
-    "module": "defrost/index.js",
-    "twitter": "Defrost_Finance",
-    "audit_links": [
-      "https://github.com/DefrostFinance/Audit-Reports/blob/main/REP-Defrost-Finance-2021-11-10.pdf"
     ],
     "oracles": [
       "Chainlink"
     ],
     "listedAt": 1637875319,
-    "slug": "defrost",
     "tvl": 14190673.586889798,
     "chainTvls": {
       "Avalanche": 14190673.586889798,
@@ -606,33 +396,22 @@
     "change_1d": -0.02,
     "change_7d": -5.66,
     "staking": 200502.74988824083,
-    "fdv": 2655506,
     "mcap": 218028,
     "rank": 15
   },
   {
     "id": "338",
     "name": "Inverse Finance",
-    "address": "0x41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68",
     "symbol": "INV",
-    "url": "https://inverse.finance/",
-    "description": "DeFi Summer was just the beginning. Meet Inverse, part of the new wave of decentralized banking & finance. From a capital-efficient money market, to tokenized synthetic assets, legacy finance is about to be invaded.",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/inverse-finance.jpg",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": "inverse-finance",
-    "cmcId": "8720",
     "category": "CDP",
     "chains": [
       "Ethereum"
     ],
-    "module": "inverse/index.js",
-    "twitter": "InverseFinance",
     "forkedFrom": [
       "Compound"
     ],
-    "slug": "inverse-finance",
     "tvl": 13816436.590174392,
     "chainTvls": {
       "Ethereum": 13816436.590174392
@@ -646,16 +425,9 @@
   {
     "id": "1916",
     "name": "Hedge",
-    "address": "solana:5PmpMzWjraf3kSsGEKtqdUsCoLhptg4yriZ17LKKdBBy",
     "symbol": "HDG",
-    "url": "https://www.hedge.so",
-    "description": "Hedge offers 0% interest loans on Solana in form of our CDP stablecoin $USH with the lowest collateral ratios available on Solana",
     "chain": "Solana",
-    "logo": "https://icons.llama.fi/hedge.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "hedge-protocol",
-    "cmcId": "20239",
     "category": "CDP",
     "chains": [
       "Solana"
@@ -666,13 +438,7 @@
       "Switchboard"
     ],
     "forkedFrom": [],
-    "module": "hedge/index.js",
-    "twitter": "HedgeLabs",
-    "audit_links": [
-      "https://docs.hedge.so/protocol-overview/security"
-    ],
     "listedAt": 1658387691,
-    "slug": "hedge",
     "tvl": 9544508.60873196,
     "chainTvls": {
       "Solana-staking": 420835.4594071217,
@@ -689,16 +455,9 @@
   {
     "id": "1829",
     "name": "Interest Protocol",
-    "address": "0x2a54ba2964c8cd459dc568853f79813a60761b58",
     "symbol": "USDI",
-    "url": "https://interestprotocol.io",
-    "description": "Interest Protocol is a borrow/lend protocol that is highly capital-efficient thanks to its unique combination of fractional reserves and over-collateralization. Depositors may mint USDi, which is a stablecoin pegged 1-1 with USDC that automatically pays interest to holders via rebasing.",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/interest-protocol.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "interest-protocol",
-    "cmcId": "20598",
     "category": "CDP",
     "chains": [
       "Ethereum"
@@ -707,13 +466,7 @@
       "Chainlink"
     ],
     "forkedFrom": [],
-    "module": "ip/index.js",
-    "twitter": "InterestDeFi",
-    "audit_links": [
-      "https://gfx.cafe/ip/contracts/-/blob/master/audit/GFX_IP_Protocol_Audit_Report.pdf"
-    ],
     "listedAt": 1655545050,
-    "slug": "interest-protocol",
     "tvl": 8107679.447412289,
     "chainTvls": {
       "Ethereum": 8107679.447412289,
@@ -729,16 +482,9 @@
   {
     "id": "1708",
     "name": "AstridDAO",
-    "address": "astar:0x5271D85CE4241b310C0B34b7C2f1f036686A6d7C",
     "symbol": "ATID",
-    "url": "https://www.astriddao.xyz/",
-    "description": "AstridDAO is a decentralized money market and multi-collateral stablecoin protocol built on Astar and for the Polkadot ecosystem, which allows users to borrow $BAI, a stablecoin hard-pegged to USD, against risk assets at 0% interest and minimum collateral ratio.",
     "chain": "Astar",
-    "logo": "https://icons.llama.fi/astriddao.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "CDP",
     "chains": [
       "Astar"
@@ -747,13 +493,7 @@
       "DIA"
     ],
     "forkedFrom": [],
-    "module": "astriddao/index.js",
-    "twitter": "AstridDAO",
-    "audit_links": [
-      "https://www.certik.com/projects/astriddao"
-    ],
     "listedAt": 1651225407,
-    "slug": "astriddao",
     "tvl": 7972164.3787401095,
     "chainTvls": {
       "Astar": 7972164.3787401095
@@ -766,28 +506,15 @@
   {
     "id": "874",
     "name": "ICHI Farm",
-    "address": "0x903bef1736cddf2a537176cf3c64579c3867a881",
     "symbol": "ICHI",
-    "url": "https://www.ichi.org",
-    "description": "ICHI deploys a branded dollar for any cryptocurrency community. This enables retail on-boarding, protocol growth, and ecosystem acceleration.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/ichi-farm.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "ichi-farm",
-    "cmcId": "7726",
     "category": "CDP",
     "chains": [
       "Ethereum",
       "Polygon"
     ],
-    "module": "ichifarm/index.js",
-    "twitter": "ichifarm",
-    "audit_links": [
-      "https://docs.ichi.farm/audits-and-risks/audits"
-    ],
     "listedAt": 1637376327,
-    "slug": "ichi-farm",
     "tvl": 7968495.592376103,
     "chainTvls": {
       "pool2": 699141.5963415793,
@@ -802,36 +529,22 @@
     "change_7d": -1.44,
     "staking": 3915329.0160764023,
     "pool2": 699141.5963415793,
-    "fdv": 56027003,
     "mcap": 27545445,
     "rank": 20
   },
   {
     "id": "517",
     "name": "Kolibri",
-    "address": "tezos:KT1JkoE42rrMBP9b2oDhbx6EUr26GcySZMUH",
     "symbol": "kDAO",
-    "url": "https://kolibri.finance",
-    "description": "Kolibri is an Tezos based stablecoin built on Collateralized Debt Positions (CDPs) known as Ovens. Kolibri uses CDPs (referred to as an Oven) to collateralize a soft pegged USD-stable value asset, kUSD.",
     "chain": "Tezos",
-    "logo": "https://icons.llama.fi/kolibri.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "CDP",
     "chains": [
       "Tezos"
     ],
-    "module": "kolibri/index.js",
-    "twitter": "HoverEng",
-    "audit_links": [
-      "https://kolibri.finance/docs/security-report.pdf"
-    ],
     "oracles": [
       "Harbinger"
     ],
-    "slug": "kolibri",
     "tvl": 7434756.976253423,
     "chainTvls": {
       "Tezos-pool2": 224112.10259437998,
@@ -847,16 +560,9 @@
   {
     "id": "363",
     "name": "xDollar",
-    "address": "iotex:0x375488f097176507e39b9653b88fdc52cde736bf",
     "symbol": "SPACE",
-    "url": "https://www.xdollar.fi/",
-    "description": "xDollar is cross-chain collateral based stablecoin lending platform with zero interest fee, 110% low collateral ratio and fully redeemable XIM plus DAO governance and multi-collateral vault system.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/xdollar.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "xdollar",
-    "cmcId": null,
     "category": "CDP",
     "chains": [
       "IoTeX",
@@ -865,15 +571,9 @@
       "Arbitrum",
       "Avalanche"
     ],
-    "module": "xdollar-finance/index.js",
-    "twitter": "xDollarFi",
-    "audit_links": [
-      "https://github.com/xDollar-Finance/xDollar-contracts/blob/main/xDollar%20-%20Smart%20Contract%20Audit%20v210624.pdf"
-    ],
     "forkedFrom": [
       "Liquity"
     ],
-    "slug": "xdollar",
     "tvl": 5156200.575526705,
     "chainTvls": {
       "Arbitrum-staking": 0,
@@ -896,27 +596,14 @@
   {
     "id": "1023",
     "name": "USD+",
-    "address": "polygon:0x236eeC6359fb44CCe8f97E99387aa7F8cd5cdE1f",
     "symbol": "USD+",
-    "url": "https://ovnstable.io",
-    "description": "USD+ is USDC that pays yield daily via rebase. USD+ stablecoin can be instantly minted and redeemed to USDC 1:1.\u00a0USD+ includes 3 components:1.Pegged to USDC 1:12.Yield generating\u00a03.Insurance (soon)",
     "chain": "Polygon",
-    "logo": "https://icons.llama.fi/usd+.png",
     "audits": "1",
-    "audit_note": null,
-    "gecko_id": "usd",
-    "cmcId": "20317",
     "category": "CDP",
     "chains": [
       "Polygon"
     ],
-    "module": "ovnstable.js",
-    "twitter": "ovnstable",
-    "audit_links": [
-      "https://github.com/ovnstable/ovnstable-app/blob/master/audits/hacken_2022-02-03.pdf"
-    ],
     "listedAt": 1639428732,
-    "slug": "usd+",
     "tvl": 3784941.0299931224,
     "chainTvls": {
       "Polygon": 3784941.0299931224
@@ -930,27 +617,14 @@
   {
     "id": "667",
     "name": "Mars Ecosystem",
-    "address": "bsc:0x7859b01bbf675d67da8cd128a50d155cd881b576",
     "symbol": "XMS",
-    "url": "https://marsecosystem.com/home",
-    "description": "Mars Ecosystem is a new decentralized stablecoin paradigm, it integrates the creation and use of stablecoin into the same system. Mars Ecosystem consists of three parts: Mars Treasury, Mars Stablecoin and Mars DeFi protocols, which together form a positive feedback loop. Mars stablecoin is price-stable, capital-efficient, scalable and decentralized. The goal of Mars Ecosystem is to build the central bank and reserve currency of the DeFi world.",
     "chain": "Binance",
-    "logo": "https://icons.llama.fi/mars-ecosystem.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "mars-ecosystem-token",
-    "cmcId": "10030",
     "category": "CDP",
     "chains": [
       "Binance"
     ],
-    "module": "marsecosystem/index.js",
-    "twitter": "MarsEcosystem",
-    "audit_links": [
-      "https://www.certik.org/projects/marsecosystem"
-    ],
     "listedAt": 1634207654,
-    "slug": "mars-ecosystem",
     "tvl": 3443758.9094890105,
     "chainTvls": {
       "Binance": 3443758.9094890105,
@@ -969,16 +643,9 @@
   {
     "id": "1841",
     "name": "Ratio Finance",
-    "address": "solana:ratioMVg27rSZbSvBopUvsdrGUzeALUfFma61mpxc8J",
     "symbol": "RATIO",
-    "url": "https://ratio.finance",
-    "description": "Ratio Finance is a Collateralized Debt Position platform that allows investors to extend the capabilities of their liquidity provisioning efforts by locking their assets into safe & secure vaults, minting USDr (Ratio Finance\u2019s dynamically risk-adjusted stablecoin), and utilizing USDr within the Solana ecosystem.",
     "chain": "Solana",
-    "logo": "https://icons.llama.fi/ratio-finance.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": "ratio-finance",
-    "cmcId": "18048",
     "category": "CDP",
     "chains": [
       "Solana"
@@ -987,10 +654,7 @@
       "Coingecko"
     ],
     "forkedFrom": [],
-    "module": "ratio-finance/index.js",
-    "twitter": "RatioFinance",
     "listedAt": 1655652176,
-    "slug": "ratio-finance",
     "tvl": 2525662.8690993697,
     "chainTvls": {
       "Solana": 2525662.8690993697
@@ -998,34 +662,23 @@
     "change_1h": -0.1,
     "change_1d": -1.74,
     "change_7d": 19.72,
-    "fdv": 38071520,
     "mcap": 0,
     "rank": 25
   },
   {
     "id": "1549",
     "name": "Babena",
-    "address": "kadena:-",
     "symbol": "BABE",
-    "url": "https://babena.finance",
-    "description": "Certificate of Deposit on the Kadena blockchain",
     "chain": "Kadena",
-    "logo": "https://icons.llama.fi/babena.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "CDP",
     "chains": [
       "Kadena"
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "babena/index.js",
-    "twitter": "BabenaFinance",
     "language": "Pact",
     "listedAt": 1647387814,
-    "slug": "babena",
     "tvl": 1773464.3984186999,
     "chainTvls": {
       "Kadena-staking": 376693.97730593104,
@@ -1041,25 +694,15 @@
   {
     "id": "1020",
     "name": "Arkadiko",
-    "address": "stacks:SP2C2YFP12AJZB4MABJBAJ55XECVS7E4PMMZ89YZR.arkadiko-token",
     "symbol": "DIKO",
-    "url": "https://arkadiko.finance",
-    "description": "Arkadiko is a decentralized, non-custodial liquidity protocol where users can collateralize their assets and mint a stablecoin called USDA.",
     "chain": "Stacks",
-    "logo": "https://icons.llama.fi/arkadiko.jpg",
     "audits": "0",
-    "audit_note": "15568",
-    "gecko_id": "arkadiko-protocol",
-    "cmcId": null,
     "category": "CDP",
     "chains": [
       "Stacks"
     ],
-    "module": "arkadiko.js",
-    "twitter": "ArkadikoFinance",
     "language": "Clarity",
     "listedAt": 1639420466,
-    "slug": "arkadiko",
     "tvl": 1172699.5468348546,
     "chainTvls": {
       "Stacks": 1172699.5468348546
@@ -1073,16 +716,9 @@
   {
     "id": "1458",
     "name": "Equilibrium",
-    "address": "eos:EOSDT",
     "symbol": "EOSDT",
-    "url": "https://eosdt.com",
-    "description": "The #1 decentralized stable currency on EOS that does more than a dollar",
     "chain": "EOS",
-    "logo": "https://icons.llama.fi/equilibrium.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": "equilibrium-eosdt",
-    "cmcId": "4017",
     "category": "CDP",
     "chains": [
       "EOS"
@@ -1093,11 +729,8 @@
       "LiquidApps"
     ],
     "forkedFrom": [],
-    "module": "equilibrium/index.js",
-    "twitter": "EOSDT",
     "language": "C++",
     "listedAt": 1645645017,
-    "slug": "equilibrium",
     "tvl": 1121244.1487276999,
     "chainTvls": {
       "EOS": 1121244.1487276999
@@ -1111,32 +744,18 @@
   {
     "id": "352",
     "name": "Iron Finance",
-    "address": "polygon:0x4a81f8796e0c6ad4877a51c86693b0de8093f2ef",
     "symbol": "IRON",
-    "url": "https://iron.finance/",
-    "description": "Building a multi-chain partial-collateralized algorithmic stablecoin ecosystem.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/iron-finance.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "iron-stablecoin",
-    "cmcId": "10484",
     "category": "CDP",
     "chains": [
       "Polygon",
       "Fantom",
       "Avalanche"
     ],
-    "module": "ironfinance/index.js",
-    "twitter": "IronFinance",
-    "audit_links": [
-      "https://docs.iron.finance/bsc/audits",
-      "https://docs.iron.finance/iron-finance-on-polygon/audit"
-    ],
     "forkedFrom": [
       "Frax"
     ],
-    "slug": "iron-finance",
     "tvl": 1026396.0898739996,
     "chainTvls": {
       "Polygon-borrowed": 59704.98389369025,
@@ -1155,32 +774,19 @@
   {
     "id": "1030",
     "name": "TopShelf",
-    "address": "fantom:0x33333ee26a7d02e41c33828B42Fb1E0889143477",
     "symbol": "LIQR",
-    "url": "https://topshelf.finance/",
-    "description": "Liquity fork",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/topshelf.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "topshelf-finance",
-    "cmcId": "17433",
     "category": "CDP",
     "chains": [
       "Fantom",
       "Binance",
       "Avalanche"
     ],
-    "module": "topshelf/index.js",
-    "twitter": "TopShelfFinance",
-    "audit_links": [
-      "https://app.topshelf.finance/PeckShield-Audit-Report-Topshelf-v1.0.pdf"
-    ],
     "listedAt": 1639732995,
     "forkedFrom": [
       "Liquity"
     ],
-    "slug": "topshelf",
     "tvl": 723909.9038649404,
     "chainTvls": {
       "Binance": 323631.98022908345,
@@ -1190,23 +796,15 @@
     "change_1h": 0.08,
     "change_1d": -0.57,
     "change_7d": -12.53,
-    "fdv": 488662,
     "mcap": 0,
     "rank": 30
   },
   {
     "id": "1862",
     "name": "VeleroDAO",
-    "address": "velas:0xd12f7A98C0d740E7Ec82E8caF94EB79C56D1B623",
     "symbol": "VDGT",
-    "url": "https://www.velero.finance/",
-    "description": "a full-fledged fork of MakerDAO, created specifically to work on top of the Velas Blockchain. VeleroDAO is a protocol behind the stablecoin $USDV \u2014 a cryptocurrency that maintains the $1 value.",
     "chain": "Velas",
-    "logo": "https://icons.llama.fi/velerodao.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "velerodao",
-    "cmcId": "18282",
     "category": "CDP",
     "chains": [
       "Velas"
@@ -1215,13 +813,7 @@
     "forkedFrom": [
       "MakerDao"
     ],
-    "module": "velaro/index.js",
-    "twitter": "VeleroDAO",
-    "audit_links": [
-      "https://uploads-ssl.webflow.com/6182e85a5a4402f6f59cf04d/61c606df98ac893a6bcebcc0_%5BVeleroFinance_22122021%5DReport.pdf"
-    ],
     "listedAt": 1656496979,
-    "slug": "velerodao",
     "tvl": 404187.70680326776,
     "chainTvls": {
       "Velas": 404187.70680326776
@@ -1235,29 +827,16 @@
   {
     "id": "386",
     "name": "PolyQuity",
-    "address": "polygon:0x5a3064CbDCCF428ae907796cF6aD5a664CD7F3d8",
     "symbol": "PYQ",
-    "url": "https://polyquity.org",
-    "description": "PolyQuity is a decentralized borrowing protocol that allows you to draw interest-free loans against Matic used as collateral. Loans are paid out in PUSD (a USD pegged stablecoin) and need to maintain a minimum collateral ratio of 110%. In addition to the collateral, the loans are secured by a Stability Pool containing PUSD and by fellow borrowers collectively acting as guarantors of last resort. Learn more about these mechanisms in our documentation.",
     "chain": "Polygon",
-    "logo": "https://icons.llama.fi/polyquity.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "polyquity",
-    "cmcId": "11742",
     "category": "CDP",
     "chains": [
       "Polygon"
     ],
-    "module": "polyquity/index.js",
-    "twitter": "polyquity_org",
-    "audit_links": [
-      "https://github.com/PolyQuity/audits/tree/main"
-    ],
     "forkedFrom": [
       "Liquity"
     ],
-    "slug": "polyquity",
     "tvl": 328216.5835891656,
     "chainTvls": {
       "Polygon": 328216.5835891656
@@ -1271,26 +850,13 @@
   {
     "id": "193",
     "name": "Unit Protocol",
-    "address": "0x92e187a03b6cd19cb6af293ba17f2745fd2357d5",
     "symbol": "DUCK",
-    "url": "https://app.unit.xyz/",
-    "description": "Unit protocol is a decentralized borrowing protocol that allows you to mint USDP stablecoin using a variety of tokens as collateral.",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/unit-protocol.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "unit-protocol-duck",
-    "cmcId": "7977",
     "category": "CDP",
     "chains": [
       "Ethereum"
     ],
-    "module": "unit.js",
-    "twitter": "unitprotocol",
-    "audit_links": [
-      "https://github.com/unitprotocol/protocol_docs"
-    ],
-    "slug": "unit-protocol",
     "tvl": 274294.98846455966,
     "chainTvls": {
       "Ethereum": 274294.98846455966
@@ -1298,38 +864,24 @@
     "change_1h": 0.26,
     "change_1d": 1.17,
     "change_7d": 11.02,
-    "fdv": 12062503,
     "mcap": 5365874,
     "rank": 33
   },
   {
     "id": "724",
     "name": "Handle Fi",
-    "address": "0xdb298285fe4c5410b05390ca80e8fbe9de1f259b",
     "symbol": "FOREX",
-    "url": "https://handle.fi",
-    "description": "handle.fi is a decentralised multi currency stablecoin protocol. The handle protocol allows users to create (borrow) multi-currency stablecoins; called fxTokens. fxTokens are collateral backed stablecoins representing, and soft pegged to, a range of currencies.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/handle-fi.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "handle-fi",
-    "cmcId": "11794",
     "category": "CDP",
     "chains": [
       "Arbitrum",
       "Ethereum"
     ],
-    "module": "handlefi/index.js",
-    "twitter": "handle_fi",
     "oracles": [
       "Chainlink"
     ],
-    "audit_links": [
-      "https://drive.google.com/file/d/1WMbvtLCA07z5Jlg9k4tV76x8yDWV66-Z/view"
-    ],
     "listedAt": 1635466605,
-    "slug": "handle-fi",
     "tvl": 237607.419802,
     "chainTvls": {
       "Ethereum": 13455.68866954891,
@@ -1341,33 +893,22 @@
     "change_1d": 2.01,
     "change_7d": 16.76,
     "pool2": 24747.45989184917,
-    "fdv": 6897940,
     "mcap": 1386686,
     "rank": 34
   },
   {
     "id": "535",
     "name": "Teddy Cash",
-    "address": "avax:0x094bd7B2D99711A1486FB94d4395801C6d0fdDcC",
     "symbol": "TEDDY",
-    "url": "https://teddy.cash",
-    "description": "Teddy Cash is a fork of the Liquity protocol for the Avalanche C-Chain.",
     "chain": "Avalanche",
-    "logo": "https://icons.llama.fi/teddy-cash.jpg",
     "audits": "3",
-    "audit_note": null,
-    "gecko_id": "teddy",
-    "cmcId": "11893",
     "category": "CDP",
     "chains": [
       "Avalanche"
     ],
-    "module": "teddy/index.js",
-    "twitter": "TeddyCashLive",
     "forkedFrom": [
       "Liquity"
     ],
-    "slug": "teddy-cash",
     "tvl": 196023.59083796243,
     "chainTvls": {
       "pool2": 1890.3532065703373,
@@ -1383,36 +924,22 @@
     "change_7d": 0.73,
     "staking": 0,
     "pool2": 1890.3532065703373,
-    "fdv": 107892,
     "mcap": 21066,
     "rank": 35
   },
   {
     "id": "323",
     "name": "Fluity",
-    "address": "bsc:0x83b325dbA77d55644619a4Ff29D42EE4487BCf31",
     "symbol": "FLTY",
-    "url": "https://fluity.finance/",
-    "description": "http://Fluity.finance is a decentralized borrowing protocol with interest-free loans, high capital efficiency, and censorship-resistant stablecoins on BSC.",
     "chain": "Binance",
-    "logo": "https://icons.llama.fi/fluity.png",
     "audits": "3",
-    "audit_note": null,
-    "gecko_id": "fluity",
-    "cmcId": "9722",
     "category": "CDP",
     "chains": [
       "Binance"
     ],
-    "module": "fluity/index.js",
-    "twitter": "FluityFinance",
-    "audit_links": [
-      "https://docs.fluity.finance/audits"
-    ],
     "forkedFrom": [
       "Liquity"
     ],
-    "slug": "fluity",
     "tvl": 48645.73466866151,
     "chainTvls": {
       "Binance": 48645.73466866151
@@ -1426,22 +953,13 @@
   {
     "id": "733",
     "name": "Stabilize",
-    "address": "avax:0x37d87e316CB4e35163881fDb6c6Bc0CdBa91dc0A",
     "symbol": "SET",
-    "url": "https://stabilize.fi",
-    "description": "Stabilize is a decentralized borrowing protocol2.0 that allows you to draw interest-free loans against basic asset & ibTKNs used as collaterals.",
     "chain": "Avalanche",
-    "logo": "https://icons.llama.fi/stabilizefi.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": "stabilize-token",
-    "cmcId": null,
     "category": "CDP",
     "chains": [
       "Avalanche"
     ],
-    "module": "stabilizefi/index.js",
-    "twitter": "stabilize_fi",
     "oracles": [
       "Chainlink"
     ],
@@ -1449,7 +967,6 @@
     "forkedFrom": [
       "Liquity"
     ],
-    "slug": "stabilize",
     "tvl": 44515.633609482364,
     "chainTvls": {
       "Avalanche": 44515.633609482364,
@@ -1463,23 +980,15 @@
     "change_7d": 3.18,
     "staking": 2850.6987619152,
     "pool2": 5958.987136504005,
-    "fdv": 4378042,
     "mcap": 0,
     "rank": 37
   },
   {
     "id": "1388",
     "name": "Parasset",
-    "address": "0x139cec55d1ec47493dfa25ca77c9208aba4d3c68",
     "symbol": "ASET",
-    "url": "https://www.parasset.top/#/",
-    "description": "Parassets such as PUSD, PETH are generated by protocol collateral and anchor the underlying asset with an intrinsic value of 1:1",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/parasset.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": "parasset",
-    "cmcId": "9660",
     "category": "CDP",
     "chains": [
       "Ethereum"
@@ -1487,11 +996,8 @@
     "oracles": [
       "Nest"
     ],
-    "module": "parasset/index.js",
-    "twitter": "Parasset2021",
     "language": "Solidity",
     "listedAt": 1644527281,
-    "slug": "parasset",
     "tvl": 33507.94871085699,
     "chainTvls": {
       "Ethereum": 33507.94871085699,
@@ -1502,37 +1008,23 @@
     "change_1d": 1.51,
     "change_7d": 13.4,
     "staking": 7401516.543236507,
-    "fdv": 4015810,
     "mcap": 0,
     "rank": 38
   },
   {
     "id": "997",
     "name": "Piggy",
-    "address": "bsc:0x1beac6df550be0ad146dd99b4726c6bec9c5c6a5",
     "symbol": "PIGGY",
-    "url": "https://piggy.fi",
-    "description": "Piggy is a decentralized borrowing protocol that offers interest-free, efficiently collateralized loans backed by $BNB.",
     "chain": "Binance",
-    "logo": "https://icons.llama.fi/piggy.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "piggy",
-    "cmcId": "12735",
     "category": "CDP",
     "chains": [
       "Binance"
-    ],
-    "module": "piggy/index.js",
-    "twitter": "Piggy_Fi",
-    "audit_links": [
-      "https://www.certik.org/projects/piggy"
     ],
     "forkedFrom": [
       "Liquity"
     ],
     "listedAt": 1638999656,
-    "slug": "piggy",
     "tvl": 27017.843239679372,
     "chainTvls": {
       "Binance": 27017.843239679372
@@ -1540,36 +1032,22 @@
     "change_1h": 0.24,
     "change_1d": 0.6,
     "change_7d": -3.74,
-    "fdv": 94912,
     "mcap": 0,
     "rank": 39
   },
   {
     "id": "330",
     "name": "Aquarius",
-    "address": "fantom:0x0f7ADb77B6334B9B5A3c4f78aAa073eA1D915bF6",
     "symbol": "AQU",
-    "url": "https://aquarius.fi/",
-    "description": "Aquarius is a decentralized borrowing protocol with interest-free loans, high capital efficiency. we expect Aquarius to be the next MakerDao in the Fantom.",
     "chain": "Fantom",
-    "logo": "https://icons.llama.fi/aquarius.jpg",
     "audits": "3",
-    "audit_note": null,
-    "gecko_id": "aquarius-fi",
-    "cmcId": "12559",
     "category": "CDP",
     "chains": [
       "Fantom"
     ],
-    "module": "aquarius/index.js",
-    "twitter": "Aquarius__Fi",
-    "audit_links": [
-      "https://docs.aquarius.fi/security/audit-report"
-    ],
     "forkedFrom": [
       "Liquity"
     ],
-    "slug": "aquarius",
     "tvl": 20346.621391928224,
     "chainTvls": {
       "Fantom": 20346.621391928224
@@ -1583,27 +1061,17 @@
   {
     "id": "912",
     "name": "FLRLoans",
-    "address": null,
     "symbol": "-",
-    "url": "https://xfl.flr.finance",
-    "description": "FlareLoans is a decentralized borrowing protocol that allows the users to draw interest-free loans against SGB/WSGB used as collateral.",
     "chain": "Songbird",
-    "logo": "https://icons.llama.fi/flare-loans.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "CDP",
     "chains": [
       "Songbird"
     ],
-    "module": "flare-loans/index.js",
-    "twitter": "flrfinance",
     "forkedFrom": [
       "Liquity"
     ],
     "listedAt": 1637821444,
-    "slug": "flrloans",
     "tvl": 8882.0698101431,
     "chainTvls": {
       "Songbird": 8882.0698101431
@@ -1616,16 +1084,9 @@
   {
     "id": "1387",
     "name": "DEUS Finance",
-    "address": "0xde5ed76e7c05ec5e4572cfc88d1acea165109e44",
     "symbol": "DEUS",
-    "url": "https://deus.finance",
-    "description": "World-first decentralized bilateral OTC derivatives platform. Enabling next-gen DeFi giving users & developers unlimited access to global markets",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/deus-finance.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": "deus-finance-2",
-    "cmcId": "12972",
     "category": "CDP",
     "chains": [
       "Ethereum",
@@ -1633,11 +1094,8 @@
       "Fantom"
     ],
     "oracles": [],
-    "module": "deusfi/index.js",
-    "twitter": "DeusDao",
     "language": "Solidity",
     "listedAt": 1644525911,
-    "slug": "deus-finance",
     "tvl": 7038.537696189999,
     "chainTvls": {
       "pool2": 105151.82608625427,
@@ -1652,23 +1110,15 @@
     "change_1d": 0.1,
     "change_7d": 0,
     "pool2": 105151.82608625427,
-    "fdv": 14253485,
     "mcap": 5758607,
     "rank": 42
   },
   {
     "id": "1716",
     "name": "North Pole",
-    "address": "avax:0x65069e550C5526c029DC9135eDD02F6683859Ac1",
     "symbol": "POLE",
-    "url": "https://northpole.money/",
-    "description": "northpole.money is a lending platform that uses interest-bearing tokens (ibTKNs) as collateral to borrow a USD pegged stablecoin (POLE), that can be used as any other traditional stablecoin.",
     "chain": "Avalanche",
-    "logo": "https://icons.llama.fi/north-pole.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": "north",
-    "cmcId": "17907",
     "category": "CDP",
     "chains": [
       "Avalanche"
@@ -1677,10 +1127,7 @@
     "forkedFrom": [
       "Abracadabra"
     ],
-    "module": "northpole/index.js",
-    "twitter": "NorthPole_money",
     "listedAt": 1651573344,
-    "slug": "north-pole",
     "tvl": 2185.691490259853,
     "chainTvls": {
       "Avalanche": 2185.691490259853
@@ -1688,7 +1135,6 @@
     "change_1h": 0.19,
     "change_1d": 0.53,
     "change_7d": 1.49,
-    "fdv": 100914,
     "mcap": 0,
     "rank": 43
   }

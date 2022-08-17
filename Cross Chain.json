@@ -2,16 +2,9 @@
   {
     "id": "1571",
     "name": "Stargate",
-    "address": "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
     "symbol": "STG",
-    "url": "https://stargate.finance/",
-    "description": "Stargate is a fully composable liquidity transport protocol that lives at the heart of Omnichain DeFi. With Stargate, users & dApps can transfer native assets cross-chain while accessing the protocol\u2019s unified liquidity pools with instant guaranteed finality.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/stargate.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "stargate-finance",
-    "cmcId": "18934",
     "category": "Cross Chain",
     "chains": [
       "Ethereum",
@@ -24,13 +17,7 @@
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "stargatefinance/index.js",
-    "twitter": "StargateFinance",
-    "audit_links": [
-      "https://github.com/stargate-protocol/stargate/tree/main/audit"
-    ],
     "listedAt": 1647975344,
-    "slug": "stargate",
     "tvl": 440238275.9139508,
     "chainTvls": {
       "Optimism": 24542519.271582834,
@@ -44,23 +31,15 @@
     "change_1h": 0.0,
     "change_1d": 2.25,
     "change_7d": -3.75,
-    "fdv": 342756195,
     "mcap": 46495915,
     "rank": 1
   },
   {
     "id": "657",
     "name": "Synapse",
-    "address": "0x0f2d719407fdbeff09d87557abb7232601fd9f29",
     "symbol": "SYN",
-    "url": "https://synapseprotocol.com",
-    "description": "Synapse is a universal cross-chain liquidity network. Synapse connects blockchains by offering an extensible cross-chain communication protocol that supports assets, smart contract calls, and more",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/synapse.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": "synapse-2",
-    "cmcId": "12147",
     "category": "Cross Chain",
     "chains": [
       "Ethereum",
@@ -80,12 +59,9 @@
       "Terra",
       "Moonbeam"
     ],
-    "module": "synapse/index.js",
-    "twitter": "SynapseProtocol",
     "forkedFrom": [
       "Saddle Finance"
     ],
-    "slug": "synapse",
     "tvl": 218521671.21357802,
     "chainTvls": {
       "Optimism": 4866551.6567526525,
@@ -111,23 +87,15 @@
     "change_1d": -0.04,
     "change_7d": -2.1,
     "pool2": 10406021.682310535,
-    "fdv": 381468734,
     "mcap": 285168414,
     "rank": 2
   },
   {
     "id": "547",
     "name": "pNetwork",
-    "address": "0x89ab32156e46f46d02ade3fecbe5fc4243b9aaed",
     "symbol": "PNT",
-    "url": "https://p.network",
-    "description": "The pNetwork is a decentralized network of validators contributing to the verification of crypto asset switches across blockchains",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/pnetwork.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "pnetwork",
-    "cmcId": "5794",
     "category": "Cross Chain",
     "chains": [
       "Ethereum",
@@ -145,12 +113,6 @@
       "Ultra",
       "Polygon"
     ],
-    "module": "pnetwork.js",
-    "twitter": "pNetworkDeFi",
-    "audit_links": [
-      "https://cryptonics.consulting/wp-content/uploads/2020/03/20200302_Audit_Report_pToken-2.pdf"
-    ],
-    "slug": "pnetwork",
     "tvl": 75722603.4669084,
     "chainTvls": {
       "Litecoin": 358598.70229483297,
@@ -171,37 +133,23 @@
     "change_1h": -0.51,
     "change_1d": 1.44,
     "change_7d": 9.76,
-    "fdv": 26910402,
     "mcap": 15895775,
     "rank": 3
   },
   {
     "id": "1207",
     "name": "Across",
-    "address": null,
     "symbol": "-",
-    "url": "https://across.to",
-    "description": "Across protocol is a novel bridging method that combines an optimistic oracle, bonded relayers and single-sided liquidity pools to provide decentralized instant transactions from rollup chains to Ethereum mainnet.",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/across.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Cross Chain",
     "chains": [
       "Ethereum"
-    ],
-    "module": "across/index.js",
-    "twitter": "AcrossProtocol",
-    "audit_links": [
-      "https://blog.openzeppelin.com/uma-audit-l2-bridges/"
     ],
     "oracles": [
       "UMA"
     ],
     "listedAt": 1641519276,
-    "slug": "across",
     "tvl": 65978843.67021852,
     "chainTvls": {
       "Ethereum": 65978843.67021852
@@ -214,16 +162,9 @@
   {
     "id": "435",
     "name": "Hop Protocol",
-    "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
     "symbol": "HOP",
-    "url": "https://hop.exchange",
-    "description": "A protocol for sending tokens across rollups and their shared layer-1 network in a quick and trustless manner",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/hop-protocol.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "hop-protocol",
-    "cmcId": "20547",
     "category": "Cross Chain",
     "chains": [
       "Ethereum",
@@ -232,15 +173,9 @@
       "Optimism",
       "xDai"
     ],
-    "module": "hop",
-    "twitter": "HopProtocol",
-    "audit_links": [
-      "https://docs.hop.exchange/faq#are-hop-contracts-audited"
-    ],
     "forkedFrom": [
       "Saddle Finance"
     ],
-    "slug": "hop-protocol",
     "tvl": 56513406.533582054,
     "chainTvls": {
       "Optimism": 3294299.3858134616,
@@ -252,36 +187,22 @@
     "change_1h": 0.13,
     "change_1d": 0.73,
     "change_7d": 7.15,
-    "fdv": 181110925,
     "mcap": 7371118,
     "rank": 5
   },
   {
     "id": "1569",
     "name": "Swim Protocol",
-    "address": null,
     "symbol": "-",
-    "url": "https://swim.io/",
-    "description": "Swim is a multi-chain AMM for native assets, designed to make bridging as easy as possible.",
     "chain": "Solana",
-    "logo": "https://icons.llama.fi/swim-protocol.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Cross Chain",
     "chains": [
       "Solana"
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "swim/index.js",
-    "twitter": "SwimProtocol",
-    "audit_links": [
-      "https://swim.io/audits/kudelski.pdf"
-    ],
     "listedAt": 1647877802,
-    "slug": "swim-protocol",
     "tvl": 37807340.93152312,
     "chainTvls": {
       "Solana": 37807340.93152312
@@ -294,29 +215,16 @@
   {
     "id": "124",
     "name": "KEEP Network",
-    "address": "0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa",
     "symbol": "KEEP",
-    "url": "https://tbtc.network/",
-    "description": "Deposit and redeem BTC in DeFi without intermediaries.",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/keep-network.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "keep-network",
-    "cmcId": "5566",
     "category": "Cross Chain",
     "chains": [
       "Ethereum"
     ],
-    "module": "keep.js",
-    "twitter": null,
-    "audit_links": [
-      "https://consensys.net/diligence/audits/2020/02/thesis-tbtc-and-keep/"
-    ],
     "oracles": [
       "Maker"
     ],
-    "slug": "keep-network",
     "tvl": 34743764.10291534,
     "chainTvls": {
       "Ethereum": 34743764.10291534,
@@ -327,23 +235,15 @@
     "change_1d": 1.26,
     "change_7d": 10.24,
     "staking": 13919375.341571452,
-    "fdv": 223006138,
     "mcap": 122590109,
     "rank": 7
   },
   {
     "id": "217",
     "name": "Connext",
-    "address": "-",
     "symbol": "-",
-    "url": "https://connext.network/",
-    "description": "Fast, non-custodial L1-L2 and cross-L2 communication.\r\n",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/connext.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Cross Chain",
     "chains": [
       "xDai",
@@ -363,12 +263,6 @@
       "Milkomeda",
       "Harmony"
     ],
-    "module": "connext/index.js",
-    "twitter": "ConnextNetwork",
-    "audit_links": [
-      "https://drive.google.com/file/d/1l42vxzHwLXrKU10v3FutG2DWthU43vB8/view"
-    ],
-    "slug": "connext",
     "tvl": 25384813.739829045,
     "chainTvls": {
       "Optimism": 1708853.731551573,
@@ -396,25 +290,15 @@
   {
     "id": "1025",
     "name": "Wrapped",
-    "address": null,
     "symbol": "-",
-    "url": "https://wrapped.com",
-    "description": "Your favorite assets on every blockchain. wrapped.com is a cross-chain institutional bridge. Designed for high-performance and speed.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/wrapped.jpg",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Cross Chain",
     "chains": [
       "Ethereum",
       "Celo"
     ],
-    "module": "wrappedfi.js",
-    "twitter": "WrappedFi",
     "listedAt": 1639522646,
-    "slug": "wrapped",
     "tvl": 17208145.195164714,
     "chainTvls": {
       "Ethereum": 12813009.77903872,
@@ -428,16 +312,9 @@
   {
     "id": "333",
     "name": "O3 Swap",
-    "address": "0xee9801669c6138e84bd50deb500827b776777d28",
     "symbol": "O3",
-    "url": "https://o3swap.com/",
-    "description": "Multi-chain bridge",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/o3-swap.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "o3-swap",
-    "cmcId": "9588",
     "category": "Cross Chain",
     "chains": [
       "Ethereum",
@@ -451,12 +328,6 @@
       "Celo",
       "xDai"
     ],
-    "module": "o3swap.js",
-    "twitter": "O3_Labs",
-    "audit_links": [
-      "https://certik-public-assets.s3.amazonaws.com/CertiK+Security+Assessment+for+O3+Swap.pdf"
-    ],
-    "slug": "o3-swap",
     "tvl": 11564265.55,
     "chainTvls": {
       "Optimism": 919967.75,
@@ -473,23 +344,15 @@
     "change_1h": 0.06,
     "change_1d": 1.35,
     "change_7d": 9.51,
-    "fdv": 14367847,
     "mcap": 5133013,
     "rank": 10
   },
   {
     "id": "161",
     "name": "BoringDAO",
-    "address": "0xbc19712feb3a26080ebf6f2f7849b417fdd792ca",
     "symbol": "BORING",
-    "url": "https://www.boringdao.com/",
-    "description": "BoringDAO is a decentralized bridge that connects all blockchain assets, we offer users a safe way to maximize their utilization rate of crypto assets.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/boringdao.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "boringdao",
-    "cmcId": "7509",
     "category": "Cross Chain",
     "chains": [
       "Bitcoin",
@@ -513,15 +376,9 @@
       "Oasis",
       "Boba"
     ],
-    "module": "boringdao/index.js",
-    "twitter": "TheBoringDAO",
-    "audit_links": [
-      "https://github.com/BoringDAO/boringDAO-contract/blob/master/peckshield-audit-report-boringdao-v1.0rc.pdf"
-    ],
     "oracles": [
       "Chainlink"
     ],
-    "slug": "boringdao",
     "tvl": 5515659.386516411,
     "chainTvls": {
       "Optimism": 24207.498281966997,
@@ -551,23 +408,15 @@
     "change_1d": 0.8,
     "change_7d": 1.11,
     "staking": 62921.85348813461,
-    "fdv": 20376975,
     "mcap": 10309120,
     "rank": 11
   },
   {
     "id": "1257",
     "name": "CrossChain Bridge",
-    "address": "0x92868a5255c628da08f550a858a802f5351c5223",
     "symbol": "BRIDGE",
-    "url": "https://crosschainbridge.org",
-    "description": "The Cross-Chain Bridge v2.0 has an ambitious goal: It should be possible to move any token to almost any network. The Cross-Chain Bridge will attract and incentivize all players to participate in the ecosystem. Similar to projects launching tokens on a DEX (e.g. Uniswap), communities and/or creators will be able to add their own token via the Cross-Chain Bridge intuitively and permissionless, benefiting from greater accessibility and security. Meanwhile, yield farmers AND projects will be incentivized to provide liquidity with fee-participation and yield farming.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/crosschain-bridge.svg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "cross-chain-bridge-token",
-    "cmcId": "14399",
     "category": "Cross Chain",
     "chains": [
       "Ethereum",
@@ -576,13 +425,7 @@
       "Fantom",
       "Avalanche"
     ],
-    "module": "crosschainbridge/index.js",
-    "twitter": "CCB_Bridge",
-    "audit_links": [
-      "https://drive.google.com/file/d/1cei3INZN9lAjclgOYdnSj1_rULqMLXlC/view"
-    ],
     "listedAt": 1642142431,
-    "slug": "crosschain-bridge",
     "tvl": 4809607.031652879,
     "chainTvls": {
       "Fantom-staking": 2784.9184397479416,
@@ -607,16 +450,9 @@
   {
     "id": "1594",
     "name": "Symbiosis Finance",
-    "address": "0xd38bb40815d2b0c2d2c866e0c72c5728ffc76dd9",
     "symbol": "SIS",
-    "url": "https://symbiosis.finance",
-    "description": "Symbiosis aggregates decentralized exchange liquidity across any EVM and non-EVM networks. Swap any token and transfer liquidity. Yes, any.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/symbiosis-finance.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "symbiosis-finance",
-    "cmcId": "15084",
     "category": "Cross Chain",
     "chains": [
       "Binance",
@@ -627,13 +463,7 @@
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "symbiosis-finance/index.js",
-    "twitter": "symbiosis_fi",
-    "audit_links": [
-      "https://github.com/symbiosis-finance/audits/tree/master/Symbiosis%20Protocol"
-    ],
     "listedAt": 1648668872,
-    "slug": "symbiosis-finance",
     "tvl": 4465080.84533087,
     "chainTvls": {
       "Binance": 1327508.0900420398,
@@ -645,32 +475,21 @@
     "change_1h": -0.0,
     "change_1d": 0.38,
     "change_7d": 0.51,
-    "fdv": 24367813,
     "mcap": 4214182,
     "rank": 13
   },
   {
     "id": "623",
     "name": "Composable Finance",
-    "address": "-",
     "symbol": "LAYR",
-    "url": "https://www.composable.finance",
-    "description": "Composable is a hyper liquidity infrastructure layer for DeFi assets powered by Layer 2 Ethereum and Polkadot.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/composable-finance.jpg",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Cross Chain",
     "chains": [
       "Ethereum",
       "Polygon",
       "Arbitrum"
     ],
-    "module": "composable/index.js",
-    "twitter": "ComposableFin",
-    "slug": "composable-finance",
     "tvl": 2673185.9558424135,
     "chainTvls": {
       "Ethereum": 2560681.8668925855,
@@ -685,26 +504,16 @@
   {
     "id": "1886",
     "name": "Kintsugi",
-    "address": "kintsugi:-",
     "symbol": "KINT",
-    "url": "https://kintsugi.interlay.io",
-    "description": "Radically open #Bitcoin on Kusama Network, canary network of @interlayHQ",
     "chain": "Kintsugi",
-    "logo": "https://icons.llama.fi/kintsugi.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": "kintsugi",
-    "cmcId": "13675",
     "category": "Cross Chain",
     "chains": [
       "Kintsugi"
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "kintsugi/index.js",
-    "twitter": "kintsugi_btc",
     "listedAt": 1657264095,
-    "slug": "kintsugi",
     "tvl": 2078101.225156671,
     "chainTvls": {
       "Kintsugi": 2078101.225156671
@@ -718,26 +527,16 @@
   {
     "id": "1974",
     "name": "Counterstake",
-    "address": null,
     "symbol": "-",
-    "url": "https://counterstake.org",
-    "description": "Counterstake is a permissionless and fully decentralized cross-chain bridge.",
     "chain": "Obyte",
-    "logo": "https://icons.llama.fi/counterstake.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Cross Chain",
     "chains": [
       "Obyte"
     ],
-    "module": "counterstake/index.js",
-    "twitter": "ObyteOrg",
     "forkedFrom": [],
     "oracles": [],
     "listedAt": 1660571813,
-    "slug": "counterstake",
     "tvl": 153367.0396846429,
     "chainTvls": {
       "Obyte": 153367.0396846429

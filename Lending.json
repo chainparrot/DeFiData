@@ -2,32 +2,19 @@
   {
     "id": "111",
     "name": "AAVE V2",
-    "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
     "symbol": "AAVE",
-    "url": "https://aave.com\r\n",
-    "description": "Aave is an Open Source and Non-Custodial protocol to earn interest on deposits and borrow assets",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/aave-v2.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "aave",
-    "cmcId": "7278",
     "category": "Lending",
     "chains": [
       "Ethereum",
       "Polygon",
       "Avalanche"
     ],
-    "module": "aave/index.js",
-    "twitter": "AaveAave",
-    "audit_links": [
-      "https://aave.com/security"
-    ],
     "oracles": [
       "Chainlink"
     ],
     "parentProtocol": "AAVE",
-    "slug": "aave-v2",
     "tvl": 5903205082.949504,
     "chainTvls": {
       "pool2": 119359294.9919864,
@@ -47,36 +34,22 @@
     "change_7d": 11.11,
     "staking": 246147250.74654958,
     "pool2": 119359294.9919864,
-    "fdv": 1762972738,
     "mcap": 1541290423,
     "rank": 1
   },
   {
     "id": "494",
     "name": "JustLend",
-    "address": "tron:TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9",
     "symbol": "JST",
-    "url": "https://justlend.just.network",
-    "description": "JustLend is a TRON-powered coin market protocol aimed at establishing fund pools whose interest rates are determined by an algorithm based on the supply and demand of TRON assets.",
     "chain": "Tron",
-    "logo": "https://icons.llama.fi/justlend.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "just",
-    "cmcId": "5488",
     "category": "Lending",
     "chains": [
       "Tron"
     ],
-    "module": "justlend.js",
-    "twitter": "DeFi_JUST",
     "oracles": [
       "WINkLink"
     ],
-    "audit_links": [
-      "https://www.justlend.link/docs/justlend_audit_en.pdf"
-    ],
-    "slug": "justlend",
     "tvl": 3408644997.1764517,
     "chainTvls": {
       "pool2": 0,
@@ -87,36 +60,22 @@
     "change_1d": 0.37,
     "change_7d": 2.03,
     "pool2": 0,
-    "fdv": 334244796,
     "mcap": 300552921,
     "rank": 2
   },
   {
     "id": "114",
     "name": "Compound",
-    "address": "0xc00e94cb662c3520282e6f5717214004a7f26888",
     "symbol": "COMP",
-    "url": "https://compound.finance",
-    "description": "Compound is an algorithmic, autonomous interest rate protocol built for developers, to unlock a universe of open financial applications.",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/compound.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "compound-governance-token",
-    "cmcId": "5692",
     "category": "Lending",
     "chains": [
       "Ethereum"
     ],
-    "module": "compound-onchain/index.js",
-    "twitter": "compoundfinance",
-    "audit_links": [
-      "https://compound.finance/docs/security"
-    ],
     "oracles": [
       "Chainlink"
     ],
-    "slug": "compound",
     "tvl": 3033906362.7653418,
     "chainTvls": {
       "Ethereum": 3033906362.7653418,
@@ -126,23 +85,15 @@
     "change_1h": 0.1,
     "change_1d": 0.59,
     "change_7d": 1.82,
-    "fdv": 645138886,
     "mcap": 442312753,
     "rank": 3
   },
   {
     "id": "1599",
     "name": "AAVE V3",
-    "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
     "symbol": "AAVE",
-    "url": "https://aave.com",
-    "description": "Earn interest, borrow assets, and build applications",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/aave-v3.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Avalanche",
@@ -154,14 +105,8 @@
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "aave/v3.js",
-    "twitter": "AaveAave",
-    "audit_links": [
-      "https://aave.com/security"
-    ],
     "listedAt": 1648776877,
     "parentProtocol": "AAVE",
-    "slug": "aave-v3",
     "tvl": 1560794699.841011,
     "chainTvls": {
       "Optimism": 561171708.2011285,
@@ -186,24 +131,12 @@
   {
     "id": "212",
     "name": "Venus",
-    "address": "bsc:0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63",
     "symbol": "XVS",
-    "url": "https://venus.io/",
-    "description": "A Decentralized Marketplace for Lenders and Borrowers with Borderless Stablecoins.",
     "chain": "Binance",
-    "logo": "https://icons.llama.fi/venus.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "venus",
-    "cmcId": "7288",
     "category": "Lending",
     "chains": [
       "Binance"
-    ],
-    "module": "venus.js",
-    "twitter": "VenusProtocol",
-    "audit_links": [
-      "https://www.certik.org/projects/swipe"
     ],
     "forkedFrom": [
       "Compound"
@@ -211,7 +144,6 @@
     "oracles": [
       "Chainlink"
     ],
-    "slug": "venus",
     "tvl": 747338750.6426992,
     "chainTvls": {
       "Binance": 747338750.6426992,
@@ -221,23 +153,15 @@
     "change_1h": 0.09,
     "change_1d": 0.59,
     "change_7d": 5.41,
-    "fdv": 178514132,
     "mcap": 81331029,
     "rank": 5
   },
   {
     "id": "1840",
     "name": "Sushiswap Kashi",
-    "address": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
     "symbol": "SUSHI",
-    "url": "https://sushi.com",
-    "description": "Lend and borrow assets in Kashi isolated risk markets.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/sushiswap-kashi.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Ethereum",
@@ -251,14 +175,8 @@
     "forkedFrom": [
       "Uniswap"
     ],
-    "module": "sushiswap-kashi/index.js",
-    "twitter": "SushiSwap",
-    "audit_links": [
-      "https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-SushiSwap-v1.0.pdf"
-    ],
     "listedAt": 1655586107,
     "parentProtocol": "SushiSwap",
-    "slug": "sushiswap-kashi",
     "tvl": 342749167.443121,
     "chainTvls": {
       "Arbitrum-borrowed": 32150.72029958732,
@@ -279,29 +197,16 @@
   {
     "id": "458",
     "name": "Solend",
-    "address": "solana:SLNDpmoWTVADgEdndyvWzroNL7zSi1dF9PC3xHGtPwp",
     "symbol": "SLND",
-    "url": "https://solend.fi",
-    "description": "Solend is an algorithmic, decentralized protocol for lending and borrowing on Solana. Lending and borrowing has proven itself as being key in a DeFi ecosystem. However, current products are slow and expensive. On Solana, Solend can scale to being 100x faster and 100x cheaper. Solend aims to be the easiest to use and most secure solution on Solana.",
     "chain": "Solana",
-    "logo": "https://icons.llama.fi/solend.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "solend",
-    "cmcId": "13524",
     "category": "Lending",
     "chains": [
       "Solana"
     ],
-    "module": "solend/index.js",
-    "twitter": "solendprotocol",
-    "audit_links": [
-      "https://github.com/solendprotocol/solana-program-library/tree/master/token-lending/audit"
-    ],
     "oracles": [
       "Pyth"
     ],
-    "slug": "solend",
     "tvl": 313814141.17330027,
     "chainTvls": {
       "Solana-borrowed": 179212811.83879954,
@@ -311,31 +216,18 @@
     "change_1h": 0.12,
     "change_1d": -0.58,
     "change_7d": 12.58,
-    "fdv": 68045311,
     "mcap": 15340770,
     "rank": 7
   },
   {
     "id": "467",
     "name": "Benqi Lending",
-    "address": "avax:0x8729438eb15e2c8b576fcc6aecda6a148776c0f5",
     "symbol": "QI",
-    "url": "https://benqi.fi",
-    "description": "BENQI is a non-custodial liquidity market protocol, built on Avalanche. The protocol enables users to effortlessly lend, borrow, and earn interest with their digital assets.",
     "chain": "Avalanche",
-    "logo": "https://icons.llama.fi/benqi-lending.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "benqi",
-    "cmcId": "9288",
     "category": "Lending",
     "chains": [
       "Avalanche"
-    ],
-    "module": "benqi/index.js",
-    "twitter": "BenqiFinance",
-    "audit_links": [
-      "https://docs.benqi.fi/risks#audits"
     ],
     "oracles": [
       "Chainlink"
@@ -344,7 +236,6 @@
       "Compound"
     ],
     "parentProtocol": "Benqi",
-    "slug": "benqi-lending",
     "tvl": 271864115.0118291,
     "chainTvls": {
       "Avalanche": 271864115.0118291,
@@ -357,37 +248,23 @@
     "change_1d": 1.16,
     "change_7d": -2.63,
     "pool2": 4439792.132399914,
-    "fdv": 134153324,
     "mcap": 50151234,
     "rank": 8
   },
   {
     "id": "1115",
     "name": "Tectonic",
-    "address": "cronos:0xeAdf7c01DA7E93FdB5f16B0aa9ee85f978e89E95",
     "symbol": "TONIC",
-    "url": "https://tectonic.finance/",
-    "description": "Tectonic is a cross-chain money market for earning passive yield and accessing instant backed loans",
     "chain": "Cronos",
-    "logo": "https://icons.llama.fi/tectonic.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "tectonic",
-    "cmcId": "16430",
     "category": "Lending",
     "chains": [
       "Cronos"
     ],
-    "module": "tectonic/index.js",
-    "twitter": "TectonicFi",
     "forkedFrom": [
       "Compound"
     ],
-    "audit_links": [
-      "https://tectonic.gitbook.io/docs/developer/smart-contracts-and-security"
-    ],
     "listedAt": 1640643322,
-    "slug": "tectonic",
     "tvl": 262516625.52745527,
     "chainTvls": {
       "Cronos-borrowed": 189204796.37006387,
@@ -397,34 +274,20 @@
     "change_1h": 0.06,
     "change_1d": 2.29,
     "change_7d": -3.5,
-    "fdv": 86533529,
     "mcap": 16475485,
     "rank": 9
   },
   {
     "id": "1183",
     "name": "Euler",
-    "address": "0xd9fcd98c322942075a5c3860693e9f4f03aae07b",
     "symbol": "EUL",
-    "url": "https://www.euler.finance",
-    "description": "Permissionless crypto lending markets are almost here. Euler is a non-custodial protocol on Ethereum that allows users to lend and borrow almost any crypto asset",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/euler.svg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "euler",
-    "cmcId": "14280",
     "category": "Lending",
     "chains": [
       "Ethereum"
     ],
-    "module": "euler/index.js",
-    "twitter": "eulerfinance",
-    "audit_links": [
-      "https://docs.euler.finance/security/smart-contract-audits"
-    ],
     "listedAt": 1641231917,
-    "slug": "euler",
     "tvl": 229654770.05084732,
     "chainTvls": {
       "Ethereum": 229654770.05084732,
@@ -434,33 +297,19 @@
     "change_1h": 0.11,
     "change_1d": 3.37,
     "change_7d": 7.3,
-    "fdv": 192478538,
     "mcap": 0,
     "rank": 10
   },
   {
     "id": "612",
     "name": "Vires Finance",
-    "address": "waves:DSbbhLsSTeDg5Lsiufk2Aneh3DjVqJuPr2M9uU1gwy5p",
     "symbol": "VIRES",
-    "url": "https://vires.finance",
-    "description": "Vires.finance is is a decentralized non-custodial liquidity protocol based on Waves Blockchain, where users, wallets and dapps can participate as depositors or borrowers.",
     "chain": "Waves",
-    "logo": "https://icons.llama.fi/vires-finance.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "vires-finance",
-    "cmcId": "12907",
     "category": "Lending",
     "chains": [
       "Waves"
     ],
-    "module": "vires/index.js",
-    "twitter": "viresfinance",
-    "audit_links": [
-      "https://github.com/deemru/viresfinance-audit/releases/download/audit/viresfinance-security-audit.en.pdf"
-    ],
-    "slug": "vires-finance",
     "tvl": 171922476.87253037,
     "chainTvls": {
       "Waves": 171922476.87253037,
@@ -470,33 +319,22 @@
     "change_1h": -0.09,
     "change_1d": -0.19,
     "change_7d": -6.56,
-    "fdv": 274251145,
     "mcap": 15944481,
     "rank": 11
   },
   {
     "id": "286",
     "name": "Mango Markets",
-    "address": "solana:MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac",
     "symbol": "MNGO",
-    "url": "https://mango.markets",
-    "description": "DEX for leverage trading",
     "chain": "Solana",
-    "logo": "https://icons.llama.fi/mango-markets.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": "mango-markets",
-    "cmcId": "11171",
     "category": "Lending",
     "chains": [
       "Solana"
     ],
-    "module": "mango-markets/index.js",
-    "twitter": "mangomarkets",
     "oracles": [
       "Pyth"
     ],
-    "slug": "mango-markets",
     "tvl": 143687464.86688426,
     "chainTvls": {
       "Solana": 143687464.86688426
@@ -504,36 +342,22 @@
     "change_1h": 0.07,
     "change_1d": 1.99,
     "change_7d": 13.06,
-    "fdv": 248652186,
     "mcap": 54482652,
     "rank": 12
   },
   {
     "id": "140",
     "name": "Kava Lend",
-    "address": "-",
     "symbol": "HARD",
-    "url": "https://app.kava.io/lend",
-    "description": "Cross-chain money market. Lend, borrow, and earn with your crypto.\r\n",
     "chain": "Kava",
-    "logo": "https://icons.llama.fi/kava-lend.png",
     "audits": null,
-    "audit_note": null,
-    "gecko_id": "kava-lend",
-    "cmcId": "7576",
     "category": "Lending",
     "chains": [
       "Kava"
     ],
-    "module": "hard.js",
-    "twitter": "hard_protocol",
-    "audit_links": [
-      "https://www.certik.org/projects/hard"
-    ],
     "oracles": [
       "Chainlink"
     ],
-    "slug": "kava-lend",
     "tvl": 124778238.5249718,
     "chainTvls": {
       "Kava": 124778238.5249718,
@@ -543,23 +367,15 @@
     "change_1h": 0.58,
     "change_1d": 1.57,
     "change_7d": 6.5,
-    "fdv": 54369091,
     "mcap": 35962888,
     "rank": 13
   },
   {
     "id": "1922",
     "name": "Radiant",
-    "address": "arbitrum:0x0c4681e6c0235179ec3d4f4fc4df3d14fdd96017",
     "symbol": "RDNT",
-    "url": "https://radiant.capital/#/markets",
-    "description": "Radiant Capital is aiming to be an omnichain money market, where users can deposit any major asset on any major chain and borrow a variety of supported assets across multiple chains",
     "chain": "Arbitrum",
-    "logo": "https://icons.llama.fi/radiant.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "radiant-capital",
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Arbitrum"
@@ -570,13 +386,7 @@
     "forkedFrom": [
       "Aave"
     ],
-    "module": "radiant/index.js",
-    "twitter": "RDNTCapital",
-    "audit_links": [
-      "https://solidity.finance/audits/RadiantProtocol/"
-    ],
     "listedAt": 1658739357,
-    "slug": "radiant",
     "tvl": 116947956.0519204,
     "chainTvls": {
       "Arbitrum-borrowed": 314778264.6348839,
@@ -592,33 +402,19 @@
     "change_7d": 15.39,
     "staking": 9381647.233586147,
     "pool2": 1567001.6140781406,
-    "fdv": 117705806,
     "mcap": 3254851,
     "rank": 14
   },
   {
     "id": "234",
     "name": "Notional",
-    "address": "0xcfeaead4947f0705a14ec42ac3d44129e1ef3ed5",
     "symbol": "NOTE",
-    "url": "https://notional.finance/",
-    "description": "Fixed rate lending on Ethereum\r\n",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/notional.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "notional-finance",
-    "cmcId": "14631",
     "category": "Lending",
     "chains": [
       "Ethereum"
     ],
-    "module": "notional/index.js",
-    "twitter": "NotionalFinance",
-    "audit_links": [
-      "https://blog.openzeppelin.com/notional-audit/"
-    ],
-    "slug": "notional",
     "tvl": 113196243.15402381,
     "chainTvls": {
       "Ethereum": 113196243.15402381
@@ -626,23 +422,15 @@
     "change_1h": 0.04,
     "change_1d": 1.35,
     "change_7d": 1.62,
-    "fdv": 40253622,
     "mcap": 7474680,
     "rank": 15
   },
   {
     "id": "1518",
     "name": "Bastion",
-    "address": "-",
     "symbol": "BSTN",
-    "url": "https://app.bastionprotocol.com/",
-    "description": "The Liquidity Foundation of Aurora. Stableswap and Lending.",
     "chain": "Aurora",
-    "logo": "https://icons.llama.fi/bastion.svg",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": "bastion-protocol",
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Aurora"
@@ -653,11 +441,7 @@
     "forkedFrom": [
       "Compound"
     ],
-    "module": "bastion/index.js",
-    "twitter": "BastionProtocol",
-    "audit_links": [],
     "listedAt": 1646686350,
-    "slug": "bastion",
     "tvl": 106086948.67263708,
     "chainTvls": {
       "Aurora": 106086948.67263708,
@@ -667,37 +451,23 @@
     "change_1h": 0.03,
     "change_1d": 0.19,
     "change_7d": 2.75,
-    "fdv": 22067643,
     "mcap": 4148474,
     "rank": 16
   },
   {
     "id": "1087",
     "name": "Algofi",
-    "address": null,
     "symbol": "-",
-    "url": "https://www.algofi.org/",
-    "description": "Decentralized lending protocol and stablecoin built on Algorand",
     "chain": "Algorand",
-    "logo": "https://icons.llama.fi/algofi.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Algorand"
     ],
-    "module": "algofi/index.js",
-    "twitter": "algofiorg",
     "oracles": [
       "TWAP"
     ],
-    "audit_links": [
-      "https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Algofi.pdf"
-    ],
     "listedAt": 1640301190,
-    "slug": "algofi",
     "tvl": 92411549.61738199,
     "chainTvls": {
       "Algorand-borrowed": 33290871.248815175,
@@ -715,16 +485,9 @@
   {
     "id": "1642",
     "name": "Folks Finance",
-    "address": null,
     "symbol": "-",
-    "url": "https://folks.finance/",
-    "description": "Lending and borrowing protocol with innovative features built on Algorand Blockchain.",
     "chain": "Algorand",
-    "logo": "https://icons.llama.fi/folks-finance.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Algorand"
@@ -733,15 +496,7 @@
       "Internal"
     ],
     "forkedFrom": [],
-    "module": "folks-finance/index.js",
-    "twitter": "FolksFinance",
-    "audit_links": [
-      "https://www.coinspect.com/doc/Coinspect%20-%20Smart%20Contract%20Audit%20-%20Folks%20Finance%20v220314.pdf",
-      "https://github.com/vantagepointreports/releases/blob/main/VPQ-20210652%20-%20Folks.Finance%20-%20Smart%20Contract%20Audit%20-%20Phase%201_Public_V1.0.pdf",
-      "https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Folks-Finance-Design-Review.pdf"
-    ],
     "listedAt": 1649792952,
-    "slug": "folks-finance",
     "tvl": 89605303.81034131,
     "chainTvls": {
       "Algorand-borrowed": 2863475.6566766347,
@@ -756,27 +511,17 @@
   {
     "id": "1453",
     "name": "EOS REX",
-    "address": "eos:eos",
     "symbol": "EOS",
-    "url": "https://eosauthority.com/rex/statistics?network=eos",
-    "description": "REX (Resource Exchange) used for lending and borrowing CPU & NET resources and earning system protocol income (RAM fees, Name Bids, CPU/Net loans, PowerUp fees).",
     "chain": "EOS",
-    "logo": "https://icons.llama.fi/eos-rex.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "eos",
-    "cmcId": "1765",
     "category": "Lending",
     "chains": [
       "EOS"
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "rex/index.js",
-    "twitter": "EosNFoundation",
     "language": "C++",
     "listedAt": 1645579151,
-    "slug": "eos-rex",
     "tvl": 86033028.24217801,
     "chainTvls": {
       "EOS": 86033028.24217801
@@ -790,16 +535,9 @@
   {
     "id": "197",
     "name": "Ooki",
-    "address": "0x0De05F6447ab4D22c8827449EE4bA2D5C288379B",
     "symbol": "OOKI",
-    "url": "https://hello.ooki.com",
-    "description": "Ooki is a flexible decentralized finance protocol for margin trading, borrowing, lending and staking on multiple blockchains.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/ooki.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "ooki",
-    "cmcId": "5810",
     "category": "Lending",
     "chains": [
       "Ethereum",
@@ -808,15 +546,9 @@
       "Optimism",
       "Binance"
     ],
-    "module": "ooki/index.js",
-    "twitter": "OokiTrade",
-    "audit_links": [
-      "https://docs.ooki.com/developers/audits"
-    ],
     "oracles": [
       "Chainlink"
     ],
-    "slug": "ooki",
     "tvl": 65696555.88086349,
     "chainTvls": {
       "Binance": 3436.4753182607597,
@@ -828,33 +560,22 @@
     "change_1h": 2.04,
     "change_1d": 63.9,
     "change_7d": 59.78,
-    "fdv": 83351758,
     "mcap": 30856029,
     "rank": 20
   },
   {
     "id": "1546",
     "name": "Burrow",
-    "address": "near:-",
     "symbol": "BRRR",
-    "url": "https://app.burrow.cash/#/deposit",
-    "description": "Burrow is a decentralized, non-custodial pool-based interest rates platform that enables users to supply assets to earn interest, and to borrow against them to unlock liquidity. Burrow is similar in nature to Aave, Compound, and other pool-based protocols. Burrow runs natively on the NEAR blockchain, a layer 1, proof-of-stake, sharded blockchain with a WebAssembly runtime. The Burrow protocol's smart contracts are written in Rust.",
     "chain": "Near",
-    "logo": "https://icons.llama.fi/burrow.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": "burrow",
-    "cmcId": "20604",
     "category": "Lending",
     "chains": [
       "Near"
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "burrow.cash/index.js",
-    "twitter": "burrowcash",
     "listedAt": 1647296278,
-    "slug": "burrow",
     "tvl": 65338309.59984676,
     "chainTvls": {
       "Near-borrowed": 13623050.070349997,
@@ -864,32 +585,21 @@
     "change_1h": -0.04,
     "change_1d": 0.32,
     "change_7d": -3.1,
-    "fdv": 13725767,
     "mcap": 878216,
     "rank": 21
   },
   {
     "id": "1955",
     "name": "Parallel Lending",
-    "address": null,
     "symbol": "-",
-    "url": "https://parallel.fi",
-    "description": "Parallel Finance is a Decentralized Money Market Protocol that offers lending, staking, and borrowing in the Polkadot ecosystem. Depositors can lend and stake simultaneously to earn double yield on their staked coins, and borrowers can collateralize to borrow.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/parallel-defi-super-app.jpg",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Parallel",
       "Heiko"
     ],
-    "module": "parallel-lending/index.js",
-    "twitter": "ParallelFi",
     "parentProtocol": "Parallel DeFi Super App",
-    "slug": "parallel-lending",
     "tvl": 64066489.755344115,
     "chainTvls": {
       "Heiko": 12080589.574910782,
@@ -906,25 +616,12 @@
   {
     "id": "643",
     "name": "Geist Finance",
-    "address": "fantom:0xd8321AA83Fb0a4ECd6348D4577431310A6E0814d",
     "symbol": "GEIST",
-    "url": "https://geist.finance",
-    "description": "Geist is a decentralised non-custodial liquidity market protocol where users can participate as depositors or borrowers.",
     "chain": "Fantom",
-    "logo": "https://icons.llama.fi/geist-finance.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "geist-finance",
-    "cmcId": "12576",
     "category": "Lending",
     "chains": [
       "Fantom"
-    ],
-    "module": "geist/index.js",
-    "twitter": "GeistFinance",
-    "audit_links": [
-      "https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-Geist-v1.0.pdf",
-      "https://solidity.finance/audits/GeistProtocol/"
     ],
     "oracles": [
       "Chainlink"
@@ -932,7 +629,6 @@
     "forkedFrom": [
       "Aave"
     ],
-    "slug": "geist-finance",
     "tvl": 53437114.940219745,
     "chainTvls": {
       "pool2": 640684.364758302,
@@ -948,33 +644,19 @@
     "change_7d": 1.39,
     "staking": 2491763.927122342,
     "pool2": 640684.364758302,
-    "fdv": 5367851,
     "mcap": 1633411,
     "rank": 23
   },
   {
     "id": "1167",
     "name": "DefiChain Loans",
-    "address": "-",
     "symbol": "DFI",
-    "url": "https://defichain.com",
-    "description": "Over-collateralized loans on DefiChain.",
     "chain": "DefiChain",
-    "logo": "https://icons.llama.fi/defichain.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "DefiChain"
     ],
-    "module": "defichain-loans.js",
-    "twitter": "defichain",
-    "audit_links": [
-      "https://defichain.com/security/"
-    ],
-    "slug": "defichain-loans",
     "tvl": 52581637.23046489,
     "chainTvls": {
       "DefiChain": 52581637.23046489
@@ -987,27 +669,15 @@
   {
     "id": "121",
     "name": "CREAM Finance",
-    "address": "0x2ba592F78dB6436527729929AAf6c908497cB200",
     "symbol": "CREAM",
-    "url": "https://cream.finance/",
-    "description": "Money markets, liquid staking and protocol-to-protocol lending",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/cream-finance.png",
     "audits": "3",
-    "audit_note": null,
-    "gecko_id": "cream-2",
-    "cmcId": "6193",
     "category": "Lending",
     "chains": [
       "Ethereum",
       "Binance",
       "Polygon",
       "Arbitrum"
-    ],
-    "module": "cream/index.js",
-    "twitter": "CreamdotFinance",
-    "audit_links": [
-      "https://docs.cream.finance/audit-report"
     ],
     "forkedFrom": [
       "Compound"
@@ -1016,7 +686,6 @@
       "Chainlink",
       "Band"
     ],
-    "slug": "cream-finance",
     "tvl": 51193058.302772485,
     "chainTvls": {
       "Arbitrum-borrowed": 26754.872179664184,
@@ -1031,23 +700,15 @@
     "change_1h": 0.27,
     "change_1d": -2.04,
     "change_7d": -4.47,
-    "fdv": 58460233,
     "mcap": 15322651,
     "rank": 25
   },
   {
     "id": "183",
     "name": "Wing Finance",
-    "address": "-",
     "symbol": "WING",
-    "url": "https://wing.finance",
-    "description": "A Credit-based, cross-chain DeFi Platform.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/wing-finance.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "wing-finance",
-    "cmcId": "7048",
     "category": "Lending",
     "chains": [
       "Ontology",
@@ -1056,15 +717,9 @@
       "Ethereum",
       "OKExChain"
     ],
-    "module": "wing.js",
-    "twitter": "Wing_Finance",
-    "audit_links": [
-      "https://docs.wing.finance/#audits"
-    ],
     "oracles": [
       "Chainlink"
     ],
-    "slug": "wing-finance",
     "tvl": 50082885.59226365,
     "chainTvls": {
       "OntologyEVM": 2629207.5450303415,
@@ -1083,36 +738,22 @@
     "change_1d": 3.37,
     "change_7d": 11.32,
     "staking": 1438671.6722708328,
-    "fdv": 69833450,
     "mcap": 38530936,
     "rank": 26
   },
   {
     "id": "1848",
     "name": "Acala Dollar",
-    "address": "acala:-",
     "symbol": "aUSD",
-    "url": "https://apps.acala.network/vault",
-    "description": "The Acala USD (aUSD) stablecoin protocol enables a decentralized, cross-chain stable currency that serves as the native stablecoin of the Polkadot and Kusama ecosystem",
     "chain": "Acala",
-    "logo": "https://icons.llama.fi/acala-dollar-(ausd).png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Acala"
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "acala-lending/index.js",
-    "twitter": "AcalaNetwork",
-    "audit_links": [
-      "https://github.com/AcalaNetwork/Acala/tree/master/audit"
-    ],
     "listedAt": 1655893651,
-    "slug": "acala-dollar",
     "tvl": 49615807.72708479,
     "chainTvls": {
       "Acala": 49615807.72708479
@@ -1125,16 +766,9 @@
   {
     "id": "1401",
     "name": "Moonwell Apollo",
-    "address": "moonriver:0xbb8d88bcd9749636bc4d2be22aac4bb3b01a58f1",
     "symbol": "MFAM",
-    "url": "https://moonwell.fi",
-    "description": "Moonwell is an open lending and borrowing DeFi protocol on Moonbeam & Moonriver.",
     "chain": "Moonriver",
-    "logo": "https://icons.llama.fi/moonwell-apollo.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "moonwell",
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Moonriver"
@@ -1145,15 +779,8 @@
     "forkedFrom": [
       "Compound"
     ],
-    "module": "moonwell/index.js",
-    "twitter": "MoonwellDeFi",
     "language": "Solidity",
-    "audit_links": [
-      "https://github.com/HalbornSecurity/PublicReports/blob/master/Solidity%20Smart%20Contract%20Audits/Moonwell_Finance_Smart_Contract_Security_Audit_Report_Halborn_Final.pdf",
-      "https://github.com/HalbornSecurity/PublicReports/blob/master/Solidity%20Smart%20Contract%20Audits/Moonwell_Finance_Safety_Module_Smart_Contract_Security_Audit_Report_Halborn_Final.pdf"
-    ],
     "listedAt": 1644685001,
-    "slug": "moonwell-apollo",
     "tvl": 44019335.7882338,
     "chainTvls": {
       "Moonriver-staking": 195364.4542265176,
@@ -1166,37 +793,23 @@
     "change_1d": 0.24,
     "change_7d": 3.53,
     "staking": 195364.4542265176,
-    "fdv": 5060434,
     "mcap": 505301,
     "rank": 28
   },
   {
     "id": "536",
     "name": "Larix",
-    "address": "solana:Lrxqnh6ZHKbGy3dcrCED43nsoLkM1LTzU2jRfWe8qUC",
     "symbol": "LARIX",
-    "url": "https://projectlarix.com",
-    "description": "The first Metaverse based Finance Protocol on Solana.",
     "chain": "Solana",
-    "logo": "https://icons.llama.fi/larix.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "larix",
-    "cmcId": "11911",
     "category": "Lending",
     "chains": [
       "Solana"
-    ],
-    "module": "larix.js",
-    "twitter": "ProjectLarix",
-    "audit_links": [
-      "https://docs.projectlarix.com/how-to-prove/audit"
     ],
     "oracles": [
       "Pyth"
     ],
     "openSource": false,
-    "slug": "larix",
     "tvl": 40085869.27805579,
     "chainTvls": {
       "Solana-borrowed": 10442425.339986226,
@@ -1206,23 +819,15 @@
     "change_1h": 0.06,
     "change_1d": 0.06,
     "change_7d": 6.11,
-    "fdv": 12133722,
     "mcap": 0,
     "rank": 29
   },
   {
     "id": "1855",
     "name": "Klap",
-    "address": null,
     "symbol": "-",
-    "url": "https://www.klap.finance",
-    "description": "KLAP (Klaytn Lending Application) is the leading money market on Klaytn.",
     "chain": "Klaytn",
-    "logo": "https://icons.llama.fi/klap.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Klaytn"
@@ -1233,13 +838,7 @@
     "forkedFrom": [
       "Aave"
     ],
-    "module": "klap/index.js",
-    "twitter": "klapfinance",
-    "audit_links": [
-      "https://docs.klap.finance/useful-info/audit"
-    ],
     "listedAt": 1656139895,
-    "slug": "klap",
     "tvl": 39828974.34789503,
     "chainTvls": {
       "Klaytn": 39828974.34789503,
@@ -1254,16 +853,9 @@
   {
     "id": "123",
     "name": "dForce",
-    "address": "0x431ad2ff6a9c365805ebad47ee021148d6f7dbe0",
     "symbol": "DF",
-    "url": "https://dforce.network/",
-    "description": "dForce network is an ecosystem of protocols aiming to be a full stack solution for DeFi.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/DF.svg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "dforce-token",
-    "cmcId": "4758",
     "category": "Lending",
     "chains": [
       "Binance",
@@ -1274,17 +866,11 @@
       "Kava",
       "Avalanche"
     ],
-    "module": "dforce/index.js",
-    "twitter": "dForcenet",
-    "audit_links": [
-      "https://github.com/dforce-network/documents/tree/master/audit_report/Lending"
-    ],
     "forkedFrom": [],
     "oracles": [
       "Chainlink",
       "Band"
     ],
-    "slug": "dforce",
     "tvl": 36122165.776512116,
     "chainTvls": {
       "Optimism": 1529833.7810735977,
@@ -1309,23 +895,15 @@
     "change_1d": 1.24,
     "change_7d": 7.37,
     "staking": 0,
-    "fdv": 42505816,
     "mcap": 18110189,
     "rank": 31
   },
   {
     "id": "1838",
     "name": "AAVE V1",
-    "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
     "symbol": "AAVE",
-    "url": "https://aave.com",
-    "description": "Earn interest, borrow assets, and build applications",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/aave-v1.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Ethereum"
@@ -1334,14 +912,8 @@
       "Chainlink"
     ],
     "forkedFrom": [],
-    "module": "aave-v1/index.js",
-    "twitter": "AaveAave",
-    "audit_links": [
-      "https://aave.com/security"
-    ],
     "listedAt": 1655586107,
     "parentProtocol": "AAVE",
-    "slug": "aave-v1",
     "tvl": 35474079.19376215,
     "chainTvls": {
       "Ethereum": 35474079.19376215,
@@ -1356,24 +928,14 @@
   {
     "id": "954",
     "name": "REX Staking",
-    "address": "",
     "symbol": "-",
-    "url": "https://eosauthority.com/rex",
-    "description": "REX is short for \u201cResource Exchange\u201d and is a marketplace that allows for the risk-free leasing of network resources (CPU & Network)",
     "chain": "Telos",
-    "logo": "https://icons.llama.fi/rex-staking.jpg",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Telos"
     ],
-    "module": "telosRex.js",
-    "twitter": "EOSauthority",
     "listedAt": 1638411637,
-    "slug": "rex-staking",
     "tvl": 35188191.90045832,
     "chainTvls": {
       "Telos": 35188191.90045832
@@ -1386,25 +948,13 @@
   {
     "id": "1584",
     "name": "Valas Finance",
-    "address": "bsc:0xB1EbdD56729940089Ecc3aD0BBEEB12b6842ea6F",
     "symbol": "VALAS",
-    "url": "https://valasfinance.com/",
-    "description": "Valas is a decentralised non-custodial liquidity market protocol where users can participate as depositors or borrowers.",
     "chain": "Binance",
-    "logo": "https://icons.llama.fi/valas-finance.png",
     "audits": "2",
-    "audit_note": null,
-    "audit_links": [
-      "https://github.com/valas-finance/valas-protocol/blob/main/audits/PeckShield-Audit-Report-ValasFinance-v1.0.pdf"
-    ],
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Binance"
     ],
-    "module": "valas/index.js",
-    "twitter": "ValasFinance",
     "oracles": [
       "Chainlink"
     ],
@@ -1412,7 +962,6 @@
       "Aave"
     ],
     "listedAt": 1648568438,
-    "slug": "valas-finance",
     "tvl": 33438122.182007406,
     "chainTvls": {
       "pool2": 123861.81893127749,
@@ -1433,30 +982,20 @@
   {
     "id": "573",
     "name": "Liqee",
-    "address": "-",
     "symbol": "LQE",
-    "url": "https://liqee.io",
-    "description": "Liqee is the world\u2019s first lending protocol for liquid staking assets (PoS staking tokens, DeFi staking tokens). The protocol also provides tokenization for PoS and mining facilities and PoS validation services across a number of networks",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/liqee.jpg",
     "audits": "3",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Binance",
       "Ethereum"
     ],
-    "module": "liqee/index.js",
-    "twitter": "liqeeio",
     "oracles": [
       "Chainlink"
     ],
     "forkedFrom": [
       "Compound"
     ],
-    "slug": "liqee",
     "tvl": 30591625.831910137,
     "chainTvls": {
       "Binance": 24930769.829193223,
@@ -1470,30 +1009,17 @@
   {
     "id": "1356",
     "name": "Hubble",
-    "address": "solana:HBB111SCo9jkCejsZfz8Ec8nH7T6THF8KEKSnvwT6XK6",
     "symbol": "HBB",
-    "url": "https://hubbleprotocol.io",
-    "description": "Hubble's Phase 1 launches a Solana native crypto-backed stablecoin, USDH, that earns users a yield on their multi-asset collateral. Phases 2 and 3 will launch DeFi structured products and undercollateralized loans.",
     "chain": "Solana",
-    "logo": "https://icons.llama.fi/hubble.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "hubble",
-    "cmcId": "16643",
     "category": "Lending",
     "chains": [
       "Solana"
-    ],
-    "module": "hubble/index.js",
-    "twitter": "HubbleProtocol",
-    "audit_links": [
-      "https://hubble-markets.gitbook.io/hubble-protocol-official-docs/documentation/security-audits"
     ],
     "oracles": [
       "Pyth"
     ],
     "listedAt": 1643884771,
-    "slug": "hubble",
     "tvl": 30591185.443650804,
     "chainTvls": {
       "Solana-staking": 789902.6331808313,
@@ -1504,23 +1030,15 @@
     "change_1d": 0.66,
     "change_7d": 9.24,
     "staking": 789902.6331808313,
-    "fdv": 22426723,
     "mcap": 2995072,
     "rank": 36
   },
   {
     "id": "348",
     "name": "FilDA",
-    "address": "heco:0xe36ffd17b2661eb57144ceaef942d95295e637f0",
     "symbol": "FILDA",
-    "url": "https://filda.io/",
-    "description": "Lending market",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/filda.jpg",
     "audits": "3",
-    "audit_note": null,
-    "gecko_id": "filda",
-    "cmcId": "8426",
     "category": "Lending",
     "chains": [
       "IoTeX",
@@ -1531,19 +1049,12 @@
       "Polygon",
       "Binance"
     ],
-    "module": "filda/index.js",
-    "twitter": "FilDAFinance",
-    "audit_links": [
-      "https://www.slowmist.com/en/security-audit-certificate.html?id=c6eb91a0f506aac62c334eb909a37f95e236987d3b3089c9ff902e6c39f16389",
-      "https://docs.filda.io/zhong-wen/dong-tai-geng-xin/2021112-geng-xin-update#filda-passed-the-security-audit-of-knownsec"
-    ],
     "oracles": [
       "Chainlink"
     ],
     "forkedFrom": [
       "Compound"
     ],
-    "slug": "filda",
     "tvl": 29443396.57435982,
     "chainTvls": {
       "Arbitrum-borrowed": 9134.135428922167,
@@ -1565,33 +1076,20 @@
     "change_1h": -0.29,
     "change_1d": 1.07,
     "change_7d": 8.72,
-    "fdv": 2696437,
     "mcap": 1043580,
     "rank": 37
   },
   {
     "id": "1303",
     "name": "Iron Bank",
-    "address": "fantom:0x00a35FD824c717879BF370E70AC6868b95870Dfb",
     "symbol": "IB",
-    "url": "https://ib.xyz",
-    "description": "Iron Bank is a decentralized protocol to protocol lending platform. It allows trusted protocols to borrow funds without posting collateral via whitelisting. It is helping build a better and safer DeFi lending ecosystem, by driving capital efficiency as the liquidity infrastructure and backbone for DeFi and CeFi.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/iron-bank.svg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "iron-bank",
-    "cmcId": "17568",
     "category": "Lending",
     "chains": [
       "Ethereum",
       "Avalanche",
       "Fantom"
-    ],
-    "module": "ironbank/index.js",
-    "twitter": "ibdotxyz",
-    "audit_links": [
-      "https://github.com/trailofbits/publications/blob/master/reviews/CREAMSummary.pdf"
     ],
     "forkedFrom": [
       "Compound"
@@ -1600,7 +1098,6 @@
     "oracles": [
       "Chainlink"
     ],
-    "slug": "iron-bank",
     "tvl": 28836277.457899556,
     "chainTvls": {
       "Fantom-borrowed": 3018535.0486704926,
@@ -1614,34 +1111,23 @@
     "change_1h": 0.1,
     "change_1d": 4.15,
     "change_7d": 20.05,
-    "fdv": 75277680,
     "mcap": 526112,
     "rank": 38
   },
   {
     "id": "434",
     "name": "Tarot",
-    "address": "fantom:0xc5e2b037d30a390e62180970b3aa4e91868764cd",
     "symbol": "TAROT",
-    "url": "https://www.tarot.to",
-    "description": "Protocol users can deposit LP tokens in Tarot Vaults and receive Vault Tokens. The deposited LP tokens are then farmed and earned rewards are automatically converted to additional LP tokens and reinvested.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/tarot.jpg",
     "audits": "3",
-    "audit_note": null,
-    "gecko_id": "tarot",
-    "cmcId": "11409",
     "category": "Lending",
     "chains": [
       "Fantom",
       "Optimism"
     ],
-    "module": "tarot/index.js",
-    "twitter": "TarotFinance",
     "forkedFrom": [
       "Impermax Finance"
     ],
-    "slug": "tarot",
     "tvl": 26443484.37326981,
     "chainTvls": {
       "Optimism": 4291534.887302996,
@@ -1653,23 +1139,15 @@
     "change_1h": -0.09,
     "change_1d": 3.26,
     "change_7d": -4.86,
-    "fdv": 10335373,
     "mcap": 3961767,
     "rank": 39
   },
   {
     "id": "1853",
     "name": "Moonwell Artemis",
-    "address": "moonbeam:0x511aB53F793683763E5a8829738301368a2411E3",
     "symbol": "WELL",
-    "url": "https://moonwell.fi",
-    "description": "Moonwell is an open lending and borrowing DeFi protocol on Moonbeam & Moonriver.",
     "chain": "Moonbeam",
-    "logo": "https://icons.llama.fi/moonwell-artemis.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "moonwell-artemis",
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Moonbeam"
@@ -1680,15 +1158,8 @@
     "forkedFrom": [
       "Compound"
     ],
-    "module": "moonwell-artemis/index.js",
-    "twitter": "MoonwellDeFi",
     "language": "Solidity",
-    "audit_links": [
-      "https://github.com/HalbornSecurity/PublicReports/blob/master/Solidity%20Smart%20Contract%20Audits/Moonwell_Finance_Smart_Contract_Security_Audit_Report_Halborn_Final.pdf",
-      "https://github.com/HalbornSecurity/PublicReports/blob/master/Solidity%20Smart%20Contract%20Audits/Moonwell_Finance_Safety_Module_Smart_Contract_Security_Audit_Report_Halborn_Final.pdf"
-    ],
     "listedAt": 1655988523,
-    "slug": "moonwell-artemis",
     "tvl": 23726101.805876467,
     "chainTvls": {
       "Moonbeam-borrowed": 12669810.521270901,
@@ -1701,23 +1172,15 @@
     "change_1d": 1.46,
     "change_7d": 8.69,
     "staking": 448319.9768300608,
-    "fdv": 63392164,
     "mcap": 1761246,
     "rank": 40
   },
   {
     "id": "1577",
     "name": "Sturdy",
-    "address": null,
     "symbol": "-",
-    "url": "https://app.sturdy.finance",
-    "description": "Sturdy is a first of its kind DeFi protocol for interest-free borrowing and high yield lending. Rather than charging borrowers interest, Sturdy stakes their collateral and passes the yield to lenders. This model changes the relationship between borrowers and lenders to make Sturdy the first positive-sum lending protocol.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/sturdy.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Ethereum",
@@ -1727,13 +1190,7 @@
       "TWAP"
     ],
     "forkedFrom": [],
-    "module": "sturdy/index.js",
-    "twitter": "SturdyFinance",
-    "audit_links": [
-      "https://www.certik.com/projects/sturdy"
-    ],
     "listedAt": 1648061916,
-    "slug": "sturdy",
     "tvl": 22801198.923304796,
     "chainTvls": {
       "Ethereum": 21343707.928344797,
@@ -1750,16 +1207,9 @@
   {
     "id": "253",
     "name": "BiFi",
-    "address": "0x2791BfD60D232150Bff86b39B7146c0eaAA2BA81",
     "symbol": "BiFi",
-    "url": "https://bifi.finance/",
-    "description": "BiFi (abbreviation of Bifrost Finance) is the decentralized finance platform built on Bifrost, the universal multichain middleware.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/bifi.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "bifi",
-    "cmcId": "8132",
     "category": "Lending",
     "chains": [
       "Bitcoin",
@@ -1768,20 +1218,10 @@
       "Klaytn",
       "Avalanche"
     ],
-    "module": "bifi/index.js",
-    "twitter": "BIFROSTio",
-    "audit_links": [
-      "https://github.com/bifrost-platform/BiFi-X/blob/main/docs/bifrost_bifix_audit.pdf",
-      "https://github.com/bifrost-platform/BIFI/blob/master/docs/ENG/(ENG)_BiFi_BIFROST_Extension_Theori.pdf",
-      "https://github.com/bifrost-platform/BIFI/blob/master/docs/ENG/(ENG)_BiFi_Lending_Sooho_EN_Public.pdf",
-      "https://github.com/bifrost-platform/BIFI/blob/master/docs/ENG/(ENG)_BiFi_Token_Hexlant_EN.pdf",
-      "https://github.com/bifrost-platform/BIFI/blob/master/docs/ENG/(ENG)_BiFrost_BTC_Extension_CertiK.pdf"
-    ],
     "oracles": [
       "Chainlink",
       "TWAP"
     ],
-    "slug": "bifi",
     "tvl": 20814350.94113639,
     "chainTvls": {
       "Klaytn": 1606438.919469384,
@@ -1796,23 +1236,15 @@
     "change_1d": 0.25,
     "change_7d": 4.12,
     "staking": 53212456.93092451,
-    "fdv": 11182132,
     "mcap": 4183538,
     "rank": 42
   },
   {
     "id": "1492",
     "name": "Aurigami",
-    "address": "aurora:0x09c9d464b58d96837f8d8b6f4d9fe4ad408d3a4f",
     "symbol": "PLY",
-    "url": "https://www.aurigami.finance",
-    "description": "MultiPLY with Aurigami, the noncustodial lending and borrowing haven on Aurora",
     "chain": "Aurora",
-    "logo": "https://icons.llama.fi/aurigami.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "aurigami",
-    "cmcId": "19268",
     "category": "Lending",
     "chains": [
       "Aurora"
@@ -1823,13 +1255,7 @@
     "forkedFrom": [
       "Compound"
     ],
-    "module": "aurigami.js",
-    "twitter": "aurigami_PLY",
-    "audit_links": [
-      "https://github.com/Aurigami-Finance/aurigami-smart-contracts/blob/main/docs/Aurigami_Finance_Audit_Report_by_WatchPug.pdf"
-    ],
     "listedAt": 1646168827,
-    "slug": "aurigami",
     "tvl": 20345110.334009655,
     "chainTvls": {
       "Aurora": 20345110.334009655,
@@ -1839,23 +1265,15 @@
     "change_1h": 0.01,
     "change_1d": -0.63,
     "change_7d": -5.59,
-    "fdv": 18125563,
     "mcap": 2194656,
     "rank": 43
   },
   {
     "id": "149",
     "name": "B.Protocol",
-    "address": "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
     "symbol": "BPRO",
-    "url": "https://www.bprotocol.org/",
-    "description": "B.Protocol makes lending platforms more secure by eliminating the gas wars and shifting the miner\u2019s profit to the users.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/b.protocol.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "b-protocol",
-    "cmcId": "10556",
     "category": "Lending",
     "chains": [
       "Ethereum",
@@ -1863,15 +1281,9 @@
       "Arbitrum",
       "Fantom"
     ],
-    "module": "bprotocol/index.js",
-    "twitter": "bprotocoleth",
-    "audit_links": [
-      "https://app.bprotocol.org/risk"
-    ],
     "oracles": [
       "Chainlink"
     ],
-    "slug": "b.protocol",
     "tvl": 18820802.547369644,
     "chainTvls": {
       "Ethereum": 17582142.645836066,
@@ -1882,38 +1294,24 @@
     "change_1h": 0.03,
     "change_1d": -0.54,
     "change_7d": 7.73,
-    "fdv": 10250951,
     "mcap": 4143312,
     "rank": 44
   },
   {
     "id": "1940",
     "name": "ApeSwap Lending",
-    "address": "bsc:0x603c7f932ed1fc6575303d8fb018fdcbb0f39a95",
     "symbol": "BANANA",
-    "url": "https://apeswap.finance",
-    "description": "ApeSwap is a Decentralized Autonomous Organization (DAO) that offers a full suite of tools to explore and engage with decentralized finance opportunities. Using the products within our DeFi Hub, users and partners can tap into this new wave of financial innovation in a secure, transparent, and globally accessible way.",
     "chain": "Binance",
-    "logo": "https://icons.llama.fi/apeswap-lending.png",
     "audits": "1",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Binance"
     ],
-    "module": "apeswap-lending/index.js",
     "forkedFrom": [
       "Compound"
     ],
-    "twitter": "ape_swap",
-    "audit_links": [
-      "https://apeswap.gitbook.io/apeswap-finance/security/audits"
-    ],
     "parentProtocol": "ApeSwap",
     "listedAt": 1659048081,
-    "slug": "apeswap-lending",
     "tvl": 17832211.72343611,
     "chainTvls": {
       "Binance": 17832211.72343611,
@@ -1928,29 +1326,16 @@
   {
     "id": "589",
     "name": "Strike",
-    "address": "0x74232704659ef37c08995e386a2e26cc27a8d7b1",
     "symbol": "STRK",
-    "url": "https://strike.org",
-    "description": "The Strike App enables users access to a fully decentralized money market powered on Ethereum 24/7/365 with a user-interface, api, or smart contracts.",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/strike.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "strike",
-    "cmcId": "8911",
     "category": "Lending",
     "chains": [
       "Ethereum"
     ],
-    "module": "strike/index.js",
-    "twitter": "StrikeFinance",
-    "audit_links": [
-      "https://www.certik.org/projects/strikefinance"
-    ],
     "forkedFrom": [
       "Compound"
     ],
-    "slug": "strike",
     "tvl": 17417358.321696647,
     "chainTvls": {
       "Ethereum": 17417358.321696647,
@@ -1960,36 +1345,22 @@
     "change_1h": 0.17,
     "change_1d": 0.28,
     "change_7d": 8.35,
-    "fdv": 140708829,
     "mcap": 71213458,
     "rank": 46
   },
   {
     "id": "1470",
     "name": "Nereus Finance",
-    "address": "avax:0xfcDe4A87b8b6FA58326BB462882f1778158B02F1",
     "symbol": "WXT",
-    "url": "https://nereus.finance/",
-    "description": "Nereus is a decentralised, non-custodial liquidity market protocol in which users can participate as depositors or borrowers.",
     "chain": "Avalanche",
-    "logo": "https://icons.llama.fi/nereus-finance.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "wirex",
-    "cmcId": "4090",
     "category": "Lending",
     "chains": [
       "Avalanche"
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "nereus/index.js",
-    "twitter": "nereusfinance",
-    "audit_links": [
-      "https://docs.nereus.finance/nereus-protocol/security-audit"
-    ],
     "listedAt": 1645753082,
-    "slug": "nereus-finance",
     "tvl": 16217177.992788613,
     "chainTvls": {
       "Avalanche": 16217177.992788613
@@ -2003,29 +1374,16 @@
   {
     "id": "546",
     "name": "Omm",
-    "address": "icon:cx1a29259a59f463a67bb2ef84398b30ca56b5830a",
     "symbol": "OMM",
-    "url": "https://omm.finance",
-    "description": "Omm is the money market made for everyone. Supply assets to earn interest, borrow assets for short-term loans, and earn OMM for doing so.",
     "chain": "Icon",
-    "logo": "https://icons.llama.fi/omm.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "omm-tokens",
-    "cmcId": "11548",
     "category": "Lending",
     "chains": [
       "Icon"
     ],
-    "module": "omm/index.js",
-    "twitter": "ommfinance",
-    "audit_links": [
-      "https://docs.omm.finance/security"
-    ],
     "oracles": [
       "Band"
     ],
-    "slug": "omm",
     "tvl": 15947233.6,
     "chainTvls": {
       "Icon": 15947233.6
@@ -2039,23 +1397,13 @@
   {
     "id": "452",
     "name": "Karura Dollar (kUSD)",
-    "address": "-",
     "symbol": "-",
-    "url": "https://acala.network/karura",
-    "description": "The kUSD stablecoin is a decentralized, trustless, collateral-backed cryptocurrency whose value is strong-pegged to the US Dollar.",
     "chain": "Karura",
-    "logo": "https://icons.llama.fi/karura-dollar.jpg",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Karura"
     ],
-    "module": "karura-lending/index.js",
-    "twitter": "KaruraNetwork",
-    "slug": "karura-dollar-(kusd)",
     "tvl": 15433586.771531986,
     "chainTvls": {
       "Karura": 15433586.771531986
@@ -2068,16 +1416,9 @@
   {
     "id": "1532",
     "name": "Proton Loan",
-    "address": "proton:LOAN-proton-loan.token",
     "symbol": "LOAN",
-    "url": "https://protonloan.com",
-    "description": "Proton Loan is a DeFi lending protocol powered by the Proton blockchain.",
     "chain": "Proton",
-    "logo": "https://icons.llama.fi/proton-loan.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "proton-loan",
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Proton"
@@ -2086,14 +1427,8 @@
       "TWAP"
     ],
     "forkedFrom": [],
-    "module": "proton-loan/index.js",
-    "twitter": "ProtonLoan",
-    "audit_links": [
-      "https://docs.protonloan.com/developers/audit"
-    ],
     "language": "C++",
     "listedAt": 1646953530,
-    "slug": "proton-loan",
     "tvl": 13601521.993227167,
     "chainTvls": {
       "Proton-staking": 1603962.088214486,
@@ -2112,16 +1447,9 @@
   {
     "id": "244",
     "name": "WePiggy",
-    "address": "0x6f620ec89b8479e97a6985792d0c64f237566746",
     "symbol": "WPC",
-    "url": "https://www.wepiggy.com/",
-    "description": "WePiggy is an open source, non-custodial crypto asset lending market protocol.\r\n",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/wepiggy.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "wepiggy-coin",
-    "cmcId": "13479",
     "category": "Lending",
     "chains": [
       "Ethereum",
@@ -2137,18 +1465,12 @@
       "Heco",
       "Aurora"
     ],
-    "module": "wepiggy.js",
-    "twitter": "wepiggydotcom",
-    "audit_links": [
-      "https://github.com/WePiggy/wepiggy-contracts/tree/master/docs/audits"
-    ],
     "oracles": [
       "Chainlink"
     ],
     "forkedFrom": [
       "Compound"
     ],
-    "slug": "wepiggy",
     "tvl": 13343329.360412048,
     "chainTvls": {
       "Optimism": 4392426.595248691,
@@ -2186,16 +1508,9 @@
   {
     "id": "157",
     "name": "88mph",
-    "address": "0x8888801af4d980682e47f1a9036e589479e835c5",
     "symbol": "MPH",
-    "url": "https://88mph.app/",
-    "description": "Earn fixed-rate interest on your crypto.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/88mph.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "88mph",
-    "cmcId": "7742",
     "category": "Lending",
     "chains": [
       "Ethereum",
@@ -2203,15 +1518,9 @@
       "Polygon",
       "Avalanche"
     ],
-    "module": "88mph/index.js",
-    "twitter": "88mphapp",
-    "audit_links": [
-      "https://docs.88mph.app/main-products/security-and-audits#is-88mph-audited"
-    ],
     "oracles": [
       "Chainlink"
     ],
-    "slug": "88mph",
     "tvl": 13212497.261431698,
     "chainTvls": {
       "Avalanche": 162.8559242964572,
@@ -2225,35 +1534,21 @@
     "change_1d": 1.11,
     "change_7d": 30.16,
     "staking": 430161.8469016674,
-    "fdv": 7381650,
     "mcap": 4896483,
     "rank": 52
   },
   {
     "id": "876",
     "name": "Yield Protocol",
-    "address": null,
     "symbol": "-",
-    "url": "https://yieldprotocol.com/",
-    "description": "Yield Protocol brings collateralized fixed-rate,fixed-term borrowing and lending and interest rate markets to decentralized finance.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/yield-protocol.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Ethereum",
       "Arbitrum"
     ],
-    "module": "yieldis/index.js",
-    "twitter": "yield",
-    "audit_links": [
-      "https://github.com/trailofbits/publications/blob/master/reviews/YieldV2.pdf"
-    ],
     "listedAt": 1637377782,
-    "slug": "yield-protocol",
     "tvl": 12443349.67107224,
     "chainTvls": {
       "Ethereum": 10416613.101720724,
@@ -2267,29 +1562,16 @@
   {
     "id": "489",
     "name": "Moola Market",
-    "address": "celo:0x17700282592D6917F6A73D0bF8AcCf4D578c131e",
     "symbol": "MOO",
-    "url": "https://moola.market",
-    "description": "Moola Market is a DeFi lending platform that allows loans to anyone! It supports CELO, cUSD (Celo Dollar) and cEUR (Celo Euro!)",
     "chain": "Celo",
-    "logo": "https://icons.llama.fi/moola-market.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "moola-market",
-    "cmcId": "13021",
     "category": "Lending",
     "chains": [
       "Celo"
     ],
-    "module": "moola/index.js",
-    "twitter": "Moola_Market",
     "forkedFrom": [
       "Aave"
     ],
-    "audit_links": [
-      "https://drive.google.com/file/d/1qd1h0dujnp4Xxrl68ZTIMzbt4aXzMWY7/view"
-    ],
-    "slug": "moola-market",
     "tvl": 12210197.884673117,
     "chainTvls": {
       "Celo": 12210197.884673117,
@@ -2305,16 +1587,9 @@
   {
     "id": "607",
     "name": "Hundred Finance",
-    "address": "0x10010078a54396f62c96df8532dc2b4847d47ed3",
     "symbol": "HND",
-    "url": "https://hundred.finance",
-    "description": "Hundred Finance is the successor to Percent Finance, a community owned fork of Compound Finance using Chainlink oracles.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/hundred-finance.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "hundred-finance",
-    "cmcId": "12889",
     "category": "Lending",
     "chains": [
       "Polygon",
@@ -2326,18 +1601,12 @@
       "Ethereum",
       "xDai"
     ],
-    "module": "hundredfinance/index.js",
-    "twitter": "HundredFinance",
-    "audit_links": [
-      "https://github.com/chainsulting/Smart-Contract-Security-Audits/blob/master/Percent%20Finance/02_Smart%20Contract%20Audit%20Percent%20Finance.pdf"
-    ],
     "oracles": [
       "Chainlink"
     ],
     "forkedFrom": [
       "Compound"
     ],
-    "slug": "hundred-finance",
     "tvl": 11341808.981540166,
     "chainTvls": {
       "Optimism": 518432.9852127145,
@@ -2361,33 +1630,18 @@
     "change_1h": 0.09,
     "change_1d": -1.57,
     "change_7d": -0.71,
-    "fdv": 9490646,
     "mcap": 1960770,
     "rank": 55
   },
   {
     "id": "380",
     "name": "LendHub",
-    "address": "heco:0x8f67854497218043e1f72908ffe38d0ed7f24721",
     "symbol": "LHB",
-    "url": "https://www.lendhub.org",
-    "description": "LendHub is a decentralized lending platform based on the Huobi Ecological Chain. It supports pledged lending of multiple currencies on the Heco chain. Users can obtain incentive token LHB rewards by borrowing on LendHub. LHB will serve as the hub of the LendHub platform, and realize the mutual accommodation and value transfer between Huobi ecological assets through pledged lending that supports the mutual accommodation of assets on the Huobi ecological chain.",
     "chain": "Heco",
-    "logo": "https://icons.llama.fi/lendhub.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "lendhub",
-    "cmcId": "8427",
     "category": "Lending",
     "chains": [
       "Heco"
-    ],
-    "module": "lendhub/index.js",
-    "twitter": "LendHubDefi",
-    "audit_links": [
-      "https://www.lendhub.org/report/LendHubAuditReport.pdf",
-      "https://www.lendhub.org/report/LendHubreport-020821.pdf",
-      "https://www.lendhub.org/report/LendHubAuditReport2.pdf"
     ],
     "oracles": [
       "Chainlink"
@@ -2395,7 +1649,6 @@
     "forkedFrom": [
       "Compound"
     ],
-    "slug": "lendhub",
     "tvl": 10988025.706677897,
     "chainTvls": {
       "Heco": 10988025.706677897,
@@ -2411,27 +1664,14 @@
   {
     "id": "464",
     "name": "Beta Finance",
-    "address": "0xbe1a001fe942f96eea22ba08783140b9dcc09d28",
     "symbol": "BETA",
-    "url": "https://betafinance.org",
-    "description": "Beta Finance is the permissionless money market for borrowing, lending, and shorting crypto assets.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/beta-finance.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "beta-finance",
-    "cmcId": "11307",
     "category": "Lending",
     "chains": [
       "Ethereum",
       "Avalanche"
     ],
-    "module": "betafinance/index.js",
-    "twitter": "beta_finance",
-    "audit_links": [
-      "https://betafinance.gitbook.io/betafinance/security-and-audits"
-    ],
-    "slug": "beta-finance",
     "tvl": 10944709.519992335,
     "chainTvls": {
       "Ethereum": 10433262.985423869,
@@ -2440,33 +1680,22 @@
     "change_1h": -0.02,
     "change_1d": 0.35,
     "change_7d": 0.84,
-    "fdv": 140941387,
     "mcap": 68098180,
     "rank": 57
   },
   {
     "id": "469",
     "name": "Port Finance",
-    "address": "solana:PoRTjZMPXb9T7dyU7tpLEZRQj7e6ssfAE62j2oQuc6y",
     "symbol": "PORT",
-    "url": "https://port.finance",
-    "description": "Port Finance is a decentralized Money Market protocol on Solana, aiming to provide a full suite of lending products including but not limited to: variable rate lending, fixed rate lending and interest rate swaps.",
     "chain": "Solana",
-    "logo": "https://icons.llama.fi/port-finance.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": "port-finance",
-    "cmcId": "11220",
     "category": "Lending",
     "chains": [
       "Solana"
     ],
-    "module": "portfinance/index.js",
-    "twitter": "port_finance",
     "oracles": [
       "Pyth"
     ],
-    "slug": "port-finance",
     "tvl": 10577491.843659362,
     "chainTvls": {
       "Solana": 10577491.843659362
@@ -2474,23 +1703,15 @@
     "change_1h": 0.01,
     "change_1d": 0.61,
     "change_7d": -12.91,
-    "fdv": 10233691,
     "mcap": 2408974,
     "rank": 58
   },
   {
     "id": "1487",
     "name": "KlayBank",
-    "address": "klaytn:0x946bc715501413b9454bb6a31412a21998763f2d",
     "symbol": "KBT",
-    "url": "https://klaybank.org",
-    "description": "Klaybank is the first Klaytn based lending protocol that supports Flashloan.",
     "chain": "Klaytn",
-    "logo": "https://icons.llama.fi/klaybank.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Klaytn"
@@ -2501,15 +1722,7 @@
     "forkedFrom": [
       "Aave"
     ],
-    "module": "klaybank/index.js",
-    "twitter": "klaybank",
-    "audit_links": [
-      "https://github.com/klaybank/klaybank-bondsale/blob/main/audits/%20Hexlant-Bondsale-2022-01-13.pdf.pdf",
-      "https://github.com/klaybank/klaybank-stake/blob/main/audits/Smart_Contract_Audit_Expert-Stake-2022-01-20.pdf",
-      "https://github.com/klaybank/klaybank-stake/blob/main/audits/Smart_Contract_Audit_Hexlant-Stake-2022-02-23.pdf"
-    ],
     "listedAt": 1646157808,
-    "slug": "klaybank",
     "tvl": 10067589.172459818,
     "chainTvls": {
       "Klaytn-staking": 277020.72591593396,
@@ -2525,16 +1738,9 @@
   {
     "id": "1635",
     "name": "Clearpool",
-    "address": "0x66761fa41377003622aee3c7675fc7b5c1c2fac5",
     "symbol": "CPOOL",
-    "url": "https://clearpool.finance",
-    "description": "Clearpool is a decentralized marketplace for unsecured institutional capital. It allows institutions to borrow funds from a decentralized network of lenders without the need for collateral. ",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/clearpool.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "clearpool",
-    "cmcId": "12573",
     "category": "Lending",
     "chains": [
       "Ethereum",
@@ -2542,14 +1748,7 @@
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "clearpool/index.js",
-    "twitter": "ClearpoolFin",
-    "audit_links": [
-      "https://www.certik.com/projects/clearpool",
-      "https://3929482601-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FhkiSI8bK3ThlypJ3jdEC%2Fuploads%2FOFonx1OQS6ni5lUsyiPx%2FClearpool%20Security%20Analysis%20by%20Pessimistic.pdf?alt=media&token=d584e7c3-993c-4ce4-8adf-6a2c77727ec2"
-    ],
     "listedAt": 1649674184,
-    "slug": "clearpool",
     "tvl": 9439058.76407694,
     "chainTvls": {
       "Ethereum": 5084865.661933056,
@@ -2561,23 +1760,15 @@
     "change_1h": 0.34,
     "change_1d": 10.02,
     "change_7d": 9331.85,
-    "fdv": 41414913,
     "mcap": 3422852,
     "rank": 60
   },
   {
     "id": "1497",
     "name": "Starlay Finance",
-    "address": "astar:0xc4335b1b76fa6d52877b3046eca68f6e708a27dd",
     "symbol": "LAY",
-    "url": "https://starlay.finance",
-    "description": "Starlay Finance is the first lending protocol backed by Astar Network.",
     "chain": "Astar",
-    "logo": "https://icons.llama.fi/starlay-finance.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "starlay-finance",
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Astar"
@@ -2588,13 +1779,7 @@
     "forkedFrom": [
       "Aave"
     ],
-    "module": "starlay/index.js",
-    "twitter": "starlay_fi",
-    "audit_links": [
-      "https://github.com/starlay-finance/starlay-protocol/blob/dev/audit/Certik-starlay-04-14-2022.pdf"
-    ],
     "listedAt": 1646202072,
-    "slug": "starlay-finance",
     "tvl": 9395981.980154354,
     "chainTvls": {
       "Astar-borrowed": 18537714.452219065,
@@ -2607,35 +1792,24 @@
     "change_1d": 0.54,
     "change_7d": 0.16,
     "staking": 290010.67961553,
-    "fdv": 4519606,
     "mcap": 0,
     "rank": 61
   },
   {
     "id": "780",
     "name": "Apricot Finance",
-    "address": "solana:APTtJyaRX5yGTsJU522N4VYWg3vCvSb65eam5GrPT5Rt",
     "symbol": "APT",
-    "url": "https://apricot.one/#/",
-    "description": "Apricot is a next-gen lending protocol that supports leveraged yield farming on Solana. Our mission is to help users maximize yield while protecting their downsides.",
     "chain": "Solana",
-    "logo": "https://icons.llama.fi/apricot-finance.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "apricot",
-    "cmcId": "13473",
     "category": "Lending",
     "chains": [
       "Solana"
     ],
-    "module": "apricot.js",
-    "twitter": "ApricotFinance",
     "oracles": [
       "Pyth"
     ],
     "listedAt": 1636003606,
     "openSource": false,
-    "slug": "apricot-finance",
     "tvl": 9307370.121432522,
     "chainTvls": {
       "Solana": 9307370.121432522
@@ -2643,34 +1817,23 @@
     "change_1h": -0.05,
     "change_1d": 0.78,
     "change_7d": 1.47,
-    "fdv": 5682887,
     "mcap": 934835,
     "rank": 62
   },
   {
     "id": "696",
     "name": "Agave",
-    "address": "xdai:0x3a97704a1b25f08aa230ae53b352e2e72ef52843",
     "symbol": "AGVE",
-    "url": "https://agave.finance",
-    "description": "Agave rewards depositors with passive income and lets them use their deposits as collateral to borrow and lend digital assets. Forked from Aave.",
     "chain": "xDai",
-    "logo": "https://icons.llama.fi/agave.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "agave-token",
-    "cmcId": "9453",
     "category": "Lending",
     "chains": [
       "xDai"
     ],
-    "module": "agave.js",
-    "twitter": "Agave_lending",
     "forkedFrom": [
       "Aave"
     ],
     "listedAt": 1634918843,
-    "slug": "agave",
     "tvl": 9289565.707086476,
     "chainTvls": {
       "xDai": 9289565.707086476,
@@ -2683,34 +1846,20 @@
     "change_1d": 19.46,
     "change_7d": 32.71,
     "staking": 566407.0453534494,
-    "fdv": 6820997,
     "mcap": 1896230,
     "rank": 63
   },
   {
     "id": "553",
     "name": "Annex",
-    "address": "bsc:0x98936Bde1CF1BFf1e7a8012Cee5e2583851f2067",
     "symbol": "ANN",
-    "url": "https://www.annex.finance",
-    "description": "A Decentralized Marketplace for Lenders and Borrowers with Borderless Stablecoins.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/annex.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "annex",
-    "cmcId": "11583",
     "category": "Lending",
     "chains": [
       "Binance",
       "Cronos"
     ],
-    "module": "annex.js",
-    "twitter": "AnnexFinance",
-    "audit_links": [
-      "https://www.certik.org/projects/annex"
-    ],
-    "slug": "annex",
     "tvl": 8868001.751417954,
     "chainTvls": {
       "Binance": 4873537.508474642,
@@ -2722,40 +1871,26 @@
     "change_1h": 0.12,
     "change_1d": 0.2,
     "change_7d": -4.76,
-    "fdv": 13217291,
     "mcap": 2114382,
     "rank": 64
   },
   {
     "id": "744",
     "name": "Tranquil Finance",
-    "address": "harmony:0xcf1709ad76a79d5a60210f23e81ce2460542a836",
     "symbol": "TRANQ",
-    "url": "https://tranquil.finance/",
-    "description": "Tranquil Finance is the first algorithmic money market protocol on Harmony. Tranquil enables users to lend and borrow assets permissionlessly on a blockchain with very fast and cheap transactions.",
     "chain": "Harmony",
-    "logo": "https://icons.llama.fi/tranq.svg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "tranquil-finance",
-    "cmcId": "14653",
     "category": "Lending",
     "chains": [
       "Harmony"
     ],
-    "module": "tranquil/index.js",
-    "twitter": "tranquil_fi",
     "oracles": [
       "TWAP"
     ],
     "forkedFrom": [
       "Compound"
     ],
-    "audit_links": [
-      "https://www.certik.com/projects/tranquil-finance"
-    ],
     "listedAt": 1635819874,
-    "slug": "tranquil-finance",
     "tvl": 8526351.984466886,
     "chainTvls": {
       "Harmony-pool2": 21054.06426983989,
@@ -2771,39 +1906,24 @@
     "change_7d": 5.23,
     "staking": 97683.68629954793,
     "pool2": 21054.06426983989,
-    "fdv": 13750242,
     "mcap": 1506763,
     "rank": 65
   },
   {
     "id": "368",
     "name": "Channels Finance",
-    "address": "bsc:0xdE9a73272BC2F28189CE3c243e36FaFDA2485212",
     "symbol": "CAN",
-    "url": "https://channels.finance",
-    "description": "Channels.finance is the first fully decentralized lending platform on Heco, focusing on user asset security. The first release supports LP mortgage lending and LP vault pool. It currently supports 15 mainstream currencies and 6 (Mdex) LP asset mortgage lending . The platform's token CAN has also been listed on Huobi Exchange on April 21. As a leading lending product on Heco, Channels has always performed well in asset security, user experience and mining revenue, and valued product experience and user interests.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/channels-finance.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "channels",
-    "cmcId": "8537",
     "category": "Lending",
     "chains": [
       "Heco",
       "Binance",
       "Arbitrum"
     ],
-    "module": "channels/index.js",
-    "twitter": "ChannelsFinance",
     "forkedFrom": [
       "Compound"
     ],
-    "audit_links": [
-      "https://attest.im/attestation/searchResult?qurey=4c533d00766c4b2a9761fad5da78b56f",
-      "https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MSgvIS2RfKE66pfkI81%2F-MUv-RfymyB6PvCRlnwz%2F-MUv1a71AjJ6p3Bgz5ui%2FChannels-Audit-Report-030321(1).pdf?alt=media&token=1af91ea6-d3d0-4ba3-8784-5dce6a907930"
-    ],
-    "slug": "channels-finance",
     "tvl": 8217312.054295181,
     "chainTvls": {
       "Arbitrum-borrowed": 3070.7119201090622,
@@ -2817,23 +1937,15 @@
     "change_1h": -0.15,
     "change_1d": 1.18,
     "change_7d": 8.05,
-    "fdv": 432252,
     "mcap": 264399,
     "rank": 66
   },
   {
     "id": "1839",
     "name": "Aave Arc",
-    "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
     "symbol": "AAVE",
-    "url": "https://aave.com",
-    "description": "Aave Arc is a DeFi liquidity market designed to be compliant with AML regulations, with all participating institutions required to undergo Know Your Customer (KYC) verification.",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/aave-arc.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Ethereum"
@@ -2842,14 +1954,8 @@
       "Chainlink"
     ],
     "forkedFrom": [],
-    "module": "aave-arc/index.js",
-    "twitter": "AaveAave",
-    "audit_links": [
-      "https://aave.com/security"
-    ],
     "listedAt": 1655586107,
     "parentProtocol": "AAVE",
-    "slug": "aave-arc",
     "tvl": 7269211.306257941,
     "chainTvls": {
       "Ethereum": 7269211.306257941,
@@ -2864,16 +1970,9 @@
   {
     "id": "1873",
     "name": "Torches",
-    "address": null,
     "symbol": "-",
-    "url": "https://www.torches.finance/",
-    "description": "Torches is a decentralized non-custodial liquidity protocol based on KCC, where users, wallets and dapps can participate as depositors or borrowers. Depositors provide liquidity to the market to earn a passive income, while borrowers are able to borrow in an over-collateralised manner",
     "chain": "Kucoin",
-    "logo": "https://icons.llama.fi/torches.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Kucoin"
@@ -2884,13 +1983,7 @@
     "forkedFrom": [
       "Compound"
     ],
-    "module": "torches/index.js",
-    "twitter": "TorchesFinance",
-    "audit_links": [
-      "https://github.com/TorchesFinance/audits"
-    ],
     "listedAt": 1656755385,
-    "slug": "torches",
     "tvl": 7054521.178208429,
     "chainTvls": {
       "Kucoin": 7054521.178208429,
@@ -2905,29 +1998,16 @@
   {
     "id": "1627",
     "name": "LendFlare",
-    "address": "0xB620Be8a1949AA9532e6a3510132864EF9Bc3F82",
     "symbol": "LFT",
-    "url": "https://lendflare.finance",
-    "description": "Lendflare is a decentralized borrowing platform on Ethereum blockchain that allows Curve LP holders (the borrowers) to draw fixed-rate, fixed term and high LTV loans against Curve LP used as collateral, with no concerns for assets being liquidated due to price fluctuation. Loans are paid out through Lendflare from Compound platform. Liquidity providers (the lenders) who deposit loan liquidity through Lendflare on Compound platform will receive one of the highest interest rate compared to other current lending platforms.",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/lendflare.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "lend-flare-dao-token",
-    "cmcId": "19189",
     "category": "Lending",
     "chains": [
       "Ethereum"
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "lendflare/index.js",
-    "twitter": "LendFlareOffic",
-    "audit_links": [
-      "https://www.certik.com/projects/lend-flare"
-    ],
     "listedAt": 1649423978,
-    "slug": "lendflare",
     "tvl": 7001427.39594398,
     "chainTvls": {
       "Ethereum": 7001427.39594398
@@ -2935,33 +2015,19 @@
     "change_1h": -0.07,
     "change_1d": 0.5,
     "change_7d": -0.63,
-    "fdv": 6597303,
     "mcap": 0,
     "rank": 69
   },
   {
     "id": "624",
     "name": "Paladin Finance",
-    "address": "0xAB846Fb6C81370327e784Ae7CbB6d6a6af6Ff4BF",
     "symbol": "PAL",
-    "url": "https://www.paladin.vote",
-    "description": "Paladin is a decentralized, non-custodial governance lending protocol where users can either loan the voting power in their governance token, or borrow some voting power.",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/paladin-finance.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "paladin",
-    "cmcId": "19072",
     "category": "Lending",
     "chains": [
       "Ethereum"
     ],
-    "module": "paladinfinance/index.js",
-    "twitter": "Paladin_vote",
-    "audit_links": [
-      "https://github.com/pessimistic-io/audits/blob/914e35fdfc879451a61d2a3969f3be839b8c808f/Paladin%20Security%20Analysis%20by%20Pessimistic.pdf"
-    ],
-    "slug": "paladin-finance",
     "tvl": 6885417.838838845,
     "chainTvls": {
       "Ethereum": 6885417.838838845
@@ -2969,37 +2035,23 @@
     "change_1h": -0.08,
     "change_1d": 2.38,
     "change_7d": 9.3,
-    "fdv": 26424124,
     "mcap": 3495071,
     "rank": 70
   },
   {
     "id": "1189",
     "name": "Mimas Finance",
-    "address": "cronos:0x10C9284E6094b71D3CE4E38B8bFfc668199da677",
     "symbol": "MIMAS",
-    "url": "https://mimas.finance/",
-    "description": "Mimas Finance is an algorithmic money market and liquid staking protocol on the Cronos blockchain.",
     "chain": "Cronos",
-    "logo": "https://icons.llama.fi/mimas-finance.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "mimas",
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Cronos"
     ],
-    "module": "mimas-finance/index.js",
-    "twitter": "mimas_fi",
     "forkedFrom": [
       "Compound"
     ],
-    "audit_links": [
-      "https://www.certik.com/projects/mimas-finance"
-    ],
     "listedAt": 1641305977,
-    "slug": "mimas-finance",
     "tvl": 6847523.57576075,
     "chainTvls": {
       "Cronos-borrowed": 4042551.168024073,
@@ -3012,23 +2064,15 @@
     "change_1d": -11.72,
     "change_7d": -15.78,
     "staking": 115063.33129043087,
-    "fdv": 67202339,
     "mcap": 1822910,
     "rank": 71
   },
   {
     "id": "1514",
     "name": "The Granary",
-    "address": "-",
     "symbol": "-",
-    "url": "https://granary.finance/",
-    "description": "The Granary is a decentralized, user-driven borrowing and lending liquidity market inspired by AAVE.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/the-granary.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Fantom",
@@ -3043,10 +2087,7 @@
     "forkedFrom": [
       "Aave"
     ],
-    "module": "the-granary/index.js",
-    "twitter": "GranaryFinance",
     "listedAt": 1646515940,
-    "slug": "the-granary",
     "tvl": 5783302.938472347,
     "chainTvls": {
       "Optimism": 809735.7216599162,
@@ -3069,26 +2110,16 @@
   {
     "id": "647",
     "name": "Jet",
-    "address": "solana:JET6zMJWkCN9tpRT2v2jfAmm5VnQFDpUBCyaKojmGtz",
     "symbol": "JET",
-    "url": "https://www.jetprotocol.io",
-    "description": "Jet is a decentralized borrowing and lending protocol built for speed, power, and scalability on Solana.",
     "chain": "Solana",
-    "logo": "https://icons.llama.fi/jet.jpg",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": "jet",
-    "cmcId": "12236",
     "category": "Lending",
     "chains": [
       "Solana"
     ],
-    "module": "jetprotocol.js",
-    "twitter": "JetProtocol",
     "oracles": [
       "Pyth"
     ],
-    "slug": "jet",
     "tvl": 5029341.34374875,
     "chainTvls": {
       "Solana-borrowed": 391408.8047804067,
@@ -3098,23 +2129,15 @@
     "change_1h": 0.02,
     "change_1d": -0.54,
     "change_7d": -9.98,
-    "fdv": 161671175,
     "mcap": 14860168,
     "rank": 73
   },
   {
     "id": "1486",
     "name": "Fountain Protocol",
-    "address": "oasis:0xd1dF9CE4b6159441D18BD6887dbd7320a8D52a05",
     "symbol": "FTP",
-    "url": "https://ftp.cash/",
-    "description": "Fountain Protocol is a lending platform powered by Oasis. The protocol enables users to experience high capital efficiency one-stop management of DeFi assets. Taking advantage of the extremely efficient and low-cost Oasis Network.",
     "chain": "Oasis",
-    "logo": "https://icons.llama.fi/fountain-protocol.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "fountain-protocol",
-    "cmcId": "18486",
     "category": "Lending",
     "chains": [
       "Oasis"
@@ -3125,13 +2148,7 @@
     "forkedFrom": [
       "Compound"
     ],
-    "module": "Fountain-Protocol/index.js",
-    "twitter": "fountainprot",
-    "audit_links": [
-      "https://github.com/dev-fountain/fountain-protocol-audit"
-    ],
     "listedAt": 1646137364,
-    "slug": "fountain-protocol",
     "tvl": 4129520.522975847,
     "chainTvls": {
       "Oasis-borrowed": 878520.5205256479,
@@ -3147,28 +2164,18 @@
   {
     "id": "1110",
     "name": "Market",
-    "address": null,
     "symbol": "-",
-    "url": "https://www.market.xyz",
-    "description": "Join the world of permissionless DeFi by Leveraging your assets in isolated markets, where the rules are set by you and the community.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/market.jpg",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Polygon",
       "Fantom"
     ],
-    "module": "market.xyz/index.js",
-    "twitter": "market_xyz",
     "listedAt": 1640630956,
     "forkedFrom": [
       "Compound"
     ],
-    "slug": "market",
     "tvl": 3839912.0822582487,
     "chainTvls": {
       "Fantom-borrowed": 1164308.3076053131,
@@ -3185,34 +2192,21 @@
   {
     "id": "897",
     "name": "Mesher",
-    "address": "0x4576E6825B462b6916D2a41E187626E9090A92c6",
     "symbol": "DON",
-    "url": "https://center.mesher.io",
-    "description": "Money Market Protocol and the Oracle for Korea\u2019s Digital Asset Market(detailed in https://docs.donkey.fund/about/whitepaper/english-whitepaper)",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/mesher.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "donkey-token",
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Ethereum",
       "Klaytn"
     ],
-    "module": "donkey/index.js",
-    "twitter": "mesherOfficial",
     "oracles": [
       "Internal"
     ],
     "forkedFrom": [
       "Compound"
     ],
-    "audit_links": [
-      "https://docs.donkey.fund/about/audit"
-    ],
     "listedAt": 1637687404,
-    "slug": "mesher",
     "tvl": 3425636.8170067463,
     "chainTvls": {
       "Ethereum": 1879611.1071419236,
@@ -3224,23 +2218,15 @@
     "change_1d": 0.67,
     "change_7d": 4.54,
     "staking": 56108.53056155695,
-    "fdv": 896778,
     "mcap": 0,
     "rank": 76
   },
   {
     "id": "1459",
     "name": "ELYFI",
-    "address": "0x4da34f8264cb33a5c9f17081b9ef5ff6091116f4",
     "symbol": "ELFI",
-    "url": "https://www.elyfi.world/en",
-    "description": "ELYFI is the lending protocol that lends cryptocurrency using asset tokens minted in ELYFI as collateral.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/elyfi.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "elyfi",
-    "cmcId": "18186",
     "category": "Lending",
     "chains": [
       "Ethereum",
@@ -3248,14 +2234,7 @@
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "elysia/index.js",
-    "twitter": "Elysia_HQ",
-    "audit_links": [
-      "https://www.certik.com/projects/elyfi",
-      "https://github.com/elysia-dev/elyfi-token/tree/main/audit"
-    ],
     "listedAt": 1645646372,
-    "slug": "elyfi",
     "tvl": 3220442.9616789636,
     "chainTvls": {
       "Binance": 865164.338288277,
@@ -3268,36 +2247,25 @@
     "change_1d": -0.63,
     "change_7d": 1.17,
     "staking": 231737.61229314792,
-    "fdv": 1414876,
     "mcap": 594490,
     "rank": 77
   },
   {
     "id": "450",
     "name": "Scream",
-    "address": "fantom:0xe0654C8e6fd4D733349ac7E09f6f23DA256bF475",
     "symbol": "SCREAM",
-    "url": "https://scream.sh/",
-    "description": "Scream is a highly scalable decentralized lending protocol powered by Fantom.",
     "chain": "Fantom",
-    "logo": "https://icons.llama.fi/scream.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "scream",
-    "cmcId": "11497",
     "category": "Lending",
     "chains": [
       "Fantom"
     ],
-    "module": "scream/index.js",
-    "twitter": "Screamdotsh",
     "oracles": [
       "Chainlink"
     ],
     "forkedFrom": [
       "Compound"
     ],
-    "slug": "scream",
     "tvl": 3014455.096653768,
     "chainTvls": {
       "Fantom-borrowed": 23526141.6978417,
@@ -3310,23 +2278,15 @@
     "change_1d": 11.75,
     "change_7d": 12.66,
     "staking": 44685.51426005227,
-    "fdv": 3746330,
     "mcap": 815466,
     "rank": 78
   },
   {
     "id": "596",
     "name": "Flux Protocol",
-    "address": "okex:0xd0C6821aba4FCC65e8f1542589e64BAe9dE11228",
     "symbol": "FLUX",
-    "url": "https://flux.01.finance",
-    "description": "Flux Protocol is a borderless lending protocol, where low transaction fees and cross-chain interoperability are reality!",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/flux-protocol.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "flux-protocol",
-    "cmcId": "9837",
     "category": "Lending",
     "chains": [
       "OKExChain",
@@ -3337,16 +2297,10 @@
       "Arbitrum",
       "Ethereum"
     ],
-    "module": "flux/index.js",
-    "twitter": "zero1_flux",
-    "audit_links": [
-      "https://certik.org/projects/flux"
-    ],
     "oracles": [
       "Chainlink",
       "TWAP"
     ],
-    "slug": "flux-protocol",
     "tvl": 2879660.2424256927,
     "chainTvls": {
       "Binance": 500598.6258314605,
@@ -3383,33 +2337,20 @@
   {
     "id": "1962",
     "name": "SiO2 Finance",
-    "address": "astar:0xcCA488aEEf7A1D5C633f877453784F025e7cF160",
     "symbol": "SiO2",
-    "url": "http://www.sio2.finance",
-    "description": "SiO2 Finance is the Astar-native lending hub supporting both EVM and WASM.",
     "chain": "Astar",
-    "logo": "https://icons.llama.fi/sio2-finance.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Astar"
     ],
-    "module": "sio2/index.js",
     "oracles": [
       "DIA"
     ],
     "forkedFrom": [
       "AAVE"
     ],
-    "twitter": "SiO2_Finance",
-    "audit_links": [
-      "https://github.com/SiO2-Finance/contracts/tree/main/audits"
-    ],
     "listedAt": 1660050871,
-    "slug": "sio2-finance",
     "tvl": 2868412.577523877,
     "chainTvls": {
       "Astar-borrowed": 265490.2733259766,
@@ -3424,31 +2365,18 @@
   {
     "id": "181",
     "name": "MANTRA DAO",
-    "address": "0x3593d125a4f7849a1b059e64f4517a86dd60c95d",
     "symbol": "OM",
-    "url": "https://mantradao.com",
-    "description": "MANTRA DAO leverages the wisdom of the crowd to give financial control back to the people to grow wealth together.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/mantra-dao.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "mantra-dao",
-    "cmcId": "6536",
     "category": "Lending",
     "chains": [
       "Ethereum",
       "Polygon",
       "Binance"
     ],
-    "module": "mantradao.js",
-    "twitter": "MANTRADAO",
-    "audit_links": [
-      "https://www.slowmist.com/en/security-audit-certificate.html?id=1193264f67af7c2bb840306b82eff6218471cf4fbed79a7d48d6a01a93030e35"
-    ],
     "oracles": [
       "Band"
     ],
-    "slug": "mantra-dao",
     "tvl": 2861784.458285826,
     "chainTvls": {
       "pool2": 1464876.9481652468,
@@ -3470,23 +2398,15 @@
     "change_7d": 4.76,
     "staking": 12090143.633274987,
     "pool2": 1464876.9481652468,
-    "fdv": 51516907,
     "mcap": 28638745,
     "rank": 81
   },
   {
     "id": "745",
     "name": "Atlantis Loans",
-    "address": "bsc:0x1fd991fb6c3102873ba68a4e6e6a87b3a5c10271",
     "symbol": "ATL",
-    "url": "https://atlantis.loans",
-    "description": "Atlantis is a decentralised money market that enables users to borrow and supply digital assets to the protocol within a non-custodial environment directly within the Binance Smart Chain",
     "chain": "Binance",
-    "logo": "https://icons.llama.fi/atlantis-loans.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "atlantis-loans",
-    "cmcId": "13121",
     "category": "Lending",
     "chains": [
       "Binance"
@@ -3494,13 +2414,7 @@
     "forkedFrom": [
       "Compound"
     ],
-    "module": "atlantisloans/index.js",
-    "twitter": "atlantis_loans",
-    "audit_links": [
-      "https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-Atlantis-v1.0.pdf"
-    ],
     "listedAt": 1635820333,
-    "slug": "atlantis-loans",
     "tvl": 2745857.733007294,
     "chainTvls": {
       "pool2": 46101.200160334716,
@@ -3522,26 +2436,16 @@
   {
     "id": "321",
     "name": "Ram Protocol",
-    "address": "thundercore:0xfe146d5710015d4075355fb7be8d133346ec63c2",
     "symbol": "RAM",
-    "url": "https://rammer.finance/#/",
-    "description": "Ram is a non-custodial liquidity protocol for earning interest on deposits and borrowing assets on the ThunderCore chain.",
     "chain": "ThunderCore",
-    "logo": "https://icons.llama.fi/ram-protocol.svg",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "ThunderCore"
     ],
-    "module": "ram.js",
-    "twitter": null,
     "forkedFrom": [
       "Compound"
     ],
-    "slug": "ram-protocol",
     "tvl": 2731902.126454501,
     "chainTvls": {
       "borrowed": 1811478.0623429487,
@@ -3556,31 +2460,18 @@
   {
     "id": "524",
     "name": "Ramp",
-    "address": "0x33d0568941c0c64ff7e0fb4fba0b11bd37deed9f",
     "symbol": "RAMP",
-    "url": "https://www.rampdefi.com",
-    "description": "RAMP is an optimized lending platform that gives users the highest deposit yields and lowest borrowing fees on collateral assets across multiple blockchains.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/ramp.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "ramp",
-    "cmcId": "7463",
     "category": "Lending",
     "chains": [
       "Binance",
       "Ethereum",
       "Polygon"
     ],
-    "module": "ramp/index.js",
-    "twitter": "RampDefi",
-    "audit_links": [
-      "https://github.com/RAMP-DEFI/Security-Audits"
-    ],
     "oracles": [
       "Chainlink"
     ],
-    "slug": "ramp",
     "tvl": 2730029.173515812,
     "chainTvls": {
       "Binance": 1483192.4225099094,
@@ -3590,23 +2481,15 @@
     "change_1h": 0.02,
     "change_1d": 0.06,
     "change_7d": 5.0,
-    "fdv": 105869871,
     "mcap": 43508471,
     "rank": 84
   },
   {
     "id": "163",
     "name": "ForTube",
-    "address": "0x1fcdce58959f536621d76f5b7ffb955baa5a672f",
     "symbol": "FOR",
-    "url": "https://for.tube/",
-    "description": "Based on The Force Protocol, ForTube is committed to providing decentralized lending services for cryptoasset enthusiasts around the world.\r\n",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/fortube.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "force-protocol",
-    "cmcId": "4118",
     "category": "Lending",
     "chains": [
       "Binance",
@@ -3615,12 +2498,6 @@
       "Polygon",
       "OKExChain"
     ],
-    "module": "fortube/index.js",
-    "twitter": "ForTubeFi",
-    "audit_links": [
-      "https://for.tube/security"
-    ],
-    "slug": "fortube",
     "tvl": 2687994.9072856265,
     "chainTvls": {
       "Binance": 2242758.614139335,
@@ -3632,39 +2509,25 @@
     "change_1h": 0.05,
     "change_1d": 1.04,
     "change_7d": 5.75,
-    "fdv": 22993950,
     "mcap": 12962104,
     "rank": 85
   },
   {
     "id": "294",
     "name": "Anchor",
-    "address": "-",
     "symbol": "ANC",
-    "url": "https://anchorprotocol.com/",
-    "description": "Money market on Terra",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/anchor.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "anchor-protocol",
-    "cmcId": "8857",
     "category": "Lending",
     "chains": [
       "Terra",
       "Avalanche"
-    ],
-    "module": "anchor/index.js",
-    "twitter": "anchor_protocol",
-    "audit_links": [
-      "https://docs.anchorprotocol.com/security#audits"
     ],
     "oracles": [
       "Chainlink",
       "Internal"
     ],
     "openSource": true,
-    "slug": "anchor",
     "tvl": 2529463.842310079,
     "chainTvls": {
       "Avalanche": 73933.49312732498,
@@ -3675,37 +2538,23 @@
     "change_1h": 0.12,
     "change_1d": 1.18,
     "change_7d": 10.72,
-    "fdv": 112995173,
     "mcap": 39592306,
     "rank": 86
   },
   {
     "id": "459",
     "name": "Multiplier",
-    "address": "0x8a6f3BF52A26a21531514E23016eEAe8Ba7e7018",
     "symbol": "MXX",
-    "url": "https://multiplier.finance",
-    "description": "Multiplier is an algorithmic money market system designed to bring secure and unique lending and borrowing opportunities like flash loans onto the Binance Smart Chain.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/multiplier.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "multiplier",
-    "cmcId": "6583",
     "category": "Lending",
     "chains": [
       "Binance",
       "Ethereum"
     ],
-    "module": "multiplierfinance/index.js",
-    "twitter": "MultiplierMXX",
-    "audit_links": [
-      "https://mcl-docs.multiplier.finance/developers/security-and-audits"
-    ],
     "oracles": [
       "Chainlink"
     ],
-    "slug": "multiplier",
     "tvl": 1892106.2363546505,
     "chainTvls": {
       "Binance": 1885629.791558357,
@@ -3720,27 +2569,17 @@
   {
     "id": "995",
     "name": "Drops",
-    "address": "0x6bB61215298F296C55b19Ad842D3Df69021DA2ef",
     "symbol": "DOP",
-    "url": "https://drops.co",
-    "description": "Get more value from your NFT & DeFi assets",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/drops.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": "drops-ownership-power",
-    "cmcId": "9675",
     "category": "Lending",
     "chains": [
       "Ethereum"
     ],
-    "module": "drops/index.js",
-    "twitter": "dropsnft",
     "forkedFrom": [
       "Compound"
     ],
     "listedAt": 1638943874,
-    "slug": "drops",
     "tvl": 1621669.3721898668,
     "chainTvls": {
       "pool2": 91027.34994072822,
@@ -3756,38 +2595,24 @@
     "change_7d": -12.33,
     "staking": 59058.94602761649,
     "pool2": 91027.34994072822,
-    "fdv": 3632204,
     "mcap": 1673133,
     "rank": 88
   },
   {
     "id": "555",
     "name": "Genshiro",
-    "address": "bsc:0x2cd14cba3f26254beed1d78158cd2b6f91809600",
     "symbol": "GENS",
-    "url": "https://genshiro.equilibrium.io",
-    "description": "Genshiro is a cross-chain protocol that helps users seamlessly earn yield, borrow, and trade on margin. Using asset portfolios instead of single collateral vaults",
     "chain": "Genshiro",
-    "logo": "https://icons.llama.fi/genshiro.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "genshiro",
-    "cmcId": "10278",
     "category": "Lending",
     "chains": [
       "Genshiro"
-    ],
-    "module": "genshiro/index.js",
-    "twitter": "GenshiroDeFi",
-    "audit_links": [
-      "https://drive.google.com/file/d/1HBF2h71Wgs0bUqlmftulp81dgFTPTfUm/view"
     ],
     "oracles": [
       "Band",
       "Bluzelle",
       "Internal"
     ],
-    "slug": "genshiro",
     "tvl": 1238004.5489999999,
     "chainTvls": {
       "Genshiro": 1238004.5489999999
@@ -3801,29 +2626,16 @@
   {
     "id": "648",
     "name": "Alkemi",
-    "address": "0x6C16119B20fa52600230F074b349dA3cb861a7e3",
     "symbol": "ALK",
-    "url": "https://alkemi.network",
-    "description": "Alkemi Network is bridging CeFi to DeFi, building an institution-grade liquidity network for financial institutions and individuals to access professional DeFi and earn yields on their Ethereum-based digital assets.",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/alkemi.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "alkemi-network-dao-token",
-    "cmcId": "11974",
     "category": "Lending",
     "chains": [
       "Ethereum"
     ],
-    "module": "alkemi/index.js",
-    "twitter": "AlkemiNetwork",
-    "audit_links": [
-      "https://github.com/AlkemiNetwork/alkemi-earn-security-audit"
-    ],
     "oracles": [
       "Chainlink"
     ],
-    "slug": "alkemi",
     "tvl": 1205474.263910381,
     "chainTvls": {
       "Ethereum": 1205474.263910381
@@ -3831,33 +2643,22 @@
     "change_1h": 0.18,
     "change_1d": 0.17,
     "change_7d": 9.06,
-    "fdv": 2321455,
     "mcap": 0,
     "rank": 90
   },
   {
     "id": "521",
     "name": "Pizza",
-    "address": "eos:PIZZA",
     "symbol": "PIZZA",
-    "url": "https://pizza.finance",
-    "description": "Pizza Finance is a decentralized EOS-based lending platform.",
     "chain": "EOS",
-    "logo": "https://icons.llama.fi/pizza.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "pizza-usde",
-    "cmcId": "5831",
     "category": "Lending",
     "chains": [
       "EOS"
     ],
-    "module": "pizza/index.js",
-    "twitter": "PizzaProFi",
     "oracles": [
       "Internal"
     ],
-    "slug": "pizza",
     "tvl": 1157909.9091,
     "chainTvls": {
       "EOS": 1157909.9091
@@ -3871,26 +2672,13 @@
   {
     "id": "372",
     "name": "Rabbit Finance",
-    "address": "bsc:0x95a1199eba84ac5f19546519e287d43d2f0e1b41",
     "symbol": "RABBIT",
-    "url": "https://www.rabbitfinance.io/earn",
-    "description": "Rabbit Finance is a cross-chain excess lending protocol, which can help users deposit and obtain more interest and help liquidity farmers obtain higher income through high as 9x leverage.",
     "chain": "Binance",
-    "logo": "https://icons.llama.fi/rabbit-finance.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "rabbit-finance",
-    "cmcId": "10178",
     "category": "Lending",
     "chains": [
       "Binance"
     ],
-    "module": "rabbitfinance/index.js",
-    "twitter": "FinanceRabbit",
-    "audit_links": [
-      "https://rabbitfinance.gitbook.io/homepage/resources/audit-report"
-    ],
-    "slug": "rabbit-finance",
     "tvl": 1030989.8794414569,
     "chainTvls": {
       "Binance": 1030989.8794414569,
@@ -3901,30 +2689,19 @@
     "change_1d": -20.27,
     "change_7d": -33.25,
     "staking": 0,
-    "fdv": 204132,
     "mcap": 107043,
     "rank": 92
   },
   {
     "id": "498",
     "name": "Pilot Protocol",
-    "address": "heco:0x52ee54dd7a68e9cf131b0a57fd6015c74d7140e2",
     "symbol": "PTD",
-    "url": "https://p.td",
-    "description": "Pilot is a smart over lending protocol on Heco chain, it is the first over-lending product on the Heco chain.",
     "chain": "Heco",
-    "logo": "https://icons.llama.fi/pilot-protocol.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": "pilot",
-    "cmcId": "9039",
     "category": "Lending",
     "chains": [
       "Heco"
     ],
-    "module": "pilotprotocol/index.js",
-    "twitter": "Pilotprotocol",
-    "slug": "pilot-protocol",
     "tvl": 893558.0875031231,
     "chainTvls": {
       "Heco": 893558.0875031231
@@ -3938,16 +2715,9 @@
   {
     "id": "1614",
     "name": "0vix",
-    "address": null,
     "symbol": "-",
-    "url": "https://www.0vix.com",
-    "description": "0VIX is an open-source lending and borrowing protocol enhanced with veTokenomics",
     "chain": "Polygon",
-    "logo": "https://icons.llama.fi/0vix.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Polygon"
@@ -3958,14 +2728,7 @@
     "forkedFrom": [
       "Compound"
     ],
-    "module": "0vix/index.js",
-    "twitter": "0vixProtocol",
-    "audit_links": [
-      "https://assets.website-files.com/622a09bc809cd190f58b7b15/627cd4450f5eb2df769b4ac1_PeckShield-Audit-Report-0VIX-v1.0.pdf",
-      "https://assets.website-files.com/622a09bc809cd190f58b7b15/627a5d6eea14146296b3261b_0VIX_Audit_Report_by_WatchPug.pdf"
-    ],
     "listedAt": 1649156430,
-    "slug": "0vix",
     "tvl": 818557.5376965766,
     "chainTvls": {
       "Polygon": 818557.5376965766,
@@ -3980,31 +2743,18 @@
   {
     "id": "1906",
     "name": "Increment Lending",
-    "address": null,
     "symbol": "-",
-    "url": "https://app.increment.fi/markets",
-    "description": "Decentralized Money Market for fungible tokens on Flow.",
     "chain": "Flow",
-    "logo": "https://icons.llama.fi/increment-lending.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Flow"
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "increment-lending/index.js",
-    "twitter": "incrementfi",
-    "audit_links": [
-      "https://github.com/oak-security/audit-reports/tree/master/IncrementFi"
-    ],
     "listedAt": 1658135993,
     "parentProtocol": "incrementFinance",
     "language": "Cadence",
-    "slug": "increment-lending",
     "tvl": 702533.1581089601,
     "chainTvls": {
       "Flow-borrowed": 360959.0174121932,
@@ -4019,29 +2769,16 @@
   {
     "id": "486",
     "name": "unFederalReserve",
-    "address": "0x5218e472cfcfe0b64a064f055b43b4cdc9efd3a6",
     "symbol": "eRSDL",
-    "url": "https://www.unfederalreserve.com",
-    "description": "unFederalReserve is a banking SaaS company built on blockchain technology. Our banking products are designed for smaller U.S. Treasury chartered banks and non-bank lenders in need of greater liquidity without sacrificing security or compliance.",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/unfederalreserve.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "unfederalreserve",
-    "cmcId": "7553",
     "category": "Lending",
     "chains": [
       "Ethereum"
     ],
-    "module": "unfederalreserve/index.js",
-    "twitter": "Unfederalreser1",
     "forkedFrom": [
       "Compound"
     ],
-    "audit_links": [
-      "https://lending-docs.unfederalreserve.com/docs/security/#security-audits"
-    ],
-    "slug": "unfederalreserve",
     "tvl": 692561.2301576983,
     "chainTvls": {
       "Ethereum": 692561.2301576983,
@@ -4051,36 +2788,21 @@
     "change_1h": 0.44,
     "change_1d": 0.09,
     "change_7d": 2.49,
-    "fdv": 3372986,
     "mcap": 2799406,
     "rank": 96
   },
   {
     "id": "457",
     "name": "Fuji DAO",
-    "address": "-",
     "symbol": "-",
-    "url": "https://www.fujidao.org",
-    "description": "First De-Fi borrowing aggregator",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/fuji-dao.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Fantom",
       "Ethereum",
       "Polygon"
     ],
-    "module": "fujidao/index.js",
-    "audit_links": [
-      "https://github.com/Fujicracy/fuji-protocol/blob/main/audits/Fuji_Securing_2021-07.pdf",
-      "https://github.com/Fujicracy/fuji-protocol/blob/main/audits/Fuji_TrailOfBits_2021-11.pdf"
-    ],
-    "twitter": "FujiFinance",
-    "slug": "fuji-dao",
     "tvl": 684136.079258164,
     "chainTvls": {
       "Ethereum": 195184.6252301672,
@@ -4095,26 +2817,13 @@
   {
     "id": "549",
     "name": "Vigor",
-    "address": "eos:VIG",
     "symbol": "VIG",
-    "url": "https://vigor.ai",
-    "description": "Vigor protocol is an institutional grade financial engineering DeFi lending platform delivering autonomous price discovery between crypto lenders and borrowers.",
     "chain": "EOS",
-    "logo": "https://icons.llama.fi/vigor.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "vig",
-    "cmcId": "6562",
     "category": "Lending",
     "chains": [
       "EOS"
     ],
-    "module": "vigor/index.js",
-    "twitter": "vigorprotocol",
-    "audit_links": [
-      "https://s3.eu-central-1.wasabisys.com/audit-certificates/Smart%20Contract%20Audit%20Certificate%20-%20Vigorprotocol.pdf"
-    ],
-    "slug": "vigor",
     "tvl": 665136.5812744019,
     "chainTvls": {
       "EOS": 665136.5812744019
@@ -4128,16 +2837,9 @@
   {
     "id": "1687",
     "name": "SmartCredit",
-    "address": "0x72e9D9038cE484EE986FEa183f8d8Df93f9aDA13",
     "symbol": "SMARTCREDIT",
-    "url": "https://smartcredit.io",
-    "description": "DeFi fixed-term / fixed-interest loans for the borrowers. DeFi personal fixed income funds for the lenders",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/smartcredit.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "smartcredit-token",
-    "cmcId": "7596",
     "category": "Lending",
     "chains": [
       "Ethereum"
@@ -4147,13 +2849,7 @@
       "TWAP"
     ],
     "forkedFrom": [],
-    "module": "smartcredit.js",
-    "twitter": "smartcredit_io",
-    "audit_links": [
-      "https://github.com/pessimistic-io/audits/blob/ca048cb8eaba4f7959fb83c1c6f5cb4803c85718/SmartCredit%20Security%20Analysis%20by%20Pessimistic.pdf"
-    ],
     "listedAt": 1650970238,
-    "slug": "smartcredit",
     "tvl": 661338.76805266,
     "chainTvls": {
       "Ethereum": 661338.76805266,
@@ -4172,30 +2868,17 @@
   {
     "id": "661",
     "name": "MochiFi",
-    "address": null,
     "symbol": "MOCHI",
-    "url": "https://mochi.fi",
-    "description": "Mochi puts your NFTs and long-tail assets to work as collateral while maintaining exposure to their long-term value. An autonomously governed protocol, Mochi bridges the gap between NFTs and DeFi to pioneer a new way to maximize the utility of emerging digital assets.",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/mochifi.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "usdm",
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Ethereum"
-    ],
-    "module": "mochifi/index.js",
-    "twitter": "MochiDeFi",
-    "audit_links": [
-      "https://docs.mochi.fi/audits"
     ],
     "oracles": [
       "Chainlink",
       "Internal"
     ],
-    "slug": "mochifi",
     "tvl": 636238.834253609,
     "chainTvls": {
       "Ethereum": 636238.834253609
@@ -4209,31 +2892,17 @@
   {
     "id": "621",
     "name": "Trava Finance",
-    "address": "bsc:0x0391be54e72f7e001f6bbc331777710b4f2999ef",
     "symbol": "TRAVA",
-    "url": "https://trava.finance",
-    "description": "TRAVA is the world's first decentralized lending marketplace. TRAVA performs blockchain data analysis to optimize pool parameters, calculate credit score, and thus increases profit and decreases risks for all users.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/trava-finance.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "trava-finance",
-    "cmcId": "11209",
     "category": "Lending",
     "chains": [
       "Binance",
       "Fantom"
     ],
-    "module": "trava/index.js",
-    "twitter": "trava_finance",
-    "audit_links": [
-      "https://hacken.io/audits/#trava_finance",
-      "https://www.certik.org/projects/trava"
-    ],
     "oracles": [
       "Chainlink"
     ],
-    "slug": "trava-finance",
     "tvl": 590354.8363042668,
     "chainTvls": {
       "Binance": 545615.8984190435,
@@ -4242,23 +2911,15 @@
     "change_1h": 0.07,
     "change_1d": 2.15,
     "change_7d": 4.76,
-    "fdv": 2764961,
     "mcap": 409071,
     "rank": 101
   },
   {
     "id": "1676",
     "name": "0xLend",
-    "address": null,
     "symbol": "-",
-    "url": "https://www.0xlend.io/",
-    "description": " 0xLend is a Lending Protocol deployed on the KuCoin Community Chain (KCC) that supports the deposit and lending of mainstream crypto assets. Users can deposit assets to earn interest and borrow assets by collateralizing their assets.",
     "chain": "Kucoin",
-    "logo": "https://icons.llama.fi/0xlend.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Kucoin"
@@ -4267,13 +2928,7 @@
       "Witnet"
     ],
     "forkedFrom": [],
-    "module": "0xLend/index.js",
-    "twitter": "0xLendProtocol",
-    "audit_links": [
-      "https://drive.google.com/file/d/1S2hbszHiFQfB7ANRmq_na0wk5O7BCXmj/view"
-    ],
     "listedAt": 1650619780,
-    "slug": "0xlend",
     "tvl": 589340.7381862,
     "chainTvls": {
       "Kucoin": 589340.7381862,
@@ -4288,29 +2943,16 @@
   {
     "id": "878",
     "name": "Unilend",
-    "address": "0x0202be363b8a4820f3f4de7faf5224ff05943ab1",
     "symbol": "UFT",
-    "url": "https://unilend.finance",
-    "description": "UniLend is a comprehensive permissionless DeFi protocol. Anyone can list any asset on UniLend to access decentralized trading, lending/borrowing, and the industry\u2019s most cost-effective flash loans.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/unilend.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "unlend-finance",
-    "cmcId": "7412",
     "category": "Lending",
     "chains": [
       "Polygon",
       "Ethereum",
       "Binance"
     ],
-    "module": "unilend/index.js",
-    "twitter": "UniLend_Finance",
-    "audit_links": [
-      "https://docs.unilend.finance/the-protocol/audit-reports"
-    ],
     "listedAt": 1637380340,
-    "slug": "unilend",
     "tvl": 586813.1476896794,
     "chainTvls": {
       "Binance": 10671.53164719664,
@@ -4326,16 +2968,9 @@
   {
     "id": "1475",
     "name": "MahaDAO",
-    "address": "polygon:0xedd6ca8a4202d4a36611e2fff109648c4863ae19",
     "symbol": "MAHA",
-    "url": "https://mahadao.com",
-    "description": "MahaDAO, which is releasing ARTH, a decentralized non-depreciating algorithmic token, which derives its value from a basket of uncorrelated assets, the relative weights of which are automatically adjusted by automatic buying and selling in response to changes in the price of each individual asset relative to the others.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/mahadao.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "mahadao",
-    "cmcId": "8043",
     "category": "Lending",
     "chains": [
       "Polygon",
@@ -4349,10 +2984,7 @@
     "forkedFrom": [
       "Liquity"
     ],
-    "module": "mahadao/index.js",
-    "twitter": "TheMahaDAO",
     "listedAt": 1645824445,
-    "slug": "mahadao",
     "tvl": 573936.4361739897,
     "chainTvls": {
       "pool2": 267709.1871809016,
@@ -4376,26 +3008,13 @@
   {
     "id": "601",
     "name": "Warp Protocol",
-    "address": "0xed40834a13129509a89be39a9be9c0e96a0ddd71",
     "symbol": "WARP",
-    "url": "https://www.warp.finance",
-    "description": "Warp Finance is an open-source protocol on Ethereum that is creating a novel use case for unused Liquidity Provider (LP) tokens by allowing them to be used as collateral for borrowing",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/warp-protocol.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "warp-finance",
-    "cmcId": "8439",
     "category": "Lending",
     "chains": [
       "Ethereum"
     ],
-    "module": "warp/index.js",
-    "twitter": "warpfinance",
-    "audit_links": [
-      "https://github.com/warp-finance/warpv2/blob/c0d26e0b1a74dccbe042aae65cc964f0d391630a/audits/Trail%20of%20Bits%20Second%20Audit%20Warp%20Finance.pdf"
-    ],
-    "slug": "warp-protocol",
     "tvl": 536861.1175121155,
     "chainTvls": {
       "Ethereum": 536861.1175121155
@@ -4409,26 +3028,16 @@
   {
     "id": "1874",
     "name": "Lending Pond",
-    "address": null,
     "symbol": "-",
-    "url": "https://lendingpond.app",
-    "description": "Provide or Receive ADA through Cardano's premier P2P lending marketplace.",
     "chain": "Cardano",
-    "logo": "https://icons.llama.fi/lending-pond.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Cardano"
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "lendingpond/index.js",
-    "twitter": "lendingpond_ada",
     "listedAt": 1656755511,
-    "slug": "lending-pond",
     "tvl": 510955.44261,
     "chainTvls": {
       "Cardano": 510955.44261
@@ -4441,16 +3050,9 @@
   {
     "id": "1850",
     "name": "Union Protocol",
-    "address": "0x5Dfe42eEA70a3e6f93EE54eD9C321aF07A85535C",
     "symbol": "UNION",
-    "url": "https://union.finance",
-    "description": "A decentralized protocol for permissionless credit.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/union-protocol.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Ethereum",
@@ -4458,10 +3060,7 @@
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "union-finance/index.js",
-    "twitter": "unionprotocol",
     "listedAt": 1655894184,
-    "slug": "union-protocol",
     "tvl": 500460.3841838887,
     "chainTvls": {
       "Ethereum": 346232.0340717881,
@@ -4478,27 +3077,17 @@
   {
     "id": "1032",
     "name": "Percent Finance",
-    "address": "eth:0xbc16da9df0a22f01a16bc0620a27e7d6d6488550",
     "symbol": "PCT",
-    "url": "https://percent.finance/",
-    "description": "A 100% community-owned fork of compoundfinance",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/percent-finance.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": "percent",
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Ethereum"
     ],
-    "module": "percent/index.js",
-    "twitter": "PercentFinance",
     "listedAt": 1639774643,
     "forkedFrom": [
       "Compound"
     ],
-    "slug": "percent-finance",
     "tvl": 498054.01130782755,
     "chainTvls": {
       "pool2": 69030.32837353207,
@@ -4514,38 +3103,24 @@
     "change_7d": 15.18,
     "staking": 0,
     "pool2": 69030.32837353207,
-    "fdv": 16759475,
     "mcap": 7189063,
     "rank": 108
   },
   {
     "id": "846",
     "name": "KLend",
-    "address": "bsc:0xf95995d642c652e9a7d124d546a7bdf297c6d0fb",
     "symbol": "KLT",
-    "url": "https://klend.finance/app",
-    "description": "KLend aim to be the best on-chain lending platform, build distributed financial ecology, KLend is first DAO based decentralized lending protocol outside ETH, we use the over-collateralized mortgage lending model inspired by Compound coupled with the EPS style liquidity mining model empowers the capital utilization of DEFI-Ecology.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/klend.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "klend",
-    "cmcId": "9426",
     "category": "Lending",
     "chains": [
       "Binance",
       "OKExChain"
     ],
-    "module": "klend/index.js",
-    "twitter": "oklend4",
-    "audit_links": [
-      "https://github.com/klend-lab/klend-protocol/blob/main/slowmist.pdf"
-    ],
     "forkedFrom": [
       "Compound"
     ],
     "listedAt": 1637033021,
-    "slug": "klend",
     "tvl": 416923.371712769,
     "chainTvls": {
       "OKExChain": 145130.29864866944,
@@ -4567,16 +3142,9 @@
   {
     "id": "1423",
     "name": "Bodh Finance",
-    "address": null,
     "symbol": "-",
-    "url": "https://bodh.finance",
-    "description": "Bodh Finance is a decentralized protocol that establishes money markets with algorithmically set interest rates based on supply and demand. This will allow users to lend and borrow assets on Boba Network.",
     "chain": "Boba",
-    "logo": "https://icons.llama.fi/bodh-finance.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Boba"
@@ -4587,10 +3155,7 @@
     "forkedFrom": [
       "Compound"
     ],
-    "module": "bodhfinance/index.js",
-    "twitter": "BodhFinance",
     "listedAt": 1645037027,
-    "slug": "bodh-finance",
     "tvl": 367978.67431994353,
     "chainTvls": {
       "Boba": 367978.67431994353,
@@ -4605,16 +3170,9 @@
   {
     "id": "650",
     "name": "Augmented Finance",
-    "address": "0xb3ed706b564bba9cab64042f4e1b391be7bebce5",
     "symbol": "AGF",
-    "url": "https://augmented.finance",
-    "description": "Augmented Finance is a DeFi liquidity protocol for high-yield lending and low-interest borrowing of digital assets, launched fairly and enabled by artificial intelligence (AI).",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/augmented-finance.svg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "augmented-finance",
-    "cmcId": "13504",
     "category": "Lending",
     "chains": [
       "Ethereum",
@@ -4622,15 +3180,9 @@
       "Binance",
       "xDai"
     ],
-    "module": "augmented-finance/index.js",
-    "twitter": "augmentedfin",
-    "audit_links": [
-      "https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-Augmented-v1.0.pdf"
-    ],
     "oracles": [
       "Chainlink"
     ],
-    "slug": "augmented-finance",
     "tvl": 344793.9297557743,
     "chainTvls": {
       "Binance": 59896.510269170285,
@@ -4641,23 +3193,15 @@
     "change_1h": 0.15,
     "change_1d": -5.0,
     "change_7d": -20.54,
-    "fdv": 148786,
     "mcap": 42112,
     "rank": 111
   },
   {
     "id": "1464",
     "name": "Tropykus Finance",
-    "address": null,
     "symbol": "-",
-    "url": "https://app.tropykus.com",
-    "description": "Tropykus is a DeFi for Bitcoin lending and borrowing platform focused on Latanamerica.",
     "chain": "RSK",
-    "logo": "https://icons.llama.fi/tropykus-finance.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "RSK"
@@ -4668,14 +3212,7 @@
     "forkedFrom": [
       "Compound"
     ],
-    "module": "tropykus/index.js",
-    "twitter": "tropykus",
-    "audit_links": [
-      "https://firebasestorage.googleapis.com/v0/b/tropycofinance.appspot.com/o/Tropykus%20-%20Smart%20Contract%20Audit%20v210714.pdf?alt=media&token=f4f8e0d5-d577-45a1-85be-4e2d10cc210f",
-      "https://firebasestorage.googleapis.com/v0/b/tropycofinance.appspot.com/o/Tropykus%20-%20Smart%20Contract%20Audit%20v211214.pdf?alt=media&token=9a1df569-bce4-4be8-9e3b-bcdd57061b65"
-    ],
     "listedAt": 1645678297,
-    "slug": "tropykus-finance",
     "tvl": 337149.00951731997,
     "chainTvls": {
       "RSK-borrowed": 619604.381620224,
@@ -4690,16 +3227,9 @@
   {
     "id": "1570",
     "name": "Rikkei Finance",
-    "address": "bsc:0xe17fbdf671f3cce0f354cacbd27e03f4245a3ffe",
     "symbol": "RIFI",
-    "url": "https://rikkei.finance/",
-    "description": "Enabling A Safe and Secure Open Lending Cross-chain, NFT Lending and Insurance",
     "chain": "Binance",
-    "logo": "https://icons.llama.fi/rikkei-finance.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "rikkei-finance",
-    "cmcId": "10676",
     "category": "Lending",
     "chains": [
       "Binance"
@@ -4710,13 +3240,7 @@
     "forkedFrom": [
       "Compound"
     ],
-    "module": "rikkei-finance/index.js",
-    "twitter": "RikkeiFinance",
-    "audit_links": [
-      "https://hacken.io/audits/#rikkei"
-    ],
     "listedAt": 1647974345,
-    "slug": "rikkei-finance",
     "tvl": 335916.3061845087,
     "chainTvls": {
       "Binance": 335916.3061845087,
@@ -4732,33 +3256,19 @@
   {
     "id": "743",
     "name": "Neku",
-    "address": "arbitrum:0x3Bf0880fd26E49c46d1A1e69ADb268889B4be840",
     "symbol": "NEKU",
-    "url": "https://neku.io",
-    "description": "Neku Finance is a decentralized and multi-chain lending protocol",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/neku.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Moonriver",
       "Arbitrum",
       "Binance"
     ],
-    "module": "neku/index.js",
-    "twitter": "NekuFinance",
-    "audit_links": [
-      "https://www.certik.org/projects/nekufinance",
-      "https://bitriseaudits.com/project/85"
-    ],
     "forkedFrom": [
       "Compound"
     ],
     "listedAt": 1635819540,
-    "slug": "neku",
     "tvl": 327508.9682985119,
     "chainTvls": {
       "Arbitrum-borrowed": 207412.53205172496,
@@ -4777,16 +3287,9 @@
   {
     "id": "1572",
     "name": "DeFIL",
-    "address": "0x09ce2b746c32528b7d864a1e3979bd97d2f095ab",
     "symbol": "DFL",
-    "url": "https://defil.org/",
-    "description": "DeFIL is a decentralized Filecoin lending and finance service platform.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/defil.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "defil",
-    "cmcId": "11740",
     "category": "Lending",
     "chains": [
       "Ethereum",
@@ -4796,13 +3299,7 @@
       "Chainlink"
     ],
     "forkedFrom": [],
-    "module": "defil/index.js",
-    "twitter": "defilofficial",
-    "audit_links": [
-      "https://www.slowmist.com/security-audit-certificate.html?id=e84a975074cb9aef9299f9dec92311fd1458d0bbb4163adfadac8e16e0da3c61"
-    ],
     "listedAt": 1647978428,
-    "slug": "defil",
     "tvl": 321830.5946495726,
     "chainTvls": {
       "pool2": 35933.84712867765,
@@ -4827,23 +3324,14 @@
   {
     "id": "1107",
     "name": "WaterLoan",
-    "address": "csc:0x355bf937D42dd19eE60f730D505B0aC03B03e2ae",
     "symbol": "WAT",
-    "url": "https://waterloan.finance",
-    "description": "Waterloan is a decentralized lending protocol for CoinEx Smart Chain.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/waterloan.jpg",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "CSC",
       "smartBCH"
     ],
-    "module": "waterloan/index.js",
-    "twitter": "realwaterloan",
     "oracles": [
       "Chainlink"
     ],
@@ -4851,7 +3339,6 @@
       "Aave"
     ],
     "listedAt": 1640628751,
-    "slug": "waterloan",
     "tvl": 320325.97437160084,
     "chainTvls": {
       "CSC": 291791.5701569497,
@@ -4868,30 +3355,17 @@
   {
     "id": "1291",
     "name": "Agora",
-    "address": "metis:0x0Ed0Ca6872073E02cd3aE005BaF04bA43BE947fA",
     "symbol": "AGORA",
-    "url": "https://agoradefi.io",
-    "description": "Agora is an open source and non-custodial money market for lending and borrowing on Metis.",
     "chain": "Metis",
-    "logo": "https://icons.llama.fi/agora.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Metis"
-    ],
-    "module": "agora/index.js",
-    "twitter": "AgoraDefi",
-    "audit_links": [
-      "https://agora-defi.notion.site/Contracts-Audits-a0a0058d0fd0450bab43ffe9d1db9f5e#b233bb933bc84084aa9ab56244764a98"
     ],
     "forkedFrom": [
       "Compound"
     ],
     "listedAt": 1642626305,
-    "slug": "agora",
     "tvl": 317475.3418070318,
     "chainTvls": {
       "Metis": 317475.3418070318,
@@ -4906,24 +3380,14 @@
   {
     "id": "280",
     "name": "Oxygen",
-    "address": "z3dn17yLaGMKffVogeFHQ9zWVcXgqgf3PQnDsNs2g6M",
     "symbol": "OXY",
-    "url": "https://www.oxygen.org/",
-    "description": "Money market on Solana",
     "chain": "Solana",
-    "logo": "https://icons.llama.fi/oxygen.jpg",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": "oxygen",
-    "cmcId": "8029",
     "category": "Lending",
     "chains": [
       "Solana"
     ],
-    "module": "oxygen/index.js",
-    "twitter": "Oxygen_protocol",
     "openSource": false,
-    "slug": "oxygen",
     "tvl": 250761.30078999995,
     "chainTvls": {
       "Solana-borrowed": 42830.23744999999,
@@ -4933,36 +3397,22 @@
     "change_1h": -0.07,
     "change_1d": 0.22,
     "change_7d": 1.34,
-    "fdv": 552390387,
     "mcap": 11178253,
     "rank": 118
   },
   {
     "id": "1875",
     "name": "Atlendis",
-    "address": null,
     "symbol": "-",
-    "url": "https://app.atlendis.io",
-    "description": "Atlendis is a capital-efficient DeFi lending protocol that enables crypto loans without collateral.",
     "chain": "Polygon",
-    "logo": "https://icons.llama.fi/atlendis.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Polygon"
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "atlendis/index.js",
-    "twitter": "AtlendisLabs",
-    "audit_links": [
-      "https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/atlendis-audit-report.pdf"
-    ],
     "listedAt": 1656855449,
-    "slug": "atlendis",
     "tvl": 229524.13825107954,
     "chainTvls": {
       "Polygon": 229524.13825107954,
@@ -4977,31 +3427,18 @@
   {
     "id": "1969",
     "name": "Huckleberry Lending",
-    "address": "moonriver:0x9A92B5EBf1F6F6f7d93696FCD44e5Cf75035A756",
     "symbol": "FINN",
-    "url": "https://moonriver.huckleberry.finance/#/lend/dashboard",
-    "description": "Huckleberry lendin' is a community driven lending platform built on Moonriver",
     "chain": "Moonriver",
-    "logo": "https://icons.llama.fi/huckleberry-lending.png",
     "audits": "1",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Moonriver"
-    ],
-    "module": "huckleberry-lending/index.js",
-    "twitter": "HuckleberryDEX",
-    "audit_links": [
-      "https://github.com/HuckleberryDex/huckleberry-contracts/blob/main/Smart%20contract%20security%20audit%20report-Huckleberry.pdf"
     ],
     "forkedFrom": [
       "Compound"
     ],
     "parentProtocol": "Huckleberry",
     "listedAt": 1660364257,
-    "slug": "huckleberry-lending",
     "tvl": 218477.11036251095,
     "chainTvls": {
       "Moonriver": 218477.11036251095,
@@ -5016,27 +3453,14 @@
   {
     "id": "700",
     "name": "Poof Cash",
-    "address": "celo:0x00400FcbF0816bebB94654259de7273f4A05c762",
     "symbol": "POOF",
-    "url": "https://www.poof.cash",
-    "description": "Decentralized, private DeFi for EVMs.",
     "chain": "Celo",
-    "logo": "https://icons.llama.fi/poof-cash.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "poofcash",
-    "cmcId": "12109",
     "category": "Lending",
     "chains": [
       "Celo"
     ],
-    "module": "poofcash/index.js",
-    "twitter": "PoofCash",
-    "audit_links": [
-      "https://uploads-ssl.webflow.com/606120c25fb119221b762612/615f8469329e45337d809a9a_Poof_Labs_Fall_Audit_Bramah.pdf"
-    ],
     "listedAt": 1635102185,
-    "slug": "poof-cash",
     "tvl": 214746.05610948545,
     "chainTvls": {
       "Celo": 214746.05610948545
@@ -5044,37 +3468,23 @@
     "change_1h": 0.12,
     "change_1d": 0.12,
     "change_7d": -14.29,
-    "fdv": 97002,
     "mcap": 0,
     "rank": 121
   },
   {
     "id": "852",
     "name": "Demeter",
-    "address": "heco:0x9f5c80dc840f9cc60670a20c1e5d0fbd3e13b015",
     "symbol": "DUSD",
-    "url": "https://demeter.xyz/#/",
-    "description": "Demeter is a multi-chain deployment decentralized currency market protocol (DUSD). Combining collateralized lending and collateralized stablecoin generation, Demeter provides a more secure lending service at a lower cost",
     "chain": "Heco",
-    "logo": "https://icons.llama.fi/demeter.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "demeter-usd",
-    "cmcId": "12366",
     "category": "Lending",
     "chains": [
       "Heco"
-    ],
-    "module": "demeter.js",
-    "twitter": "Demetervip",
-    "audit_links": [
-      "https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-Demeter-v1.0.pdf"
     ],
     "forkedFrom": [
       "Compound"
     ],
     "listedAt": 1637123250,
-    "slug": "demeter",
     "tvl": 214029.86925503585,
     "chainTvls": {
       "Heco": 214029.86925503585,
@@ -5085,36 +3495,22 @@
     "change_1d": 0.46,
     "change_7d": -3.9,
     "staking": 34098.21621170841,
-    "fdv": 5091457441734,
     "mcap": 0,
     "rank": 122
   },
   {
     "id": "1677",
     "name": "Timeswap",
-    "address": null,
     "symbol": "-",
-    "url": "https://timeswap.io",
-    "description": "Timeswap is the first fully permissionless, oracle-less, non-liquidatable, fixed maturity lending & borrowing protocol.",
     "chain": "Polygon",
-    "logo": "https://icons.llama.fi/timeswap.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Polygon"
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "timeswap/index.js",
-    "twitter": "TimeswapLabs",
-    "audit_links": [
-      "https://code4rena.com/reports/2022-03-timeswap"
-    ],
     "listedAt": 1650665129,
-    "slug": "timeswap",
     "tvl": 190884.98427142182,
     "chainTvls": {
       "Polygon": 190884.98427142182
@@ -5127,16 +3523,9 @@
   {
     "id": "1826",
     "name": "Everlend",
-    "address": null,
     "symbol": "-",
-    "url": "https://everlend.finance",
-    "description": "Everlend is a lending and borrowing aggregator and optimizer built on Solana. Get the best rates on your liquidity and loans, always.",
     "chain": "Solana",
-    "logo": "https://icons.llama.fi/everlend.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Solana"
@@ -5145,10 +3534,7 @@
       "Switchboard"
     ],
     "forkedFrom": [],
-    "module": "everlend/index.js",
-    "twitter": "EverlendFinance",
     "listedAt": 1655289558,
-    "slug": "everlend",
     "tvl": 189103.7646246842,
     "chainTvls": {
       "Solana": 189102.00224842416
@@ -5161,24 +3547,12 @@
   {
     "id": "940",
     "name": "Soda Protocol",
-    "address": null,
     "symbol": "-",
-    "url": "https://sodaprotocol.com/",
-    "description": "A Smart Lending Protocol with Credit System",
     "chain": "Solana",
-    "logo": "https://icons.llama.fi/soda-protocol.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Solana"
-    ],
-    "module": "soda-protocol/index.js",
-    "twitter": "SodaProtocol",
-    "audit_links": [
-      "https://www.certik.com/projects/sodaprotocol"
     ],
     "oracles": [
       "Chainlink",
@@ -5187,7 +3561,6 @@
     ],
     "listedAt": 1638211002,
     "openSource": false,
-    "slug": "soda-protocol",
     "tvl": 188442.00433740424,
     "chainTvls": {
       "Solana": 188442.00433740424
@@ -5200,16 +3573,9 @@
   {
     "id": "1639",
     "name": "Hodltree",
-    "address": "0xDea67845A51E24461D5fED8084E69B426AF3D5Db",
     "symbol": "HTRE",
-    "url": "https://hodltree.io/",
-    "description": "HodlTree reinvents DeFi tools, making them more convenient and profitable for the DeFi community. Most HodlTree products can be called second-generation, as their architecture compares favorably to the existing counterparts on the market, and the result is more rewarding for users.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/hodltree.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "hodltree",
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Ethereum",
@@ -5217,13 +3583,7 @@
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "hodltree/index.js",
-    "twitter": "HodlTree",
-    "audit_links": [
-      "https://github.com/HodlTreeProtocol/stableFlashloan/blob/master/audits/Certik.pdf"
-    ],
     "listedAt": 1649686454,
-    "slug": "hodltree",
     "tvl": 179211.07957134928,
     "chainTvls": {
       "Ethereum": 170586.98608597467,
@@ -5232,32 +3592,19 @@
     "change_1h": -0.01,
     "change_1d": 0.13,
     "change_7d": 0.17,
-    "fdv": 11793908,
     "mcap": 502967,
     "rank": 126
   },
   {
     "id": "516",
     "name": "Qubit",
-    "address": "bsc:0x17b7163cf1dbd286e262ddc68b553d899b93f526",
     "symbol": "QBT",
-    "url": "https://qbt.fi",
-    "description": "Lend to Ascend, Borrow for Tomorrow. Revolutionary Lending Platfrom",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/qubit.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "qubit",
-    "cmcId": "11414",
     "category": "Lending",
     "chains": [
       "Binance",
       "Klaytn"
-    ],
-    "module": "qubit/index.js",
-    "twitter": "QubitFin",
-    "audit_links": [
-      "https://github.com/PancakeBunny-finance/qubit-finance/blob/master/audits/PeckShield-Audit-Report-Qubit-v1.0.pdf"
     ],
     "oracles": [
       "Chainlink"
@@ -5265,7 +3612,6 @@
     "forkedFrom": [
       "Compound"
     ],
-    "slug": "qubit",
     "tvl": 170778.74096916037,
     "chainTvls": {
       "Binance": 153659.95186983419,
@@ -5280,29 +3626,16 @@
   {
     "id": "453",
     "name": "Wild Credit",
-    "address": "0x403d512ab96103562dcafe4635545e8ee2753f6e",
     "symbol": "WILD",
-    "url": "https://wild.credit",
-    "description": "Wild is a permissionless lending protocol featuring isolated lending pairs.",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/wild-credit.svg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "wild-credit",
-    "cmcId": "10998",
     "category": "Lending",
     "chains": [
       "Ethereum"
     ],
-    "module": "wildcredit/index.js",
-    "twitter": "WildCredit",
-    "audit_links": [
-      "https://code423n4.com/reports/2021-07-wildcredit/"
-    ],
     "oracles": [
       "Chainlink"
     ],
-    "slug": "wild-credit",
     "tvl": 127189.706553776,
     "chainTvls": {
       "Ethereum": 127189.706553776,
@@ -5312,38 +3645,24 @@
     "change_1h": 0.06,
     "change_1d": 0.3,
     "change_7d": 2.24,
-    "fdv": 2335331,
     "mcap": 985161,
     "rank": 128
   },
   {
     "id": "1311",
     "name": "Moremoney",
-    "address": "avax:0xd9d90f882cddd6063959a9d837b05cb748718a05",
     "symbol": "MORE",
-    "url": "https://moremoney.finance",
-    "description": "Moremoney is a protocol for borrowing stablecoin while receiving yield on LP tokens and other collateral assets.",
     "chain": "Avalanche",
-    "logo": "https://icons.llama.fi/moremoney.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Avalanche"
-    ],
-    "module": "moremoney/index.js",
-    "twitter": "Moremoneyfi",
-    "audit_links": [
-      "https://github.com/MoreMoney-Finance/audits/blob/main/PeckShield-Audit-Report-Moremoney-1.0.pdf"
     ],
     "oracles": [
       "Chainlink",
       "TWAP"
     ],
     "listedAt": 1643047373,
-    "slug": "moremoney",
     "tvl": 116180.69410640873,
     "chainTvls": {
       "Avalanche": 116180.69410640873
@@ -5356,16 +3675,9 @@
   {
     "id": "1925",
     "name": "Midas Capital",
-    "address": null,
     "symbol": "-",
-    "url": "https://midascapital.xyz/",
-    "description": "Permissionless isolated lending pools for customizable creation of lending/borrowing markets.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/midas-capital.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Binance",
@@ -5377,13 +3689,7 @@
     "forkedFrom": [
       "Rari Capital"
     ],
-    "module": "midas-capital/index.js",
-    "twitter": "MidasCapitalxyz",
-    "audit_links": [
-      "https://medium.com/midas-capital/audit-with-zellic-29b63f1be25a"
-    ],
     "listedAt": 1658754928,
-    "slug": "midas-capital",
     "tvl": 108785.82928602719,
     "chainTvls": {
       "Binance": 108785.54733245446,
@@ -5400,27 +3706,13 @@
   {
     "id": "300",
     "name": "BondAppetit",
-    "address": "0x28A06c02287e657ec3F8e151A13C36A1D43814b0",
     "symbol": "BAG",
-    "url": "https://bondappetit.io/",
-    "description": "BondApp\u00e9tit, a DeFi protocol for business loans. BondApp\u00e9tit provides an infrastructure that connects decentralized finance and traditional debt instruments with the participation of regulated securities and cryptocurrency brokers/dealers.",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/bondappetit.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "bondappetit-gov-token",
-    "cmcId": "9322",
     "category": "Lending",
     "chains": [
       "Ethereum"
     ],
-    "module": "bond-appetit.js",
-    "twitter": "DeFiBonds",
-    "audit_links": [
-      "https://github.com/mixbytes/audits_public/tree/4fc7d333e3df57586e0f96cc551819e2c93f3ae9/BondAppetit",
-      "https://github.com/HashEx/public_audits/blob/32a680c5b8f3a784ef3273c324e0841341f3abc2/BondApp%C3%A9tit/BondAppetit%20report.pdf"
-    ],
-    "slug": "bondappetit",
     "tvl": 66882.17,
     "chainTvls": {
       "Ethereum": 66882.17
@@ -5428,34 +3720,20 @@
     "change_1h": -0.06,
     "change_1d": -0.12,
     "change_7d": 3.32,
-    "fdv": 1310552,
     "mcap": 142586,
     "rank": 131
   },
   {
     "id": "666",
     "name": "OrcaDAO",
-    "address": "avax:0x8b1d98a91f853218ddbb066f20b8c63e782e2430",
     "symbol": "ORCA",
-    "url": "https://www.avai.finance",
-    "description": "OrcaDAO is the first native Stablecoin (AVAI), and Governance token (ORCA) pair that allow for lending using crypto collateral at 0% interest, built on and for the Avalanche Network.",
     "chain": "Avalanche",
-    "logo": "https://icons.llama.fi/orcadao.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "orcadao",
-    "cmcId": "12473",
     "category": "Lending",
     "chains": [
       "Avalanche"
     ],
-    "module": "orcadao/index.js",
-    "twitter": "OrcaDAO",
-    "audit_links": [
-      "https://paladinsec.co/projects/orcadao"
-    ],
     "listedAt": 1634100536,
-    "slug": "orcadao",
     "tvl": 59930.53805552256,
     "chainTvls": {
       "pool2": 9925.612769128791,
@@ -5479,30 +3757,17 @@
   {
     "id": "817",
     "name": "CashCow Finance",
-    "address": "bsc:0xf823f18d13df1ffdced206708d389dd455bb802b",
     "symbol": "CCF",
-    "url": "https://cashcow.finance",
-    "description": "CashCow Finance is an all-in-one DeFi platform designed to allow users to deposit, borrow, and earn on leverage without having to hop from platform to platform.",
     "chain": "Binance",
-    "logo": "https://icons.llama.fi/cashcow-finance.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "cashcow-finance",
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Binance"
-    ],
-    "module": "cashcow/index.js",
-    "twitter": "FinanceCow",
-    "audit_links": [
-      "https://docs.cashcow.finance/cash-cow-audit-report"
     ],
     "listedAt": 1636444434,
     "forkedFrom": [
       "Compound"
     ],
-    "slug": "cashcow-finance",
     "tvl": 55878.45907236478,
     "chainTvls": {
       "Binance": 55878.45907236478,
@@ -5521,26 +3786,16 @@
   {
     "id": "1812",
     "name": "FluidTokens",
-    "address": null,
     "symbol": "-",
-    "url": "https://fluidtokens.com",
-    "description": "Lend and borrow using your NFTs on Cardano's fluid NFT-DeFi bridge.",
     "chain": "Cardano",
-    "logo": "https://icons.llama.fi/fluidtokens.jpg",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Cardano"
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "fluidtokens/index.js",
-    "twitter": "FluidTokens",
     "listedAt": 1654771434,
-    "slug": "fluidtokens",
     "tvl": 42445.791225,
     "chainTvls": {
       "Cardano": 42445.791225
@@ -5553,31 +3808,18 @@
   {
     "id": "1234",
     "name": "Agile Finance",
-    "address": "cronos:0xA4434AFEae0dECb9820D906BF01b13291D00651a",
     "symbol": "AGL",
-    "url": "https://www.agilefi.org",
-    "description": "Money Markets DeFi platform for lenders and borrowers, that also features own AMM, IDO Launchpad, and NFT Marketplace with Governance AGL token.",
     "chain": "Cronos",
-    "logo": "https://icons.llama.fi/agile-finance.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "agile",
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Cronos"
-    ],
-    "module": "agile/index.js",
-    "twitter": "agiledefi",
-    "audit_links": [
-      "https://github.com/solidproof/smart-contract-audits/blob/main/SmartContract_Audit_Solidproof_AgileFinance.pdf"
     ],
     "forkedFrom": [
       "Compound",
       "Uniswap"
     ],
     "listedAt": 1641906290,
-    "slug": "agile-finance",
     "tvl": 32926.81880284418,
     "chainTvls": {
       "Cronos-borrowed": 185221.99450913377,
@@ -5593,25 +3835,13 @@
   {
     "id": "619",
     "name": "Vee Finance",
-    "address": "avax:0x3709e8615e02c15b096f8a9b460ccb8ca8194e86",
     "symbol": "VEE",
-    "url": "https://vee.finance/home",
-    "description": "Vee Finance is a DeFi lending platform for traditional financed and crypto users alike.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/vee-finance.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "vee-finance",
-    "cmcId": "11961",
     "category": "Lending",
     "chains": [
       "Avalanche",
       "Heco"
-    ],
-    "module": "vee-finance/index.js",
-    "twitter": "VeeFinance",
-    "audit_links": [
-      "https://vee.finance/home#contract"
     ],
     "forkedFrom": [
       "Compound"
@@ -5619,7 +3849,6 @@
     "oracles": [
       "Chainlink"
     ],
-    "slug": "vee-finance",
     "tvl": 27607.684113861687,
     "chainTvls": {
       "Heco": 10699.765352710465,
@@ -5628,23 +3857,15 @@
     "change_1h": -0.09,
     "change_1d": 0.19,
     "change_7d": 2.91,
-    "fdv": 2870132,
     "mcap": 0,
     "rank": 136
   },
   {
     "id": "1775",
     "name": "EcoDeFi",
-    "address": "bsc:0x0985205D53D575CB07Dd4Fba216034dc614eab55",
     "symbol": "ESG",
-    "url": "https://ecodefi.net",
-    "description": "The ESG Protocol is an Binance smart contract for supplying or borrowing assets. Through the eToken contracts, accounts on the blockchain supply capital (BNB or BEP-20 tokens) to receive eTokens or borrow assets from the protocol (holding other assets as collateral). The ESG eToken contracts track these balances and algorithmically set interest rates for borrowers.",
     "chain": "Binance",
-    "logo": "https://icons.llama.fi/ecodefi.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Binance"
@@ -5655,13 +3876,7 @@
     "forkedFrom": [
       "Compound"
     ],
-    "module": "ecodefi/index.js",
-    "twitter": "ESG_Financial",
-    "audit_links": [
-      "https://www.certik.com/projects/esg-financial"
-    ],
     "listedAt": 1653037836,
-    "slug": "ecodefi",
     "tvl": 21559.457961726912,
     "chainTvls": {
       "Binance": 21559.457961726912,
@@ -5679,30 +3894,17 @@
   {
     "id": "1477",
     "name": "Edge Protocol",
-    "address": null,
     "symbol": "-",
-    "url": "https://www.edgeprotocol.io",
-    "description": "Edge Protocol is a money-market-as-a-service (MMaaS) provider on Terra ecosystem.",
     "chain": "Terra",
-    "logo": "https://icons.llama.fi/edge-protocol.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Terra"
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "edgeprotocol.js",
-    "twitter": "EdgeProtocol",
-    "audit_links": [
-      "https://docs.edgeprotocol.io/overview/extras/security"
-    ],
     "openSource": false,
     "listedAt": 1645900975,
-    "slug": "edge-protocol",
     "tvl": 20992.693655098585,
     "chainTvls": {
       "Terra-borrowed": 40252.56405284217,
@@ -5717,26 +3919,13 @@
   {
     "id": "651",
     "name": "CHFRY Finance",
-    "address": "0x332E824e46FcEeB9E59ba9491B80d3e6d42B0B59",
     "symbol": "CHEESE",
-    "url": "https://chfry.finance",
-    "description": "CHFRY is a lending protocol that powers automatic repayment of debt by deploying capital to high yield strategies and with flash loans",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/chfry-finance.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "cheesefry",
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Ethereum"
     ],
-    "module": "chfry/index.js",
-    "twitter": "ChfryFinance",
-    "audit_links": [
-      "https://raw.githubusercontent.com/chfry-finance/chfry-protocol/master/docs/PeckShield-Audit-Report-Chfry-v1.0.pdf"
-    ],
-    "slug": "chfry-finance",
     "tvl": 18706.306723103997,
     "chainTvls": {
       "Ethereum": 18706.306723103997
@@ -5744,23 +3933,15 @@
     "change_1h": -0.01,
     "change_1d": 0.09,
     "change_7d": 0.02,
-    "fdv": 1697574,
     "mcap": 0,
     "rank": 139
   },
   {
     "id": "1858",
     "name": "Fringe",
-    "address": "0xC9fE6E1C76210bE83DC1B5b20ec7FD010B0b1D15",
     "symbol": "FRIN",
-    "url": "https://fringe.fi",
-    "description": "A safe place for you to invest and borrow against your holdings. Fast, easily and on your own terms.",
     "chain": "Ethereum",
-    "logo": "https://icons.llama.fi/fringe.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "fringe-finance",
-    "cmcId": "17456",
     "category": "Lending",
     "chains": [
       "Ethereum"
@@ -5769,13 +3950,7 @@
       "Chainlink"
     ],
     "forkedFrom": [],
-    "module": "fringe/index.js",
-    "twitter": "fringefinance",
-    "audit_links": [
-      "https://github.com/HashEx/public_audits/blob/master/Fringe%20Finance/Fringe%20Finance.pdf"
-    ],
     "listedAt": 1656379167,
-    "slug": "fringe",
     "tvl": 17491.520278035674,
     "chainTvls": {
       "Ethereum": 17491.520278035674
@@ -5789,26 +3964,13 @@
   {
     "id": "616",
     "name": "Amy Finance",
-    "address": "arbitrum:0x8Fbd420956FDD301f4493500fd0BCaAa80f2389C",
     "symbol": "AMY",
-    "url": "https://amy.finance",
-    "description": "Amy Finance is a Layer 2 based & LP-friendly Lending Protocol.",
     "chain": "Arbitrum",
-    "logo": "https://icons.llama.fi/amy-finance.png",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "amy-finance",
-    "cmcId": "12079",
     "category": "Lending",
     "chains": [
       "Arbitrum"
     ],
-    "module": "amyfinance/index.js",
-    "twitter": "amyfinance",
-    "audit_links": [
-      "https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-Amy-v1.0.pdf"
-    ],
-    "slug": "amy-finance",
     "tvl": 16083.63982897179,
     "chainTvls": {
       "Arbitrum": 16083.63982897179
@@ -5822,16 +3984,9 @@
   {
     "id": "1780",
     "name": "Coslend",
-    "address": null,
     "symbol": "-",
-    "url": "https://coslend.com",
-    "description": "Coslend lending protocol is the first money market on Evmos Ecosystem based on Compound.",
     "chain": "Evmos",
-    "logo": "https://icons.llama.fi/coslend.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Evmos"
@@ -5842,10 +3997,7 @@
     "forkedFrom": [
       "Compound"
     ],
-    "module": "coslend/index.js",
-    "twitter": "coslend",
     "listedAt": 1653409255,
-    "slug": "coslend",
     "tvl": 8852.424955374,
     "chainTvls": {
       "Evmos": 8852.424955374,
@@ -5860,26 +4012,16 @@
   {
     "id": "1633",
     "name": "BencuFi",
-    "address": null,
     "symbol": "-",
-    "url": "https://bencu.fi/",
-    "description": "Bencu finance is is a decentralized non-custodial liquidity protocol based on Metis Blockchain, where users, wallets and dapps can participate as depositors or borrowers.",
     "chain": "Metis",
-    "logo": "https://icons.llama.fi/bencufi.jpg",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Metis"
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "bencu/index.js",
-    "twitter": "BencuFi",
     "listedAt": 1649674184,
-    "slug": "bencufi",
     "tvl": 6680.164970479,
     "chainTvls": {
       "Metis": 6680.164970479,
@@ -5894,27 +4036,17 @@
   {
     "id": "1451",
     "name": "Chintai",
-    "address": "eos:CHEX-eos-chexchexchex",
     "symbol": "CHEX",
-    "url": "https://chintai.io",
-    "description": "A comprehensive blockchain solution that modernizes capital markets for asset managers, banks and enterprise.",
     "chain": "EOS",
-    "logo": "https://icons.llama.fi/chintai.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": "chex-token",
-    "cmcId": "8534",
     "category": "Lending",
     "chains": [
       "EOS"
     ],
     "oracles": [],
     "forkedFrom": [],
-    "module": "chintai/index.js",
-    "twitter": "ChintaiNetwork",
     "language": "C++",
     "listedAt": 1645578660,
-    "slug": "chintai",
     "tvl": 2404.33016029282,
     "chainTvls": {
       "EOS": 2404.33016029282
@@ -5928,16 +4060,9 @@
   {
     "id": "1605",
     "name": "Stake1",
-    "address": "fantom:0xe7Aa6c0b7D347914844dE3aA90E0209BC39DB0ee",
     "symbol": "STAKE1",
-    "url": "https://www.stake1.one",
-    "description": "STAKE1 is a lending protocol where users can borrow volatile tokens at zero percent interest. We are building banking infrastructure in DeFi, addressing short-selling, OTC trades, swaps, and other use cases",
     "chain": "Fantom",
-    "logo": "https://icons.llama.fi/stake1.png",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": null,
-    "cmcId": null,
     "category": "Lending",
     "chains": [
       "Fantom"
@@ -5946,10 +4071,7 @@
       "Chainlink"
     ],
     "forkedFrom": [],
-    "module": "stake1/index.js",
-    "twitter": "Stake1One",
     "listedAt": 1649014138,
-    "slug": "stake1",
     "tvl": 1949.0590975818805,
     "chainTvls": {
       "pool2": 618.7302828847365,
@@ -5965,27 +4087,17 @@
   {
     "id": "430",
     "name": "Acumen",
-    "address": "solana:-",
     "symbol": "ACM",
-    "url": "https://acumen.network",
-    "description": "The Acumen protocol is an autonomous, non-custodial interest rate protocol native to the Solana blockchain that uses algorithmically set interest rates to enable open financial applications.",
     "chain": "Solana",
-    "logo": "https://icons.llama.fi/acumen.jpg",
     "audits": "0",
-    "audit_note": null,
-    "gecko_id": "acumen",
-    "cmcId": "17791",
     "category": "Lending",
     "chains": [
       "Solana"
     ],
-    "module": "acumen/index.js",
-    "twitter": "acumenofficial",
     "oracles": [
       "Pyth"
     ],
     "openSource": false,
-    "slug": "acumen",
     "tvl": 1648.9176260675927,
     "chainTvls": {
       "Solana": 1648.9176260675927
@@ -5993,38 +4105,24 @@
     "change_1h": 0.13,
     "change_1d": 0.83,
     "change_7d": 8.07,
-    "fdv": 105496108,
     "mcap": 0,
     "rank": 146
   },
   {
     "id": "222",
     "name": "DeFiner",
-    "address": "0x054f76beed60ab6dbeb23502178c52d6c5debe40",
     "symbol": "FIN",
-    "url": "https://definer.org/",
-    "description": "DeFiner empowers users to embrace the new digital economy and unlock instant value from their crypto assets through earning, lending, and borrowing.",
     "chain": "Multi-Chain",
-    "logo": "https://icons.llama.fi/definer.jpg",
     "audits": "2",
-    "audit_note": null,
-    "gecko_id": "definer",
-    "cmcId": "7225",
     "category": "Lending",
     "chains": [
       "Polygon",
       "Ethereum",
       "OKExChain"
     ],
-    "module": "definer/index.js",
-    "twitter": "DeFinerOrg",
-    "audit_links": [
-      "https://docs.definer.org/"
-    ],
     "oracles": [
       "Chainlink"
     ],
-    "slug": "definer",
     "tvl": 1353.9591697634637,
     "chainTvls": {
       "Ethereum": 454.8975129875968,
@@ -6034,7 +4132,6 @@
     "change_1h": -1.03,
     "change_1d": 33.63,
     "change_7d": -6.87,
-    "fdv": 5506619,
     "mcap": 3538524,
     "rank": 147
   }
