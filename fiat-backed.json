@@ -2442,10 +2442,10 @@
       "Near",
       "Syscoin"
     ],
-    "price": 1.00021051,
-    "marketcapUSD": 1056394998.5160621,
+    "price": 0.99999551,
+    "marketcapUSD": 1056167921.3933861,
     "marketcapEUR": 0,
-    "offPeg": 0.02,
+    "offPeg": -0.0,
     "timestamp": "Sep 02, 2022",
     "totalchains": 10,
     "change1d": -2.03,
@@ -2507,10 +2507,10 @@
       "Ethereum",
       "BSC"
     ],
-    "price": 0.99927056,
-    "marketcapUSD": 964652643.8857709,
+    "price": 0.998846,
+    "marketcapUSD": 964242791.996921,
     "marketcapEUR": 0,
-    "offPeg": -0.07,
+    "offPeg": -0.12,
     "timestamp": "Sep 02, 2022",
     "totalchains": 2,
     "change1d": 0.0,
@@ -2682,8 +2682,8 @@
       "Elastos",
       "Solana"
     ],
-    "price": 0.9953951900233454,
-    "marketcapUSD": 159924079.73472226,
+    "price": 0.9953951901402595,
+    "marketcapUSD": 159924079.75350612,
     "marketcapEUR": 0,
     "offPeg": -0.46,
     "timestamp": "Sep 02, 2022",
@@ -2772,71 +2772,6 @@
     "change1w": 0.0,
     "change1m": 0.0,
     "rank": 8
-  },
-  {
-    "id": "50",
-    "name": "Euro Coin",
-    "symbol": "EUROC",
-    "gecko_id": "euro-coin",
-    "pegType": "peggedEUR",
-    "priceSource": "curve",
-    "pegMechanism": "fiat-backed",
-    "circulating": {
-      "peggedEUR": 76458403.654356
-    },
-    "circulatingPrevDay": {
-      "peggedEUR": 61458403.654356
-    },
-    "circulatingPrevWeek": {
-      "peggedEUR": 60208403.654356
-    },
-    "circulatingPrevMonth": {
-      "peggedEUR": 1416820.46
-    },
-    "chainCirculating": {
-      "Ethereum": {
-        "current": {
-          "peggedEUR": 76458262.744094
-        },
-        "circulatingPrevDay": {
-          "peggedEUR": 61458262.744094
-        },
-        "circulatingPrevWeek": {
-          "peggedEUR": 60208262.744094
-        },
-        "circulatingPrevMonth": {
-          "peggedEUR": 1416679.549738
-        }
-      },
-      "Polygon": {
-        "current": {
-          "peggedEUR": 140.910262
-        },
-        "circulatingPrevDay": {
-          "peggedEUR": 140.910262
-        },
-        "circulatingPrevWeek": {
-          "peggedEUR": 140.910262
-        },
-        "circulatingPrevMonth": {
-          "peggedEUR": 140.910262
-        }
-      }
-    },
-    "chains": [
-      "Ethereum",
-      "Polygon"
-    ],
-    "price": 1.002120700420127,
-    "marketcapUSD": 76591816.31722437,
-    "marketcapEUR": 76620549.02310804,
-    "offPeg": 0.21,
-    "timestamp": "Sep 02, 2022",
-    "totalchains": 2,
-    "change1d": 24.41,
-    "change1w": 26.99,
-    "change1m": 5296.48,
-    "rank": 9
   },
   {
     "id": "51",
@@ -2935,15 +2870,80 @@
       "Gnosis",
       "Everscale"
     ],
-    "price": 0.9996934939747474,
-    "marketcapUSD": 76464220.51673318,
-    "marketcapEUR": 76492905.35624178,
-    "offPeg": -0.03,
+    "price": 1.0037705637456542,
+    "marketcapUSD": 76776066.06129627,
+    "marketcapEUR": 76804867.8867538,
+    "offPeg": 0.38,
     "timestamp": "Sep 02, 2022",
     "totalchains": 5,
     "change1d": 0.0,
     "change1w": 0.0,
     "change1m": -1.29,
+    "rank": 9
+  },
+  {
+    "id": "50",
+    "name": "Euro Coin",
+    "symbol": "EUROC",
+    "gecko_id": "euro-coin",
+    "pegType": "peggedEUR",
+    "priceSource": "curve",
+    "pegMechanism": "fiat-backed",
+    "circulating": {
+      "peggedEUR": 76458403.654356
+    },
+    "circulatingPrevDay": {
+      "peggedEUR": 61458403.654356
+    },
+    "circulatingPrevWeek": {
+      "peggedEUR": 60208403.654356
+    },
+    "circulatingPrevMonth": {
+      "peggedEUR": 1416820.46
+    },
+    "chainCirculating": {
+      "Ethereum": {
+        "current": {
+          "peggedEUR": 76458262.744094
+        },
+        "circulatingPrevDay": {
+          "peggedEUR": 61458262.744094
+        },
+        "circulatingPrevWeek": {
+          "peggedEUR": 60208262.744094
+        },
+        "circulatingPrevMonth": {
+          "peggedEUR": 1416679.549738
+        }
+      },
+      "Polygon": {
+        "current": {
+          "peggedEUR": 140.910262
+        },
+        "circulatingPrevDay": {
+          "peggedEUR": 140.910262
+        },
+        "circulatingPrevWeek": {
+          "peggedEUR": 140.910262
+        },
+        "circulatingPrevMonth": {
+          "peggedEUR": 140.910262
+        }
+      }
+    },
+    "chains": [
+      "Ethereum",
+      "Polygon"
+    ],
+    "price": 1.0021207144605764,
+    "marketcapUSD": 76591817.39033215,
+    "marketcapEUR": 76620550.09661838,
+    "offPeg": 0.21,
+    "timestamp": "Sep 02, 2022",
+    "totalchains": 2,
+    "change1d": 24.41,
+    "change1w": 26.99,
+    "change1m": 5296.48,
     "rank": 10
   },
   {
