@@ -2884,8 +2884,8 @@
       "Oasis",
       "Harmony"
     ],
-    "price": 0.99971944,
-    "marketcapUSD": 6420780666.544334,
+    "price": 0.9996505,
+    "marketcapUSD": 6420337893.700833,
     "marketcapEUR": 0,
     "offPeg": -0.03,
     "timestamp": "Sep 05, 2022",
@@ -3185,10 +3185,10 @@
       "Everscale",
       "Dogechain"
     ],
-    "price": 1.00000322,
-    "marketcapUSD": 1484784478.783389,
+    "price": 1.00005025,
+    "marketcapUSD": 1484854307.9725761,
     "marketcapEUR": 0,
-    "offPeg": 0.0,
+    "offPeg": 0.01,
     "timestamp": "Sep 05, 2022",
     "totalchains": 18,
     "change1d": -0.43,
@@ -3433,10 +3433,10 @@
       "Ethereum",
       "BSC"
     ],
-    "price": 0.999352,
-    "marketcapUSD": 964771599.9490967,
+    "price": 1.00024695,
+    "marketcapUSD": 965635582.1529392,
     "marketcapEUR": 0,
-    "offPeg": -0.06,
+    "offPeg": 0.02,
     "timestamp": "Sep 05, 2022",
     "totalchains": 2,
     "change1d": 0.0,
@@ -3528,8 +3528,8 @@
       "BSC",
       "Bittorrent"
     ],
-    "price": 0.9994210643290118,
-    "marketcapUSD": 724912238.6619244,
+    "price": 0.9994211144443013,
+    "marketcapUSD": 724912275.0121555,
     "marketcapEUR": 0,
     "offPeg": -0.06,
     "timestamp": "Sep 05, 2022",
@@ -3803,71 +3803,6 @@
     "change1w": 133.22,
     "change1m": 138.63,
     "rank": 10
-  },
-  {
-    "id": "19",
-    "name": "Gemini Dollar",
-    "symbol": "GUSD",
-    "gecko_id": "gemini-dollar",
-    "pegType": "peggedUSD",
-    "priceSource": "chainlink",
-    "pegMechanism": "fiat-backed",
-    "circulating": {
-      "peggedUSD": 344813943.6
-    },
-    "circulatingPrevDay": {
-      "peggedUSD": 345621827.05
-    },
-    "circulatingPrevWeek": {
-      "peggedUSD": 317385049.89
-    },
-    "circulatingPrevMonth": {
-      "peggedUSD": 205466947.62
-    },
-    "chainCirculating": {
-      "Wanchain": {
-        "current": {
-          "peggedUSD": 0.89
-        },
-        "circulatingPrevDay": {
-          "peggedUSD": 0.89
-        },
-        "circulatingPrevWeek": {
-          "peggedUSD": 0.89
-        },
-        "circulatingPrevMonth": {
-          "peggedUSD": 0.89
-        }
-      },
-      "Ethereum": {
-        "current": {
-          "peggedUSD": 344813942.71000004
-        },
-        "circulatingPrevDay": {
-          "peggedUSD": 345621826.16
-        },
-        "circulatingPrevWeek": {
-          "peggedUSD": 317385049
-        },
-        "circulatingPrevMonth": {
-          "peggedUSD": 205466946.73000002
-        }
-      }
-    },
-    "chains": [
-      "Ethereum",
-      "Wanchain"
-    ],
-    "price": 0.99960881,
-    "marketcapUSD": 344679055.83340317,
-    "marketcapEUR": 0,
-    "offPeg": -0.04,
-    "timestamp": "Sep 05, 2022",
-    "totalchains": 2,
-    "change1d": -0.23,
-    "change1w": 8.64,
-    "change1m": 67.82,
-    "rank": 11
   },
   {
     "id": "3",
@@ -4159,15 +4094,80 @@
       "Optimism",
       "DFK"
     ],
-    "price": 0.03460637,
-    "marketcapUSD": 339678516.38360393,
+    "price": 0.03822617,
+    "marketcapUSD": 375208631.03028226,
     "marketcapEUR": 0,
-    "offPeg": -96.54,
+    "offPeg": -96.18,
     "timestamp": "Sep 05, 2022",
     "totalchains": 18,
     "change1d": 0.0,
     "change1w": 0.0,
     "change1m": -0.0,
+    "rank": 11
+  },
+  {
+    "id": "19",
+    "name": "Gemini Dollar",
+    "symbol": "GUSD",
+    "gecko_id": "gemini-dollar",
+    "pegType": "peggedUSD",
+    "priceSource": "chainlink",
+    "pegMechanism": "fiat-backed",
+    "circulating": {
+      "peggedUSD": 344813943.6
+    },
+    "circulatingPrevDay": {
+      "peggedUSD": 345621827.05
+    },
+    "circulatingPrevWeek": {
+      "peggedUSD": 317385049.89
+    },
+    "circulatingPrevMonth": {
+      "peggedUSD": 205466947.62
+    },
+    "chainCirculating": {
+      "Wanchain": {
+        "current": {
+          "peggedUSD": 0.89
+        },
+        "circulatingPrevDay": {
+          "peggedUSD": 0.89
+        },
+        "circulatingPrevWeek": {
+          "peggedUSD": 0.89
+        },
+        "circulatingPrevMonth": {
+          "peggedUSD": 0.89
+        }
+      },
+      "Ethereum": {
+        "current": {
+          "peggedUSD": 344813942.71000004
+        },
+        "circulatingPrevDay": {
+          "peggedUSD": 345621826.16
+        },
+        "circulatingPrevWeek": {
+          "peggedUSD": 317385049
+        },
+        "circulatingPrevMonth": {
+          "peggedUSD": 205466946.73000002
+        }
+      }
+    },
+    "chains": [
+      "Ethereum",
+      "Wanchain"
+    ],
+    "price": 0.999,
+    "marketcapUSD": 344469129.6564,
+    "marketcapEUR": 0,
+    "offPeg": -0.1,
+    "timestamp": "Sep 05, 2022",
+    "totalchains": 2,
+    "change1d": -0.23,
+    "change1w": 8.64,
+    "change1m": 67.82,
     "rank": 12
   },
   {
@@ -4284,10 +4284,10 @@
       "Avalanche",
       "Fantom"
     ],
-    "price": 1.01094087,
-    "marketcapUSD": 184431971.61701223,
+    "price": 1.01122601,
+    "marketcapUSD": 184483991.4076325,
     "marketcapEUR": 0,
-    "offPeg": 1.09,
+    "offPeg": 1.12,
     "timestamp": "Sep 05, 2022",
     "totalchains": 6,
     "change1d": -0.49,
@@ -4379,8 +4379,8 @@
       "Optimism",
       "Arbitrum"
     ],
-    "price": 0.9986796362279262,
-    "marketcapUSD": 180845038.3428865,
+    "price": 0.9986797881982914,
+    "marketcapUSD": 180845065.86230868,
     "marketcapEUR": 0,
     "offPeg": -0.13,
     "timestamp": "Sep 05, 2022",
@@ -4489,8 +4489,8 @@
       "Elastos",
       "Solana"
     ],
-    "price": 0.9953705488911468,
-    "marketcapUSD": 159920120.7941628,
+    "price": 0.9953705527375458,
+    "marketcapUSD": 159920121.41214028,
     "marketcapEUR": 0,
     "offPeg": -0.46,
     "timestamp": "Sep 05, 2022",
@@ -4664,10 +4664,10 @@
       "Near",
       "Aurora"
     ],
-    "price": 0.998655,
-    "marketcapUSD": 120546014.3224456,
+    "price": 0.99967,
+    "marketcapUSD": 120668533.3150279,
     "marketcapEUR": 0,
-    "offPeg": -0.13,
+    "offPeg": -0.03,
     "timestamp": "Sep 05, 2022",
     "totalchains": 2,
     "change1d": -0.02,
@@ -4714,10 +4714,10 @@
     "chains": [
       "Tron"
     ],
-    "price": 1.002,
-    "marketcapUSD": 114512809.76565722,
+    "price": 1.003,
+    "marketcapUSD": 114627094.0069403,
     "marketcapEUR": 0,
-    "offPeg": 0.2,
+    "offPeg": 0.3,
     "timestamp": "Sep 05, 2022",
     "totalchains": 1,
     "change1d": 0.06,
@@ -4764,10 +4764,10 @@
     "chains": [
       "Kava"
     ],
-    "price": 0.944363,
-    "marketcapUSD": 105364710.39292799,
+    "price": 0.944705,
+    "marketcapUSD": 105402868.10448,
     "marketcapEUR": 0,
-    "offPeg": -5.56,
+    "offPeg": -5.53,
     "timestamp": "Sep 05, 2022",
     "totalchains": 1,
     "change1d": 0.49,
@@ -4814,10 +4814,10 @@
     "chains": [
       "Ethereum"
     ],
-    "price": 1.00368291,
-    "marketcapUSD": 89746350.39892016,
+    "price": 1.00297775,
+    "marketcapUSD": 89683297.08216366,
     "marketcapEUR": 0,
-    "offPeg": 0.37,
+    "offPeg": 0.3,
     "timestamp": "Sep 05, 2022",
     "totalchains": 1,
     "change1d": 0.0,
@@ -4879,10 +4879,10 @@
       "smartBCH",
       "Ethereum"
     ],
-    "price": 0.437365,
-    "marketcapUSD": 85876715.08058405,
+    "price": 0.437748,
+    "marketcapUSD": 85951917.21581633,
     "marketcapEUR": 0,
-    "offPeg": -56.26,
+    "offPeg": -56.23,
     "timestamp": "Sep 05, 2022",
     "totalchains": 2,
     "change1d": 0.0,
@@ -5019,8 +5019,8 @@
       "Avalanche",
       "Polygon"
     ],
-    "price": 0.9958580194297219,
-    "marketcapUSD": 67448977.23568249,
+    "price": 0.9958580679089922,
+    "marketcapUSD": 67448980.51915978,
     "marketcapEUR": 0,
     "offPeg": -0.41,
     "timestamp": "Sep 05, 2022",
@@ -5099,8 +5099,8 @@
       "Optimism",
       "Fantom"
     ],
-    "price": 0.998886888631648,
-    "marketcapUSD": 60244162.81227314,
+    "price": 0.9988868363061514,
+    "marketcapUSD": 60244159.65645462,
     "marketcapEUR": 0,
     "offPeg": -0.11,
     "timestamp": "Sep 05, 2022",
@@ -5374,10 +5374,10 @@
       "Celo",
       "Harmony"
     ],
-    "price": 0.9923673728911866,
-    "marketcapUSD": 54647762.09066557,
+    "price": 0.9923110415321107,
+    "marketcapUSD": 54644660.031092554,
     "marketcapEUR": 0,
-    "offPeg": -0.76,
+    "offPeg": -0.77,
     "timestamp": "Sep 05, 2022",
     "totalchains": 16,
     "change1d": -0.37,
@@ -5467,10 +5467,10 @@
       "Ethereum",
       "Klaytn"
     ],
-    "price": 0.9943,
-    "marketcapUSD": 51568394.99810926,
+    "price": 0.9944,
+    "marketcapUSD": 51573581.40010042,
     "marketcapEUR": 0,
-    "offPeg": -0.57,
+    "offPeg": -0.56,
     "timestamp": "Sep 05, 2022",
     "totalchains": 4,
     "change1d": -0.05,
@@ -5517,8 +5517,8 @@
     "chains": [
       "Ethereum"
     ],
-    "price": 0.9994250499521603,
-    "marketcapUSD": 48527814.722087294,
+    "price": 0.9994251000692798,
+    "marketcapUSD": 48527817.1555607,
     "marketcapEUR": 0,
     "offPeg": -0.06,
     "timestamp": "Sep 05, 2022",
@@ -5597,8 +5597,8 @@
       "Polygon",
       "Gnosis"
     ],
-    "price": 1.001043008559519,
-    "marketcapUSD": 44473304.684774406,
+    "price": 1.0010433660060822,
+    "marketcapUSD": 44473320.565041065,
     "marketcapEUR": 0,
     "offPeg": 0.1,
     "timestamp": "Sep 05, 2022",
@@ -5742,8 +5742,8 @@
     "chains": [
       "Avalanche"
     ],
-    "price": 0.9984105,
-    "marketcapUSD": 40499405.751749836,
+    "price": 0.9984103,
+    "marketcapUSD": 40499397.63897343,
     "marketcapEUR": 0,
     "offPeg": -0.16,
     "timestamp": "Sep 05, 2022",
@@ -5792,8 +5792,8 @@
     "chains": [
       "Ethereum"
     ],
-    "price": 0.9996034866506278,
-    "marketcapUSD": 31527180.38197755,
+    "price": 0.9995998928288817,
+    "marketcapUSD": 31527067.0339671,
     "marketcapEUR": 0,
     "offPeg": -0.04,
     "timestamp": "Sep 05, 2022",
@@ -5857,8 +5857,8 @@
       "Ethereum",
       "Gnosis"
     ],
-    "price": 0.9977394379467426,
-    "marketcapUSD": 28158900.628790095,
+    "price": 0.9977393850943789,
+    "marketcapUSD": 28158899.137153704,
     "marketcapEUR": 0,
     "offPeg": -0.23,
     "timestamp": "Sep 05, 2022",
@@ -5906,10 +5906,10 @@
     "chains": [
       "Canto"
     ],
-    "price": 1.022,
-    "marketcapUSD": 23623035.0613892,
+    "price": 1.023,
+    "marketcapUSD": 23646149.577104844,
     "marketcapEUR": 0,
-    "offPeg": 2.2,
+    "offPeg": 2.3,
     "timestamp": "Sep 05, 2022",
     "totalchains": 1,
     "change1d": 2.42,
@@ -6155,10 +6155,10 @@
     "chains": [
       "Mixin"
     ],
-    "price": 0.991139,
-    "marketcapUSD": 23079695.832455862,
+    "price": 0.990294,
+    "marketcapUSD": 23060019.134254675,
     "marketcapEUR": 0,
-    "offPeg": -0.89,
+    "offPeg": -0.97,
     "timestamp": "Sep 05, 2022",
     "totalchains": 1,
     "change1d": -0.38,
@@ -6255,8 +6255,8 @@
     "chains": [
       "Solana"
     ],
-    "price": 0.9931326861021409,
-    "marketcapUSD": 18971810.46836634,
+    "price": 0.9931156676349908,
+    "marketcapUSD": 18971485.364643794,
     "marketcapEUR": 0,
     "offPeg": -0.69,
     "timestamp": "Sep 05, 2022",
@@ -6350,8 +6350,8 @@
       "Polygon",
       "Ethereum"
     ],
-    "price": 0.9975424050895554,
-    "marketcapUSD": 18120018.6947929,
+    "price": 0.9975420455601846,
+    "marketcapUSD": 18120012.164064094,
     "marketcapEUR": 0,
     "offPeg": -0.25,
     "timestamp": "Sep 05, 2022",
@@ -6400,8 +6400,8 @@
     "chains": [
       "Fantom"
     ],
-    "price": 0.9994024371941999,
-    "marketcapUSD": 17060281.80491671,
+    "price": 0.9994031351403302,
+    "marketcapUSD": 17060293.719193906,
     "marketcapEUR": 0,
     "offPeg": -0.06,
     "timestamp": "Sep 05, 2022",
@@ -6450,8 +6450,8 @@
     "chains": [
       "Solana"
     ],
-    "price": 1.0022636292342313,
-    "marketcapUSD": 15033948.135709481,
+    "price": 1.0022611069940128,
+    "marketcapUSD": 15033910.302122066,
     "marketcapEUR": 0,
     "offPeg": 0.23,
     "timestamp": "Sep 05, 2022",
@@ -6500,8 +6500,8 @@
     "chains": [
       "Ethereum"
     ],
-    "price": 1.032525650200419,
-    "marketcapUSD": 9895708.822306778,
+    "price": 1.0325257155161147,
+    "marketcapUSD": 9895709.44829133,
     "marketcapEUR": 0,
     "offPeg": 3.25,
     "timestamp": "Sep 05, 2022",
@@ -6550,8 +6550,8 @@
     "chains": [
       "Solana"
     ],
-    "price": 0.9970517331235574,
-    "marketcapUSD": 8919008.635801319,
+    "price": 0.9970559755017594,
+    "marketcapUSD": 8919046.585494963,
     "marketcapEUR": 0,
     "offPeg": -0.29,
     "timestamp": "Sep 05, 2022",
@@ -6650,8 +6650,8 @@
     "chains": [
       "Arbitrum"
     ],
-    "price": 0.9958936,
-    "marketcapUSD": 7475021.147725449,
+    "price": 0.9958912,
+    "marketcapUSD": 7475003.1337019075,
     "marketcapEUR": 0,
     "offPeg": -0.41,
     "timestamp": "Sep 05, 2022",
@@ -6700,8 +6700,8 @@
     "chains": [
       "Solana"
     ],
-    "price": 0.9977881880040198,
-    "marketcapUSD": 7315097.293738483,
+    "price": 0.9977637353545078,
+    "marketcapUSD": 7314918.023716629,
     "marketcapEUR": 0,
     "offPeg": -0.22,
     "timestamp": "Sep 05, 2022",
@@ -6750,8 +6750,8 @@
     "chains": [
       "Ethereum"
     ],
-    "price": 0.9934405677184404,
-    "marketcapUSD": 6671125.490304106,
+    "price": 0.993440572817309,
+    "marketcapUSD": 6671125.524543892,
     "marketcapEUR": 0,
     "offPeg": -0.66,
     "timestamp": "Sep 05, 2022",
@@ -6800,8 +6800,8 @@
     "chains": [
       "Ethereum"
     ],
-    "price": 1.0083535611730485,
-    "marketcapUSD": 6396954.208383549,
+    "price": 1.0083535131942991,
+    "marketcapUSD": 6396953.904008303,
     "marketcapEUR": 0,
     "offPeg": 0.84,
     "timestamp": "Sep 05, 2022",
@@ -6960,8 +6960,8 @@
       "Gnosis",
       "Fantom"
     ],
-    "price": 0.9996205498773673,
-    "marketcapUSD": 4746047.855191747,
+    "price": 0.9996202934977164,
+    "marketcapUSD": 4746046.637939768,
     "marketcapEUR": 0,
     "offPeg": -0.04,
     "timestamp": "Sep 05, 2022",
@@ -7049,10 +7049,10 @@
       "Avalanche",
       "Optimism"
     ],
-    "price": 0.999818,
-    "marketcapUSD": 4303711.633014697,
+    "price": 1,
+    "marketcapUSD": 4304495.051113999,
     "marketcapEUR": 0,
-    "offPeg": -0.02,
+    "offPeg": 0.0,
     "timestamp": "Sep 05, 2022",
     "totalchains": 4,
     "change1d": 0.62,
@@ -7162,10 +7162,10 @@
       "Karura",
       "Acala"
     ],
-    "price": 0.858359,
-    "marketcapUSD": 4010228.092973055,
+    "price": 0.857401,
+    "marketcapUSD": 4005752.345048156,
     "marketcapEUR": 0,
-    "offPeg": -14.16,
+    "offPeg": -14.26,
     "timestamp": "Sep 05, 2022",
     "totalchains": 2,
     "change1d": -0.07,
@@ -7262,8 +7262,8 @@
     "chains": [
       "Solana"
     ],
-    "price": 0.9930000000000001,
-    "marketcapUSD": 3571439.5000975896,
+    "price": 0.993,
+    "marketcapUSD": 3571439.500097589,
     "marketcapEUR": 0,
     "offPeg": -0.7,
     "timestamp": "Sep 05, 2022",
@@ -7311,10 +7311,10 @@
     "chains": [
       "Tezos"
     ],
-    "price": 1,
-    "marketcapUSD": 2592081.3307579984,
+    "price": 1.003,
+    "marketcapUSD": 2599857.574750272,
     "marketcapEUR": 0,
-    "offPeg": 0.0,
+    "offPeg": 0.3,
     "timestamp": "Sep 05, 2022",
     "totalchains": 1,
     "change1d": -0.03,
@@ -7471,8 +7471,8 @@
       "BSC",
       "Metis"
     ],
-    "price": 0.23224869917717328,
-    "marketcapUSD": 2249429.913200206,
+    "price": 0.23224880581722093,
+    "marketcapUSD": 2249430.946055563,
     "marketcapEUR": 0,
     "offPeg": -76.78,
     "timestamp": "Sep 05, 2022",
@@ -7521,8 +7521,8 @@
     "chains": [
       "Ethereum"
     ],
-    "price": 1.0020419692332765,
-    "marketcapUSD": 1843339.6358548917,
+    "price": 1.0020419183564768,
+    "marketcapUSD": 1843339.5422627826,
     "marketcapEUR": 0,
     "offPeg": 0.2,
     "timestamp": "Sep 05, 2022",
@@ -7620,10 +7620,10 @@
     "chains": [
       "Tezos"
     ],
-    "price": 1.001,
-    "marketcapUSD": 1584111.4982911602,
+    "price": 1.003,
+    "marketcapUSD": 1587276.556229804,
     "marketcapEUR": 0,
-    "offPeg": 0.1,
+    "offPeg": 0.3,
     "timestamp": "Sep 05, 2022",
     "totalchains": 1,
     "change1d": 0.0,
@@ -7869,10 +7869,10 @@
     "chains": [
       "Tezos"
     ],
-    "price": 0.985304,
-    "marketcapUSD": 789231.7857894743,
+    "price": 0.988305,
+    "marketcapUSD": 791635.596785019,
     "marketcapEUR": 0,
-    "offPeg": -1.47,
+    "offPeg": -1.17,
     "timestamp": "Sep 05, 2022",
     "totalchains": 1,
     "change1d": 0.0,
@@ -7919,8 +7919,8 @@
     "chains": [
       "Avalanche"
     ],
-    "price": 0.9973730672034771,
-    "marketcapUSD": 758409.3032223076,
+    "price": 0.9973728097918647,
+    "marketcapUSD": 758409.1074847566,
     "marketcapEUR": 0,
     "offPeg": -0.26,
     "timestamp": "Sep 05, 2022",
