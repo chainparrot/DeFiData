@@ -3,7 +3,7 @@
     "chain": "Ethereum",
     "project": "lido",
     "symbol": "stETH",
-    "tvlUsd": 5561088888,
+    "tvlUsd": 5627493495,
     "apyBase": 4.6,
     "apyReward": null,
     "apy": 4.6,
@@ -27,22 +27,22 @@
     "outlier": false,
     "underlyingTokens": null,
     "rank": 1,
-    "timestamp": "2022-09-19 12:05:19"
+    "timestamp": "2022-09-19 12:45:56"
   },
   {
     "chain": "Tron",
     "project": "justlend",
     "symbol": "BTC",
-    "tvlUsd": 2074693244,
+    "tvlUsd": 2076768862,
     "apyBase": 2e-05,
-    "apyReward": 0.03519,
-    "apy": 0.0352,
+    "apyReward": 0.03515,
+    "apy": 0.03517,
     "rewardTokens": [
       "TPYmHEhy5n8TCEfYGqW2rPxsghSfzghPDn"
     ],
     "pool": "71418c17-d2aa-4eff-b68a-806fff9ec951",
-    "apyPct1D": 0.00235,
-    "apyPct7D": 0.00543,
+    "apyPct1D": 0.00247,
+    "apyPct7D": 0.00548,
     "apyPct30D": null,
     "stablecoin": false,
     "ilRisk": "no",
@@ -53,7 +53,7 @@
       "binnedConfidence": 1
     },
     "poolMeta": null,
-    "mu": 0.05136,
+    "mu": 0.05135,
     "sigma": 0.00102,
     "count": 76,
     "outlier": false,
@@ -61,6 +61,74 @@
       "TN3W4H6rK2ce4vX9YnFQHwKENnHjoxb3m9"
     ],
     "rank": 2,
-    "timestamp": "2022-09-19 12:05:19"
+    "timestamp": "2022-09-19 12:45:56"
+  },
+  {
+    "chain": "Ethereum",
+    "project": "aave-v2",
+    "symbol": "STETH",
+    "tvlUsd": 1035844042,
+    "apyBase": 0,
+    "apyReward": null,
+    "apy": 0,
+    "rewardTokens": null,
+    "pool": "0e458a5b-fd99-4667-8706-dd938934cb0c",
+    "apyPct1D": 0,
+    "apyPct7D": 0,
+    "apyPct30D": null,
+    "stablecoin": false,
+    "ilRisk": "no",
+    "exposure": "single",
+    "predictions": {
+      "predictedClass": null,
+      "predictedProbability": null,
+      "binnedConfidence": null
+    },
+    "poolMeta": null,
+    "mu": 0,
+    "sigma": 0,
+    "count": 55,
+    "outlier": false,
+    "underlyingTokens": [
+      "0xae7ab96520de3a18e5e111b5eaab095312d7fe84"
+    ],
+    "rank": 3,
+    "timestamp": "2022-09-19 12:45:56"
+  },
+  {
+    "chain": "Ethereum",
+    "project": "curve",
+    "symbol": "ETH-stETH",
+    "tvlUsd": 1006315699,
+    "apyBase": 3.19569,
+    "apyReward": 5.22574,
+    "apy": 8.42143,
+    "rewardTokens": [
+      "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+      "0xD533a949740bb3306d119CC777fa900bA034cd52"
+    ],
+    "pool": "57d30b9c-fc66-4ac2-b666-69ad5f410cce",
+    "apyPct1D": -0.49178,
+    "apyPct7D": -0.55069,
+    "apyPct30D": null,
+    "stablecoin": false,
+    "ilRisk": "no",
+    "exposure": "multi",
+    "predictions": {
+      "predictedClass": "Stable/Up",
+      "predictedProbability": 67,
+      "binnedConfidence": 2
+    },
+    "poolMeta": null,
+    "mu": 6.93604,
+    "sigma": 1.64704,
+    "count": 222,
+    "outlier": true,
+    "underlyingTokens": [
+      "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84"
+    ],
+    "rank": 4,
+    "timestamp": "2022-09-19 12:45:56"
   }
 ]
