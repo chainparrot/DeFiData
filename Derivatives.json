@@ -85,6 +85,37 @@
     "rank": 3
   },
   {
+    "id": "362",
+    "name": "Perpetual Protocol",
+    "symbol": "PERP",
+    "referralUrl": "https://app.perp.com?code=defillama",
+    "chain": "Multi-Chain",
+    "audits": "2",
+    "category": "Derivatives",
+    "chains": [
+      "Optimism",
+      "Ethereum"
+    ],
+    "twitter": "perpprotocol",
+    "oracles": [
+      "Chainlink"
+    ],
+    "tvl": 22144296.298999783,
+    "chainTvls": {
+      "Optimism": 22144296.298999783,
+      "Ethereum-staking": 2816569.501089674,
+      "staking": 2816569.501089674
+    },
+    "change_1h": 0.93,
+    "change_1d": 2.28,
+    "change_7d": -0.64,
+    "staking": 2816569.501089674,
+    "mcap": 24600215,
+    "listedAt": 1623909947,
+    "listedtimeago": "1 year ago",
+    "rank": 4
+  },
+  {
     "id": "1018",
     "name": "Gains Network",
     "symbol": "GNS",
@@ -108,37 +139,6 @@
     "pool2": 6974062.06497753,
     "mcap": 85630100,
     "listedtimeago": "10 months ago",
-    "rank": 4
-  },
-  {
-    "id": "362",
-    "name": "Perpetual Protocol",
-    "symbol": "PERP",
-    "referralUrl": "https://app.perp.com?code=defillama",
-    "chain": "Multi-Chain",
-    "audits": "2",
-    "category": "Derivatives",
-    "chains": [
-      "Optimism",
-      "Ethereum"
-    ],
-    "twitter": "perpprotocol",
-    "oracles": [
-      "Chainlink"
-    ],
-    "tvl": 21939749.29901027,
-    "chainTvls": {
-      "Optimism": 21939749.29901027,
-      "Ethereum-staking": 2882206.840319223,
-      "staking": 2882206.840319223
-    },
-    "change_1h": 1.23,
-    "change_1d": 2.22,
-    "change_7d": -1.72,
-    "staking": 2882206.840319223,
-    "mcap": 24600215,
-    "listedAt": 1623909947,
-    "listedtimeago": "1 year ago",
     "rank": 5
   },
   {
@@ -192,16 +192,16 @@
     ],
     "parentProtocol": "Mycelium",
     "listedAt": 1660821814,
-    "tvl": 15613823.631079372,
+    "tvl": 15513732.059666596,
     "chainTvls": {
-      "Arbitrum-staking": 1365225.6602864717,
-      "Arbitrum": 15613823.631079372,
-      "staking": 1365225.6602864717
+      "Arbitrum-staking": 1266835.5669144033,
+      "Arbitrum": 15513732.059666596,
+      "staking": 1266835.5669144033
     },
-    "change_1h": 1.36,
-    "change_1d": -5.38,
-    "change_7d": -18.09,
-    "staking": 1365225.6602864717,
+    "change_1h": -0.64,
+    "change_1d": -5.93,
+    "change_7d": -18.98,
+    "staking": 1266835.5669144033,
     "mcap": 14157138,
     "listedtimeago": "2 months ago",
     "rank": 7
@@ -292,7 +292,7 @@
     "change_1d": -4.86,
     "change_7d": -8.48,
     "staking": 4165263.555156584,
-    "mcap": 4524026,
+    "mcap": 4624041,
     "listedtimeago": "5 months ago",
     "rank": 10
   },
@@ -321,7 +321,7 @@
     "change_1d": -11.2,
     "change_7d": -24.77,
     "pool2": 146617.51495240896,
-    "mcap": 27017208,
+    "mcap": 26615128,
     "listedtimeago": "10 months ago",
     "rank": 11
   },
@@ -490,13 +490,13 @@
       "Ethereum"
     ],
     "twitter": "numerai",
-    "tvl": 2828544.6523959558,
+    "tvl": 2740019.0250441376,
     "chainTvls": {
-      "Ethereum": 2828544.6523959558
+      "Ethereum": 2740019.0250441376
     },
-    "change_1h": 3.7,
-    "change_1d": -14.56,
-    "change_7d": -21.02,
+    "change_1h": -3.13,
+    "change_1d": -16.86,
+    "change_7d": -22.91,
     "mcap": 69794812,
     "listedAt": 1623909947,
     "listedtimeago": "1 year ago",
@@ -578,30 +578,6 @@
     "rank": 20
   },
   {
-    "id": "2147",
-    "name": "IPOR",
-    "symbol": "-",
-    "chain": "Ethereum",
-    "audits": "2",
-    "category": "Derivatives",
-    "chains": [
-      "Ethereum"
-    ],
-    "oracles": [],
-    "forkedFrom": [],
-    "twitter": "ipor_io",
-    "listedAt": 1664876804,
-    "tvl": 1559343.5474332597,
-    "chainTvls": {
-      "Ethereum": 1559343.5474332597
-    },
-    "change_1h": 1.51,
-    "change_1d": 1.92,
-    "change_7d": 4.87,
-    "listedtimeago": "1 month ago",
-    "rank": 21
-  },
-  {
     "id": "228",
     "name": "FutureSwap",
     "symbol": "FST",
@@ -626,9 +602,33 @@
     "change_1h": -0.14,
     "change_1d": -3.2,
     "change_7d": -8.09,
-    "mcap": 1977218,
+    "mcap": 1971628,
     "listedAt": 1623909947,
     "listedtimeago": "1 year ago",
+    "rank": 21
+  },
+  {
+    "id": "2147",
+    "name": "IPOR",
+    "symbol": "-",
+    "chain": "Ethereum",
+    "audits": "2",
+    "category": "Derivatives",
+    "chains": [
+      "Ethereum"
+    ],
+    "oracles": [],
+    "forkedFrom": [],
+    "twitter": "ipor_io",
+    "listedAt": 1664876804,
+    "tvl": 1546314.0969428872,
+    "chainTvls": {
+      "Ethereum": 1546314.0969428872
+    },
+    "change_1h": -0.84,
+    "change_1d": 1.06,
+    "change_7d": 3.99,
+    "listedtimeago": "1 month ago",
     "rank": 22
   },
   {
@@ -683,7 +683,7 @@
     "change_1h": -0.37,
     "change_1d": -4.78,
     "change_7d": 19.4,
-    "mcap": 4910620,
+    "mcap": 5032049,
     "listedtimeago": "4 months ago",
     "rank": 24
   },
@@ -923,7 +923,7 @@
     "change_1d": 1.94,
     "change_7d": 1.86,
     "staking": 625.539563558232,
-    "mcap": 1075897,
+    "mcap": 1033425,
     "listedtimeago": "3 months ago",
     "rank": 32
   },
