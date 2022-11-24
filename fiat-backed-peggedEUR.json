@@ -1,5 +1,85 @@
 [
   {
+    "id": "49",
+    "name": "Euro Tether",
+    "symbol": "EURT",
+    "gecko_id": "tether-eurt",
+    "pegType": "peggedEUR",
+    "priceSource": "chainlink",
+    "pegMechanism": "fiat-backed",
+    "circulating": {
+      "peggedEUR": 86887404.46996303
+    },
+    "circulatingPrevDay": {
+      "peggedEUR": 56887404.46996303
+    },
+    "circulatingPrevWeek": {
+      "peggedEUR": 86887404.46996303
+    },
+    "circulatingPrevMonth": {
+      "peggedEUR": 86887404.46996303
+    },
+    "chainCirculating": {
+      "Ethereum": {
+        "current": {
+          "peggedEUR": 83857777.38645603
+        },
+        "circulatingPrevDay": {
+          "peggedEUR": 53815228.24823303
+        },
+        "circulatingPrevWeek": {
+          "peggedEUR": 83637265.68996702
+        },
+        "circulatingPrevMonth": {
+          "peggedEUR": 82780179.35537903
+        }
+      },
+      "Polygon": {
+        "current": {
+          "peggedEUR": 3028183.633507
+        },
+        "circulatingPrevDay": {
+          "peggedEUR": 3070732.77173
+        },
+        "circulatingPrevWeek": {
+          "peggedEUR": 3248695.329996
+        },
+        "circulatingPrevMonth": {
+          "peggedEUR": 4105781.664584
+        }
+      },
+      "Omni": {
+        "current": {
+          "peggedEUR": 1443.45
+        },
+        "circulatingPrevDay": {
+          "peggedEUR": 1443.45
+        },
+        "circulatingPrevWeek": {
+          "peggedEUR": 1443.45
+        },
+        "circulatingPrevMonth": {
+          "peggedEUR": 1443.45
+        }
+      }
+    },
+    "chains": [
+      "Ethereum",
+      "Polygon",
+      "Omni"
+    ],
+    "price": 1.03222807,
+    "marketcapUSD": 93604007.03083105,
+    "marketcapEUR": 89687617.8233393,
+    "offPeg": 3.22,
+    "timestamp": "Nov 24, 2022",
+    "totalchains": 3,
+    "change1d": 52.74,
+    "change1w": 0.0,
+    "change1m": 0.0,
+    "rank": 1
+  },
+  {
     "id": "51",
     "name": "Stasis Euro",
     "symbol": "EURS",
@@ -31,7 +111,7 @@
           "peggedEUR": 56963357.69
         },
         "circulatingPrevMonth": {
-          "peggedEUR": 60913742.50000001
+          "peggedEUR": 60913742.5
         }
       },
       "Gnosis": {
@@ -107,86 +187,6 @@
     "change1d": 0.0,
     "change1w": -1.71,
     "change1m": -15.08,
-    "rank": 1
-  },
-  {
-    "id": "49",
-    "name": "Euro Tether",
-    "symbol": "EURT",
-    "gecko_id": "tether-eurt",
-    "pegType": "peggedEUR",
-    "priceSource": "chainlink",
-    "pegMechanism": "fiat-backed",
-    "circulating": {
-      "peggedEUR": 56887404.46996303
-    },
-    "circulatingPrevDay": {
-      "peggedEUR": 56887404.46996303
-    },
-    "circulatingPrevWeek": {
-      "peggedEUR": 86887404.46996303
-    },
-    "circulatingPrevMonth": {
-      "peggedEUR": 86887404.46996303
-    },
-    "chainCirculating": {
-      "Ethereum": {
-        "current": {
-          "peggedEUR": 53857777.38645603
-        },
-        "circulatingPrevDay": {
-          "peggedEUR": 53815228.24823303
-        },
-        "circulatingPrevWeek": {
-          "peggedEUR": 83637265.68996702
-        },
-        "circulatingPrevMonth": {
-          "peggedEUR": 82780179.35537903
-        }
-      },
-      "Polygon": {
-        "current": {
-          "peggedEUR": 3028183.633507
-        },
-        "circulatingPrevDay": {
-          "peggedEUR": 3070732.77173
-        },
-        "circulatingPrevWeek": {
-          "peggedEUR": 3248695.329996
-        },
-        "circulatingPrevMonth": {
-          "peggedEUR": 4105781.664584
-        }
-      },
-      "Omni": {
-        "current": {
-          "peggedEUR": 1443.45
-        },
-        "circulatingPrevDay": {
-          "peggedEUR": 1443.45
-        },
-        "circulatingPrevWeek": {
-          "peggedEUR": 1443.45
-        },
-        "circulatingPrevMonth": {
-          "peggedEUR": 1443.45
-        }
-      }
-    },
-    "chains": [
-      "Ethereum",
-      "Polygon",
-      "Omni"
-    ],
-    "price": 1.03222807,
-    "marketcapUSD": 61284935.83685035,
-    "marketcapEUR": 58720775.723339304,
-    "offPeg": 3.22,
-    "timestamp": "Nov 24, 2022",
-    "totalchains": 3,
-    "change1d": 0.0,
-    "change1w": -34.53,
-    "change1m": -34.53,
     "rank": 2
   },
   {
@@ -198,24 +198,24 @@
     "priceSource": "curve",
     "pegMechanism": "crypto-backed",
     "circulating": {
-      "peggedEUR": 33004561.275035217
+      "peggedEUR": 33004551.275035214
     },
     "circulatingPrevDay": {
-      "peggedEUR": 33362251.952868436
+      "peggedEUR": 33360485.72829692
     },
     "circulatingPrevWeek": {
       "peggedEUR": 33678720.67893164
     },
     "circulatingPrevMonth": {
-      "peggedEUR": 43991611.09079452
+      "peggedEUR": 43991508.66804123
     },
     "chainCirculating": {
       "Optimism": {
         "current": {
-          "peggedEUR": 956578.5136666952
+          "peggedEUR": 956479.848035765
         },
         "circulatingPrevDay": {
-          "peggedEUR": 958222.9898299942
+          "peggedEUR": 958808.3987142203
         },
         "circulatingPrevWeek": {
           "peggedEUR": 944936.797482833
@@ -240,16 +240,16 @@
       },
       "Ethereum": {
         "current": {
-          "peggedEUR": 29504725.24856534
+          "peggedEUR": 29504758.24856534
         },
         "circulatingPrevDay": {
-          "peggedEUR": 29863449.522315077
+          "peggedEUR": 29863815.298315078
         },
         "circulatingPrevWeek": {
           "peggedEUR": 30000628.390433647
         },
         "circulatingPrevMonth": {
-          "peggedEUR": 40312106.46574907
+          "peggedEUR": 40312004.04299578
         }
       },
       "Aurora": {
@@ -268,16 +268,16 @@
       },
       "Polygon": {
         "current": {
-          "peggedEUR": 2128043.360251774
+          "peggedEUR": 2128010.360251774
         },
         "circulatingPrevDay": {
-          "peggedEUR": 2118763.97133291
+          "peggedEUR": 2118398.19533291
         },
         "circulatingPrevWeek": {
           "peggedEUR": 2253190.833681896
         },
         "circulatingPrevMonth": {
-          "peggedEUR": 2215458.3423911044
+          "peggedEUR": 2215560.7651443933
         }
       },
       "Solana": {
@@ -296,16 +296,16 @@
       },
       "Arbitrum": {
         "current": {
-          "peggedEUR": 253231.39473692368
+          "peggedEUR": 253320.06036785388
         },
         "circulatingPrevDay": {
-          "peggedEUR": 259832.71156781487
+          "peggedEUR": 257481.07811207316
         },
         "circulatingPrevWeek": {
           "peggedEUR": 291597.28925892926
         },
         "circulatingPrevMonth": {
-          "peggedEUR": 340425.7251240151
+          "peggedEUR": 340323.30237072584
         }
       },
       "Fuse": {
@@ -349,8 +349,8 @@
       "Aurora"
     ],
     "price": 1.0330931803454668,
-    "marketcapUSD": 35585691.57903963,
-    "marketcapEUR": 34096787.17353297,
+    "marketcapUSD": 35585680.79698702,
+    "marketcapEUR": 34096776.84260116,
     "offPeg": 3.31,
     "timestamp": "Nov 24, 2022",
     "totalchains": 9,
@@ -413,9 +413,9 @@
       "Ethereum",
       "Polygon"
     ],
-    "price": 1.03522195884053,
-    "marketcapUSD": 27352174.93660861,
-    "marketcapEUR": 26207760.65220862,
+    "price": 1.0352222128446926,
+    "marketcapUSD": 27352181.647793815,
+    "marketcapEUR": 26207767.08259801,
     "offPeg": 3.52,
     "timestamp": "Nov 24, 2022",
     "totalchains": 2,
@@ -433,16 +433,16 @@
     "priceSource": "kucoin",
     "pegMechanism": "algorithmic",
     "circulating": {
-      "peggedEUR": 25919938.097456176
+      "peggedEUR": 25902650.22877689
     },
     "circulatingPrevDay": {
-      "peggedEUR": 26350327.781728506
+      "peggedEUR": 26333458.81340062
     },
     "circulatingPrevWeek": {
-      "peggedEUR": 28046539.199483033
+      "peggedEUR": 28046200.073681794
     },
     "circulatingPrevMonth": {
-      "peggedEUR": 32808489.858980324
+      "peggedEUR": 32808352.48677049
     },
     "chainCirculating": {
       "Ethereum": {
@@ -489,16 +489,16 @@
       },
       "Celo": {
         "current": {
-          "peggedEUR": 25906041.14481383
+          "peggedEUR": 25888753.276134543
         },
         "circulatingPrevDay": {
-          "peggedEUR": 26336430.82908616
+          "peggedEUR": 26319561.86075827
         },
         "circulatingPrevWeek": {
-          "peggedEUR": 28032642.246840686
+          "peggedEUR": 28032303.121039446
         },
         "circulatingPrevMonth": {
-          "peggedEUR": 32698791.99751251
+          "peggedEUR": 32698654.625302672
         }
       }
     },
@@ -509,14 +509,14 @@
       "Ethereum"
     ],
     "price": null,
-    "marketcapEUR": 25919938.097456176,
-    "marketcapUSD": 27051784.034357794,
+    "marketcapEUR": 25902650.22877689,
+    "marketcapUSD": 27033741.25631689,
     "offPeg": "",
     "timestamp": "Nov 24, 2022",
     "totalchains": 4,
-    "change1d": -1.63,
-    "change1w": -7.58,
-    "change1m": -21.0,
+    "change1d": -1.64,
+    "change1w": -7.64,
+    "change1m": -21.05,
     "rank": 5
   },
   {
